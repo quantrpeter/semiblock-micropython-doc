@@ -1,0 +1,37 @@
+# Pin
+
+The **Pin** category is the foundation of all hardware control. A *pin* (short
+for GPIO) is a single electrical connection on your ESP32 that you can switch on
+and off, read as an input, or use to talk to other chips.
+
+Everything in this category maps to MicroPython's `machine.Pin` class plus a few
+related helpers (`UART` for serial, `neopixel` for addressable LEDs).
+
+## What's in this category
+
+- **[Digital IN / OUT](digital-io.md)** — create a pin as an input or output.
+  - `pin` — choose direction `OUT` or `IN`.
+  - `pin2` — input pin with an internal `PULL_UP` / `PULL_DOWN` resistor.
+- **[On / off / read](on-off.md)** — drive a pin and read its state.
+  - `on` — set the pin HIGH.
+  - `off` — set the pin LOW.
+  - `pinValue` — read the current value of a pin.
+- **[UART serial](uart.md)** — send and receive bytes over a serial port.
+  - `uartInit` — open a UART with baud rate and TX/RX pins.
+  - `uartRead` — read a number of bytes.
+  - `uartWrite` — write a string.
+- **[NeoPixel LEDs](neopixel.md)** — drive WS2812 addressable RGB LEDs.
+  - `neoPixel` — create a NeoPixel strip object.
+  - `neoPixelWrite` — set a colour and push it to the strip.
+
+## Quick mental model
+
+1. **Create** a pin object once (`pin`, `pin2`, `uartInit`, `neoPixel`).
+2. **Use** it many times (`on`, `off`, `pinValue`, `uartRead`, etc.).
+
+The "create" blocks assign to a **variable name** you choose (like `led` or
+`p0`); the "use" blocks refer back to that same name.
+
+## Next
+
+Continue to **[Digital IN / OUT »](digital-io.md)**
