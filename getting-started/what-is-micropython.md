@@ -1,20 +1,14 @@
 # What is MicroPython?
 
-**MicroPython** is a small, fast version of the Python programming language that
-runs directly on microcontrollers — tiny computers like the ESP32 that fit in
-the palm of your hand.
+**MicroPython** is a small, fast version of the Python programming language that runs directly on microcontrollers — tiny computers like the ESP32 that fit in the palm of your hand.
 
-SemiBlock generates MicroPython code, so understanding MicroPython helps you
-read and trust what your blocks produce.
+SemiBlock generates MicroPython code, so understanding MicroPython helps you read and trust what your blocks produce.
 
 ## Python, shrunk to fit a chip
 
-Regular Python runs on laptops and servers. MicroPython is a re-implementation
-designed to run on devices with very little memory. It keeps the friendly Python
-syntax you may have heard about, but adds special modules for hardware.
+Regular Python runs on laptops and servers. MicroPython is a re-implementation designed to run on devices with very little memory. It keeps the friendly Python syntax you may have heard about, but adds special modules for hardware.
 
-The most important one is `machine`, which lets your code touch real pins,
-buses, and timers:
+The most important one is `machine`, which lets your code touch real pins, buses, and timers:
 
 ```python
 from machine import Pin
@@ -58,9 +52,7 @@ There are two layers on your board:
 
 ## Try it yourself
 
-Read the code block above out loud, line by line, in plain English. ("Make a
-pin called led... turn it on... wait one second... turn it off.") Notice how
-close MicroPython already is to ordinary language.
+Read the code block above out loud, line by line, in plain English. ("Make a pin called led... turn it on... wait one second... turn it off.") Notice how close MicroPython already is to ordinary language.
 
 ## Next
 
