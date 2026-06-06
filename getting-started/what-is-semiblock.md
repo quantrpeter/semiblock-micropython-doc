@@ -14,6 +14,8 @@ Each block represents one small idea:
 
 Snap those together and you have a working program. Because the blocks only fit in valid ways, it is very hard to make a "syntax error" — a huge advantage when you are just starting out.
 
+![](img/block.png)
+
 ## You still get real code
 
 SemiBlock is not a toy. Every block maps to actual MicroPython. As you build, the generated program appears next to your blocks:
