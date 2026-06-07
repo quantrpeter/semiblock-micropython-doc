@@ -10,6 +10,8 @@ Regular Python runs on laptops and servers. MicroPython is a re-implementation d
 
 The most important one is `machine`, which lets your code touch real pins, buses, and timers:
 
+![](img/whatIsMicropython.png)
+
 ```python
 from machine import Pin
 from time import sleep
