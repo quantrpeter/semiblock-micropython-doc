@@ -63,6 +63,10 @@ Read it top to bottom:
 
 The Pin category also has **`%1=%2.value()`** (label `pinValue`). It *reads* a pin instead of writing it — handy later for buttons:
 
+![](img/readPin.png)
+
+> Remember set the pin to "IN" for input
+
 ```python
 state = button.value()
 ```
