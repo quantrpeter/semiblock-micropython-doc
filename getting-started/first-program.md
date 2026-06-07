@@ -1,5 +1,3 @@
-# Your First Program: Blink an LED
-
 Blinking an LED is the "hello world" of hardware. In this page you'll build it entirely from blocks, watch SemiBlock generate the MicroPython, and understand every line. We'll use blocks from the **Pin** and **Machine** categories plus a loop from the **Language** category.
 
 ## The plan
