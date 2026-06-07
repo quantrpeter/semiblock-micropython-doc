@@ -61,7 +61,7 @@ Every block shows a human-readable label. Hardware blocks often mirror the code 
 led = Pin(2, Pin.OUT)
 ```
 
-![](img/blockLabel.png)
+![](img/blockLabel.png){width=100%}
 
 The blanks (`%1`, `%2`, `%3`) are the fields you fill in on the block.
 
