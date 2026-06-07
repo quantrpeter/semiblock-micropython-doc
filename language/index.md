@@ -1,11 +1,8 @@
 # Language Category
 
-The **Language** category holds the core building blocks of every MicroPython
-program: imports, loops, conditions, printing, variables, functions, and more.
-These are the same blocks you reach for no matter which board or sensor you use.
+The **Language** category holds the core building blocks of every MicroPython program: imports, loops, conditions, printing, variables, functions, and more. These are the same blocks you reach for no matter which board or sensor you use.
 
-Every block in this category shares the same pink colour (`#fb6f92`) so you can
-spot them quickly in the toolbox.
+Every block in this category shares the same pink colour (`#fb6f92`) so you can spot them quickly in the toolbox.
 
 ## What you will learn
 
@@ -20,9 +17,13 @@ spot them quickly in the toolbox.
 - [Defining functions (`def`)](def.md) — group reusable code.
 - [Threads (`startThread`)](threads.md) — run code in the background.
 
+![](img/languageCategory.png)
+
 ## A quick taste
 
 A few language blocks snapped together already make a real program:
+
+![](img/langCategoryExercise1.png)
 
 ```python
 import math
@@ -32,8 +33,7 @@ for x in range(3):
 	print(x)
 ```
 
-The `import` block, the variable block, the `for` loop, and the `print` block
-each contributed one line. The rest of this section explains them one by one.
+The `import` block, the variable block, the `for` loop, and the `print` block each contributed one line. The rest of this section explains them one by one.
 
 ## Next
 
