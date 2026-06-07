@@ -1,20 +1,16 @@
 # Flash firmware
 
-Before your board can run MicroPython, it needs the MicroPython **firmware**
-installed once. This is called *flashing*. After this, you can upload your
-SemiBlock programs as often as you like without flashing again.
+Before your board can run MicroPython, it needs the MicroPython **firmware** installed once. This is called *flashing*. After this, you can upload your SemiBlock programs as often as you like without flashing again.
 
 > You only do this once per board (unless you upgrade MicroPython later).
 
 ## Where to get the firmware
 
-Download the official MicroPython firmware `.bin` file for your exact board
-from the MicroPython downloads page:
+Download the official MicroPython firmware `.bin` file for your exact board from the MicroPython downloads page:
 
-- <https://micropython.org/download/>
+- [](https://micropython.org/download)
 
-Pick your chip (for example **ESP32** or **ESP32-S3**), then download the latest
-stable `.bin` file. Save it somewhere easy to find, like your Downloads folder.
+Pick your chip (for example **ESP32** or **ESP32-S3**), then download the latest stable `.bin` file. Save it somewhere easy to find, like your Downloads folder.
 
 ## Step 1: Find your board's serial port
 
@@ -24,8 +20,7 @@ Plug the board in with a **data** USB cable, then identify its port:
 - **Linux:** looks like `/dev/ttyUSB0`
 - **Windows:** looks like `COM3`
 
-We explain how to list ports in [Connect your board](connect-board.md). Replace
-`PORT` below with your actual port.
+We explain how to list ports in [Connect your board](connect-board.md). Replace `PORT` below with your actual port.
 
 ## Step 2: Erase the old flash
 
@@ -54,14 +49,11 @@ For **ESP32-S3**, the firmware usually flashes at offset `0x0`:
 esptool.py --port PORT --baud 460800 write_flash -z 0x0 esp32s3-firmware.bin
 ```
 
-Use the actual filename you downloaded in place of the example name above, and
-check your board's download page for the correct offset.
+Use the actual filename you downloaded in place of the example name above, and check your board's download page for the correct offset.
 
 ## Step 4: Confirm it worked
 
-After flashing, MicroPython is running on the board. You can verify by opening a
-serial connection and pressing **Enter** — you should see the `>>>` prompt.
-We cover connecting next.
+After flashing, MicroPython is running on the board. You can verify by opening a serial connection and pressing **Enter** — you should see the `>>>` prompt. We cover connecting next.
 
 ## Troubleshooting
 
@@ -71,8 +63,7 @@ We cover connecting next.
 
 ## Try it yourself
 
-Run just the `erase_flash` step. If it completes, your computer can talk to the
-board — the hardest part is done.
+Run just the `erase_flash` step. If it completes, your computer can talk to the board — the hardest part is done.
 
 ## Next
 
