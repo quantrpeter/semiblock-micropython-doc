@@ -1,5 +1,3 @@
-# Dragging blocks from the toolbox
-
 The **toolbox** is the vertical list of categories on the left edge of the editor. Click a category and a *flyout* of blocks slides out; drag a block onto the workspace to use it. This page tours the toolbox so you know where things live.
 
 ## How dragging works
