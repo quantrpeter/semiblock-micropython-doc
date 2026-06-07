@@ -1,9 +1,6 @@
 # Your First Program: Blink an LED
 
-Blinking an LED is the "hello world" of hardware. In this page you'll build it
-entirely from blocks, watch SemiBlock generate the MicroPython, and understand
-every line. We'll use blocks from the **Pin** and **Machine** categories plus a
-loop from the **Language** category.
+Blinking an LED is the "hello world" of hardware. In this page you'll build it entirely from blocks, watch SemiBlock generate the MicroPython, and understand every line. We'll use blocks from the **Pin** and **Machine** categories plus a loop from the **Language** category.
 
 ## The plan
 
@@ -24,8 +21,7 @@ A blink is just four ideas repeated forever:
 | `while %1:`            | Language | Repeats the blocks inside while true.          |
 | `sleep(...)`           | Machine  | Pauses for a number of seconds.                |
 
-> The on-board LED on many ESP32 boards is wired to **GPIO 2**. If yours differs,
-> change the pin number accordingly.
+> The on-board LED on many ESP32 boards is wired to **GPIO 2**. If yours differs, change the pin number accordingly.
 
 ## Building it step by step
 
@@ -38,6 +34,8 @@ A blink is just four ideas repeated forever:
    - **`sleep`** with `0.5`
    - **`%1.off()`** with `led`
    - **`sleep`** with `0.5`
+
+![](img/blinkLed.png)
 
 ## The generated MicroPython
 
@@ -65,8 +63,7 @@ Read it top to bottom:
 
 ## Reading a pin value (bonus block)
 
-The Pin category also has **`%1=%2.value()`** (label `pinValue`). It *reads* a
-pin instead of writing it — handy later for buttons:
+The Pin category also has **`%1=%2.value()`** (label `pinValue`). It *reads* a pin instead of writing it — handy later for buttons:
 
 ```python
 state = button.value()
@@ -74,9 +71,7 @@ state = button.value()
 
 ## Try it yourself
 
-Make the LED blink **fast**: change both `sleep(0.5)` blocks to `sleep(0.1)`.
-Then make it blink slowly with `sleep(1)`. Watch how the same blocks produce
-different timing just by changing one number.
+Make the LED blink **fast**: change both `sleep(0.5)` blocks to `sleep(0.1)`. Then make it blink slowly with `sleep(1)`. Watch how the same blocks produce different timing just by changing one number.
 
 ## Next
 
