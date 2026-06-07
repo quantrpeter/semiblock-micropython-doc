@@ -49,9 +49,9 @@ After the **Sensor & AI Blocks** separator:
 - **Generative AI** — `askDeepSeek`.
 - **Open Data** — weather, holidays, bus and flight info.
 
-![](img/blockCat1.png)
+![](img/blockCat1.png){width=100%}
 
-![](img/blockCat2.png)
+![](img/blockCat2.png){width=100%}
 
 ## Reading a block's label
 
