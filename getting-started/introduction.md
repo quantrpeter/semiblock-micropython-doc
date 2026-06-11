@@ -2,6 +2,8 @@ Welcome to **SemiBlock MicroPython** — a friendly, visual way to program real 
 
 If you have never written a program before, you are in exactly the right place. This guide starts from zero and walks you all the way to blinking a real LED on an ESP32 board.
 
+Author: Chan Sir
+
 ## What you will build
 
 By the end of **Part I — Getting Started** you will be able to:
