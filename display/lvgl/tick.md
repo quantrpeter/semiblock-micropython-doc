@@ -15,6 +15,8 @@ the right speed.
 lv.tick_inc(5)
 ```
 
+> ![](img/tick1.png){width=inherit}
+
 ## Where it fits
 
 A bare-bones loop that both advances the tick and processes LVGL work:
@@ -31,6 +33,8 @@ while True:
     lv.task_handler()
     sleep_ms(5)
 ```
+
+> ![](img/tick2.png){width=inherit}
 
 > If you use a `TaskHandler` (see [Task handler, FS driver, scrollbar mode](task-fs.md))
 > or an all-in-one board block, the tick is often handled for you. Use `lvglTickInc`
