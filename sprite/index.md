@@ -1,5 +1,7 @@
 # Animation & Sprite Blocks
 
+> ![](img/hardblock_Motion.png){width=inherit}
+
 Part VII covers SemiBlock MicroPython's **Scratch-style sprite blocks**. If you
 have ever used Scratch, these will feel instantly familiar: you tell a sprite
 (a little character on the stage) to move, turn, glide, show, hide, change
@@ -26,6 +28,8 @@ generates:
 ```python
 sprite.move_steps("cat", 10)
 ```
+
+> ![](img/index1.png){width=inherit}
 
 The `sprite` module is supplied by the simulator runtime, so you never have to
 `import` it yourself for motion and looks blocks — the [Events](events/index.md)
