@@ -14,6 +14,8 @@ A plain object used to group and lay out other widgets.
 container = lv.obj(scr)
 ```
 
+> ![](img/ind1.png){width=inherit}
+
 ## `lvglSliderCreate` — slider
 
 **Inputs:** slider name, parent.
@@ -22,6 +24,8 @@ container = lv.obj(scr)
 slider1 = lv.slider(scr)
 ```
 
+> ![](img/ind2.png){width=inherit}
+
 ## `lvglSliderSetValue` — set slider value
 
 **Inputs:** slider name, value, anim (animation on/off).
@@ -29,6 +33,8 @@ slider1 = lv.slider(scr)
 ```python
 slider1.set_value(50, lv.ANIM.OFF)
 ```
+
+> ![](img/ind3.png){width=inherit}
 
 ## `lvglSliderGetValue` — read slider value
 
@@ -40,6 +46,8 @@ Stores the current slider value into a variable.
 value = slider1.get_value()
 ```
 
+> ![](img/ind4.png){width=inherit}
+
 ## `lvglBarCreate` — bar
 
 A non-interactive progress bar.
@@ -50,6 +58,8 @@ A non-interactive progress bar.
 bar1 = lv.bar(scr)
 ```
 
+> ![](img/ind5.png){width=inherit}
+
 ## `lvglBarSetValue` — set bar value
 
 **Inputs:** bar name, value, anim.
@@ -57,6 +67,8 @@ bar1 = lv.bar(scr)
 ```python
 bar1.set_value(70, lv.ANIM.OFF)
 ```
+
+> ![](img/ind6.png){width=inherit}
 
 ## `lvglArcCreate` — arc
 
@@ -68,6 +80,8 @@ A circular indicator/dial.
 arc1 = lv.arc(scr)
 ```
 
+> ![](img/ind7.png){width=inherit}
+
 ## `lvglArcSetValue` — set arc value
 
 **Inputs:** arc name, value.
@@ -75,6 +89,8 @@ arc1 = lv.arc(scr)
 ```python
 arc1.set_value(30)
 ```
+
+> ![](img/ind8.png){width=inherit}
 
 ## `lvglSpinnerCreate` — spinner
 
@@ -85,6 +101,8 @@ A spinning "loading" indicator.
 ```python
 spinner1 = lv.spinner(scr, 1000, 60)
 ```
+
+> ![](img/ind9.png){width=inherit}
 
 ## Next
 
