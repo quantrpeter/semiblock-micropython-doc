@@ -1,5 +1,7 @@
 # Waveshare 3.5" all-in-one display board
 
+> ![](img/hardblock_Wave.png){width=inherit}
+
 The **Waveshare 3.5"** board is an ESP32-S3 with a built-in colour TFT (driven by the
 **AXS15231B** controller over **QSPI**) and a capacitive touch panel. Wiring up LVGL by
 hand for this board takes dozens of lines — the **`waveshare35Init`** block does it all
@@ -9,6 +11,8 @@ in one drop.
 > `lvgl`, `task_handler`, and the `fs_driver` helper.
 
 ## `waveshare35Init` — boot the whole display
+
+> ![](img/wave1.png){width=inherit}
 
 This single block emits the complete startup sequence for the board. It imports the
 needed modules, defines the board's pin constants, installs the AXS15231B QSPI
@@ -70,6 +74,8 @@ label1 = lv.label(scrn)
 label1.set_text("Hello Waveshare")
 label1.align(lv.ALIGN.CENTER, 0, 0)
 ```
+
+> ![](img/wave2.png){width=inherit}
 
 ## Next
 
