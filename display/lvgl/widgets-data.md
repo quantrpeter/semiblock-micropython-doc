@@ -11,6 +11,8 @@ gauge; a **canvas** is a raw pixel surface you draw on directly.
 chart1 = lv.chart(scr)
 ```
 
+> ![](img/data1.png){width=inherit}
+
 ## `lvglChartAddSeries` — add a data series
 
 Creates a coloured line/series on the chart and stores it in a variable.
@@ -20,6 +22,8 @@ Creates a coloured line/series on the chart and stores it in a variable.
 ```python
 series1 = chart1.add_series(lv.color_hex(0xFF0000), lv.chart.AXIS.PRIMARY_Y)
 ```
+
+> ![](img/data2.png){width=inherit}
 
 ## `lvglChartSetPoint` — push a value
 
@@ -31,6 +35,8 @@ Adds the next point to a series (scrolls the chart left as new data arrives).
 chart1.set_next_value(series1, 42)
 ```
 
+> ![](img/data3.png){width=inherit}
+
 ## `lvglMeterCreate` — meter
 
 A circular gauge widget.
@@ -40,6 +46,8 @@ A circular gauge widget.
 ```python
 meter1 = lv.meter(scr)
 ```
+
+> ![](img/data4.png){width=inherit}
 
 ## `lvglCanvasCreate` — canvas
 
@@ -51,6 +59,8 @@ A surface you can draw individual pixels and shapes on.
 canvas1 = lv.canvas(scr)
 ```
 
+> ![](img/data5.png){width=inherit}
+
 ## `lvglCanvasSetBuffer` — attach a pixel buffer
 
 Gives the canvas memory to draw into, with a width, height, and colour format.
@@ -61,6 +71,8 @@ Gives the canvas memory to draw into, with a width, height, and colour format.
 canvas1.set_buffer(buf, 100, 100, lv.COLOR_FORMAT.RGB565)
 ```
 
+> ![](img/data7.png){width=inherit}
+
 ## `lvglCanvasFillBg` — fill the background
 
 **Inputs:** canvas name, color.
@@ -69,6 +81,8 @@ canvas1.set_buffer(buf, 100, 100, lv.COLOR_FORMAT.RGB565)
 canvas1.fill_bg(lv.color_hex(0x000000), lv.OPA.COVER)
 ```
 
+> ![](img/data8.png){width=inherit}
+
 ## `lvglCanvasSetPx` — set one pixel
 
 **Inputs:** canvas name, x, y, color.
@@ -76,6 +90,8 @@ canvas1.fill_bg(lv.color_hex(0x000000), lv.OPA.COVER)
 ```python
 canvas1.set_px(10, 10, lv.color_hex(0xFFFFFF), lv.OPA.COVER)
 ```
+
+> ![](img/data9.png){width=inherit}
 
 ## Next
 
