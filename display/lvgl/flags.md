@@ -15,6 +15,8 @@ Common flags include `lv.obj.FLAG.HIDDEN`, `lv.obj.FLAG.CLICKABLE`, and
 btn1.add_flag(lv.obj.FLAG.HIDDEN)
 ```
 
+> ![](img/flag1.png){width=inherit}
+
 ## `lvglClearFlag` — turn a flag off
 
 **Inputs:** object name, flag.
@@ -22,6 +24,8 @@ btn1.add_flag(lv.obj.FLAG.HIDDEN)
 ```python
 btn1.clear_flag(lv.obj.FLAG.HIDDEN)
 ```
+
+> ![](img/flag2.png){width=inherit}
 
 ## `lvglRemoveFlag` — remove a flag
 
@@ -31,6 +35,8 @@ btn1.clear_flag(lv.obj.FLAG.HIDDEN)
 btn1.remove_flag(lv.obj.FLAG.SCROLLABLE)
 ```
 
+> ![](img/flag3.png){width=inherit}
+
 ## Show / hide example
 
 Hide a button, then reveal it again:
@@ -39,6 +45,8 @@ Hide a button, then reveal it again:
 btn1.add_flag(lv.obj.FLAG.HIDDEN)
 btn1.clear_flag(lv.obj.FLAG.HIDDEN)
 ```
+
+> ![](img/flag4.png){width=inherit}
 
 > `clear_flag` and `remove_flag` both switch a flag off. Use whichever block reads more
 > naturally in your program — the generated method differs (`clear_flag` vs
