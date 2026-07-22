@@ -10,6 +10,8 @@ These widgets cover pictures, status lights, on-screen typing, and multi-page la
 image1 = lv.image(scr)
 ```
 
+> ![](img/media1.png){width=inherit}
+
 ## `lvglImageSetSrc` — set image source
 
 Point the image at a file path or symbol.
@@ -19,6 +21,8 @@ Point the image at a file path or symbol.
 ```python
 image1.set_src("S:logo.png")
 ```
+
+> ![](img/media2.png){width=inherit}
 
 ## `lvglImageSetSrcCostume` — set image from a costume file
 
@@ -30,6 +34,8 @@ Loads from the SemiBlock costume filesystem (drive `S:`).
 image1.set_src("S:cat.png")
 ```
 
+> ![](img/media3.png){width=inherit}
+
 ## `lvglLedCreate` — LED
 
 A round status light widget.
@@ -40,6 +46,8 @@ A round status light widget.
 led1 = lv.led(scr)
 ```
 
+> ![](img/media4.png){width=inherit}
+
 ## `lvglLedOn` / `lvglLedOff` / `lvglLedToggle`
 
 **Inputs:** led name.
@@ -48,13 +56,19 @@ led1 = lv.led(scr)
 led1.on()
 ```
 
+> ![](img/media5.png){width=inherit}
+
 ```python
 led1.off()
 ```
 
+> ![](img/media6.png){width=inherit}
+
 ```python
 led1.toggle()
 ```
+
+> ![](img/media7.png){width=inherit}
 
 ## `lvglLedSetBrightness` — LED brightness
 
@@ -64,6 +78,8 @@ led1.toggle()
 led1.set_brightness(200)
 ```
 
+> ![](img/media8.png){width=inherit}
+
 ## `lvglKeyboardCreate` — on-screen keyboard
 
 **Inputs:** keyboard name, parent.
@@ -71,6 +87,8 @@ led1.set_brightness(200)
 ```python
 keyboard1 = lv.keyboard(scr)
 ```
+
+> ![](img/media9.png){width=inherit}
 
 ## `lvglKeyboardSetTextarea` — link keyboard to a text area
 
@@ -82,6 +100,8 @@ Sends the keyboard's keystrokes into a text area.
 keyboard1.set_textarea(textarea1)
 ```
 
+> ![](img/media10.png){width=inherit}
+
 ## `lvglTabviewCreate` — tabbed view
 
 **Inputs:** tabview name, parent, direction.
@@ -89,6 +109,8 @@ keyboard1.set_textarea(textarea1)
 ```python
 tabview1 = lv.tabview(scr, lv.DIR.TOP)
 ```
+
+> ![](img/media11.png){width=inherit}
 
 ## `lvglTabviewAddTab` — add a tab
 
@@ -99,6 +121,8 @@ Returns the tab's content object so you can add widgets to it.
 ```python
 tab1 = tabview1.add_tab("Home")
 ```
+
+> ![](img/media12.png){width=inherit}
 
 ## Next
 
