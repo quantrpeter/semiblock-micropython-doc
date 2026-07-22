@@ -13,6 +13,8 @@ Creates a blank object to use as a screen.
 scr = lv.obj()
 ```
 
+> ![](img/scr1.png){width=inherit}
+
 ## `lvglScreenLoad` — show a screen
 
 Makes the given screen the active one. Anything you drew on other screens is hidden.
@@ -22,6 +24,8 @@ Makes the given screen the active one. Anything you drew on other screens is hid
 ```python
 lv.scr_load(scr)
 ```
+
+> ![](img/scr2.png){width=inherit}
 
 ## `lvglScreenActive` — get the active screen
 
@@ -34,6 +38,8 @@ on boards that already create a screen during boot.
 scr = lv.screen_active()
 ```
 
+> ![](img/scr3.png){width=inherit}
+
 ## `lvglRefrNow` — refresh immediately
 
 Forces an immediate redraw of the display, instead of waiting for the next task-handler
@@ -44,6 +50,8 @@ cycle.
 ```python
 lv.refr_now(display)
 ```
+
+> ![](img/scr4.png){width=inherit}
 
 ## Example: two-step screen setup
 
@@ -56,6 +64,8 @@ label1.set_text("Screen ready")
 while True:
     lv.task_handler()
 ```
+
+> ![](img/scr5.png){width=inherit}
 
 > Tip: build all widgets on a screen **before** loading it for the smoothest
 > appearance, then switch screens to navigate between pages.
