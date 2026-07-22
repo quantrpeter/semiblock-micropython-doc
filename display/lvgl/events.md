@@ -14,12 +14,16 @@ is user data, which SemiBlock passes as `None`.
 btn1.add_event_cb(my_callback, lv.EVENT.CLICKED, None)
 ```
 
+> ![](img/event1.png){width=inherit}
+
 The callback receives the event object. A typical handler:
 
 ```python
 def my_callback(event):
     print("Button clicked!")
 ```
+
+> ![](img/event2.png){width=inherit}
 
 ## `lvglGetDisplay` — get an object's display
 
@@ -31,6 +35,8 @@ needs the display handle.
 ```python
 scr.get_display()
 ```
+
+> ![](img/event3.png){width=inherit}
 
 ## Full interactive example
 
@@ -52,6 +58,8 @@ btn1.add_event_cb(my_callback, lv.EVENT.CLICKED, None)
 while True:
     lv.task_handler()
 ```
+
+> ![](img/event4.png){width=inherit}
 
 > Define the callback function **before** the `add_event_cb` block so the name exists
 > when it is referenced.
