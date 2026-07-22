@@ -18,11 +18,15 @@ These five blocks call the matching `urequests` functions. The **URL** and
 urequests.get(http://example.com)
 ```
 
+> ![](img/index3.png){width=inherit}
+
 With a quoted URL field (`"http://example.com"`):
 
 ```python
 urequests.get("http://example.com")
 ```
+
+> ![](img/index2.png){width=inherit}
 
 ## `urequestsPost`
 
@@ -34,6 +38,8 @@ urequests.get("http://example.com")
 urequests.post(http://example.com, data={"key": "value"})
 ```
 
+> ![](img/index4.png){width=inherit}
+
 ## `urequestsPut`
 
 - **Description:** send a PUT request with a body.
@@ -42,6 +48,8 @@ urequests.post(http://example.com, data={"key": "value"})
 ```python
 urequests.put(http://example.com, data={"key": "value"})
 ```
+
+> ![](img/index5.png){width=inherit}
 
 ## `urequestsDelete`
 
@@ -52,6 +60,8 @@ urequests.put(http://example.com, data={"key": "value"})
 urequests.delete(http://example.com)
 ```
 
+> ![](img/index6.png){width=inherit}
+
 ## `urequestsHead`
 
 - **Description:** send a HEAD request (headers only, no body).
@@ -60,6 +70,8 @@ urequests.delete(http://example.com)
 ```python
 urequests.head(http://example.com)
 ```
+
+> ![](img/index7.png){width=inherit}
 
 ## Worked example
 
@@ -75,6 +87,8 @@ while not wlan.isconnected():
 
 urequests.post("http://example.com/api", data={"key": "value"})
 ```
+
+> ![](img/index8.png){width=inherit}
 
 > Remember: `import urequests` is injected automatically when a request block is
 > present.
