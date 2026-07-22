@@ -12,6 +12,8 @@ with a **parent** so LVGL knows where to place it.
 label1 = lv.label(scr)
 ```
 
+> ![](img/con3.png){width=inherit}
+
 ## `lvglLabelSetText` — set label text
 
 Sets the text shown by the label. The text is wrapped in quotes automatically.
@@ -21,6 +23,8 @@ Sets the text shown by the label. The text is wrapped in quotes automatically.
 ```python
 label1.set_text("Hello LVGL")
 ```
+
+> ![](img/wi1.png){width=inherit}
 
 ## `lvglButtonCreate` — create a button
 
@@ -32,6 +36,8 @@ the button as its parent.
 ```python
 btn1 = lv.btn(scr)
 ```
+
+> ![](img/wi2.png){width=inherit}
 
 ## Putting it together
 
@@ -47,6 +53,8 @@ label1.set_text("Click me")
 while True:
     lv.task_handler()
 ```
+
+> ![](img/wi3.png){width=inherit}
 
 To make the button **do** something when pressed, attach a callback — see
 [Events: `addEventCb`](events.md). To move or resize it, see
