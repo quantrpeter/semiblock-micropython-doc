@@ -13,6 +13,8 @@ Moves an object to an absolute (x, y) inside its parent.
 label1.set_pos(10, 20)
 ```
 
+> ![](img/lay1.png){width=inherit}
+
 ## `lvglSetSize` — set width and height
 
 **Inputs:** object name, width, height.
@@ -20,6 +22,8 @@ label1.set_pos(10, 20)
 ```python
 btn1.set_size(120, 50)
 ```
+
+> ![](img/lay2.png){width=inherit}
 
 ## `lvglSetWidth` — set width only
 
@@ -29,6 +33,8 @@ btn1.set_size(120, 50)
 btn1.set_width(120)
 ```
 
+> ![](img/lay3.png){width=inherit}
+
 ## `lvglSetHeight` — set height only
 
 **Inputs:** object name, height.
@@ -36,6 +42,8 @@ btn1.set_width(120)
 ```python
 btn1.set_height(50)
 ```
+
+> ![](img/lay4.png){width=inherit}
 
 ## `lvglSetX` — set x only
 
@@ -45,6 +53,8 @@ btn1.set_height(50)
 btn1.set_x(10)
 ```
 
+> ![](img/lay5.png){width=inherit}
+
 ## `lvglSetY` — set y only
 
 **Inputs:** object name, y.
@@ -52,6 +62,8 @@ btn1.set_x(10)
 ```python
 btn1.set_y(20)
 ```
+
+> ![](img/lay6.png){width=inherit}
 
 ## `lvglAlign` — align within the parent
 
@@ -63,6 +75,8 @@ This is the easiest way to centre things.
 ```python
 label1.align(lv.ALIGN.CENTER, 0, 0)
 ```
+
+> ![](img/lay7.png){width=inherit}
 
 ## Example
 
@@ -76,6 +90,8 @@ btn1.align(lv.ALIGN.CENTER, 0, 0)
 while True:
     lv.task_handler()
 ```
+
+> ![](img/lay8.png){width=inherit}
 
 ## Next
 
