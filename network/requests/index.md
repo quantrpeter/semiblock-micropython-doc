@@ -19,6 +19,8 @@ while not wlan.isconnected():
     pass
 ```
 
+> ![](img/index1.png){width=inherit}
+
 > `import urequests` is added for you automatically as soon as any request
 > block (or a SemiBlock IoT block) is on the workspace — you do not import it
 > yourself.
@@ -37,6 +39,8 @@ A GET request block where the URL field contains `"http://example.com"`:
 ```python
 urequests.get("http://example.com")
 ```
+
+> ![](img/index2.png){width=inherit}
 
 > Fields are inserted **verbatim**, so type the quotes around your URL.
 
