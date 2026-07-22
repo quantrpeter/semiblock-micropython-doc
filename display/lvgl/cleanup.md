@@ -14,6 +14,8 @@ variable afterwards.
 btn1.delete()
 ```
 
+> ![](img/clean1.png){width=inherit}
+
 ## `lvglObjClean` — remove an object's children
 
 Deletes everything **inside** an object but keeps the object itself. Great for clearing
@@ -24,6 +26,8 @@ a screen or container before rebuilding its contents.
 ```python
 scr.clean()
 ```
+
+> ![](img/clean2.png){width=inherit}
 
 ## `lvglObjInvalidate` — mark for redraw
 
@@ -36,6 +40,8 @@ changing something LVGL didn't notice.
 btn1.invalidate()
 ```
 
+> ![](img/clean3.png){width=inherit}
+
 ## Rebuild-a-screen example
 
 Clear a screen's contents, then add a fresh label:
@@ -45,6 +51,8 @@ scr.clean()
 label1 = lv.label(scr)
 label1.set_text("Rebuilt")
 ```
+
+> ![](img/clean4.png){width=inherit}
 
 > Reach for `clean()` when you want to keep a screen but swap out what's on it, and
 > `delete()` when you're done with a widget for good.
