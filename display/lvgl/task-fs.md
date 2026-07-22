@@ -12,11 +12,15 @@ filesystem driver (so widgets can load images/fonts by path), and scrollbar beha
 import task_handler
 ```
 
+> ![](img/fs2.png){width=inherit}
+
 ## `importFsDriver` — import the FS driver helper
 
 ```python
 from fs_driver import fs_register
 ```
+
+> ![](img/fs3.png){width=inherit}
 
 ## `taskHandlerInit` — start the task handler
 
@@ -29,6 +33,8 @@ LVGL keeps redrawing without you writing the loop.
 th = task_handler.TaskHandler()
 ```
 
+> ![](img/fs4.png){width=inherit}
+
 ## `lvglTaskHandler` — run one cycle manually
 
 If you are not using a `TaskHandler`, call this inside your own loop.
@@ -36,6 +42,8 @@ If you are not using a `TaskHandler`, call this inside your own loop.
 ```python
 lv.task_handler()
 ```
+
+> ![](img/fs5.png){width=inherit}
 
 ## `lvglRefrNow` — force an immediate refresh
 
@@ -47,6 +55,8 @@ Redraws a display right away instead of waiting for the next cycle.
 lv.refr_now(display)
 ```
 
+> ![](img/fs6.png){width=inherit}
+
 ## `lvglFsDrvtInit` — create a filesystem driver object
 
 **Inputs:** var name.
@@ -54,6 +64,8 @@ lv.refr_now(display)
 ```python
 fs_drv = lv.fs_drv_t()
 ```
+
+> ![](img/fs1.png){width=inherit}
 
 ## `lvglFsRegister` — register a drive letter
 
@@ -64,6 +76,8 @@ Maps the FS driver to a drive letter (e.g. `"S"`) so paths like `"S:logo.png"` w
 ```python
 fs_register(fs_drv, "S")
 ```
+
+> ![](img/fs7.png){width=inherit}
 
 ## `lvglSetScrollbarMode` — scrollbar behaviour
 
