@@ -22,6 +22,8 @@ except Exception:
 	print("That was not a number")
 ```
 
+> ![](img/index_img.png)
+
 ## Next
 
 Continue to [`try` / `except` / `finally`](try-except.md)

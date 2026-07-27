@@ -19,6 +19,8 @@ except Exception:
 	print("failed")
 ```
 
+> ![](img/try1.png)
+
 `Exception` catches almost any error. You can type a more specific type such as
 `ValueError` to catch only that one.
 
@@ -31,6 +33,8 @@ except Exception:
 finally:
 	print("done")
 ```
+
+> ![](img/try2.png)
 
 Attach it after a `try`/`except` block to clean up — for example to close a file
 or turn off a motor.
@@ -46,6 +50,8 @@ except Exception:
 finally:
 	print("Finished")
 ```
+
+> ![](img/try3.png)
 
 ## Next
 

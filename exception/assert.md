@@ -16,6 +16,9 @@ Both fields are inserted **verbatim**, so write the message with quotes:
 assert x > 0, "Assertion failed"
 ```
 
+> ![](img/assert1.png)
+
+
 If `x > 0` is true, nothing happens and the program continues. If it is false,
 the program stops and shows the message.
 
@@ -26,6 +29,9 @@ temperature = 25
 assert temperature < 100, "Temperature out of safe range"
 print("Safe to continue")
 ```
+
+> ![](img/assert2.png)
+
 
 Because `25 < 100` is true, the assert passes and `Safe to continue` is printed.
 
