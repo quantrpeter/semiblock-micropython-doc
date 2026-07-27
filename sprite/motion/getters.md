@@ -17,6 +17,8 @@ Reports the sprite's current x-coordinate.
 sprite.get_x("cat")
 ```
 
+> ![](img/get1.png)
+
 ## `spriteGetY` — y position
 
 Reports the sprite's current y-coordinate.
@@ -26,6 +28,8 @@ Reports the sprite's current y-coordinate.
 ```python
 sprite.get_y("cat")
 ```
+
+> ![](img/get2.png)
 
 ## `spriteGetDirection` — direction
 
@@ -37,6 +41,8 @@ Reports the sprite's facing direction in degrees (`90` = right, `0` = up).
 sprite.get_direction("cat")
 ```
 
+> ![](img/get3.png)
+
 ## Using a reporter
 
 Because these blocks return a value, they slot into expressions. For example,
@@ -46,12 +52,16 @@ dropping `x position` into a `print` block produces:
 print(sprite.get_x("cat"))
 ```
 
+> ![](img/get4.png)
+
 And used in a comparison to test whether the cat has crossed the centre line:
 
 ```python
 if sprite.get_x("cat") > 0:
     sprite.point_in_direction("cat", -90)
 ```
+
+> ![](img/get5.png)
 
 ## Worked example: report all three
 
@@ -60,6 +70,8 @@ print(sprite.get_x("cat"))
 print(sprite.get_y("cat"))
 print(sprite.get_direction("cat"))
 ```
+
+> ![](img/get6.png)
 
 This prints the cat's position and heading to the simulator console — handy for
 checking where a sprite ended up after a sequence of motion blocks.
