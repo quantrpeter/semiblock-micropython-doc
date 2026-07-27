@@ -12,8 +12,20 @@ dropdown with these options:
 | You pick | Generated argument |
 | -------- | ------------------ |
 | random position | `"_random_"` |
+
+> ![](img/random.png)
+
+| You pick | Generated argument |
+| -------- | ------------------ |
 | mouse-pointer | `"_mouse_"` |
+
+> ![](img/mouse.png)
+
+| You pick | Generated argument |
+| -------- | ------------------ |
 | *another sprite name* | `"that_sprite"` |
+
+> ![](img/another.png)
 
 ## `spriteGoToMenu` — go to a target
 
@@ -27,6 +39,8 @@ Instantly moves the sprite to a target location.
 sprite.go_to("cat", "_random_")
 ```
 
+> ![](img/goto1.png)
+
 ## `spriteGoToXY` — go to x, y
 
 Instantly moves the sprite to an exact stage coordinate.
@@ -38,6 +52,8 @@ Instantly moves the sprite to an exact stage coordinate.
 ```python
 sprite.goto("cat", 0, 0)
 ```
+
+> ![](img/goto2.png)
 
 ## `spriteGlideToMenu` — glide to a target
 
@@ -53,6 +69,8 @@ target dropdown.
 await sprite.glide_to("cat", 1, "_mouse_")
 ```
 
+> ![](img/goto3.png)
+
 ## `spriteGlideToXY` — glide to x, y
 
 Smoothly slides the sprite to an exact coordinate over **SECS** seconds, also
@@ -66,6 +84,8 @@ shadows `1`, `0`, `0`).
 ```python
 await sprite.glide_to_xy("cat", 1, 0, 0)
 ```
+
+> ![](img/goto4.png)
 
 ## Worked example: slide across, then snap back
 
