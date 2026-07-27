@@ -21,6 +21,8 @@ for i in range(1024):
 	sleep_ms(2)
 ```
 
+> ![](img/led_dim.png)
+
 ## How it works
 
 - `range(1024)` produces the numbers `0, 1, 2, … 1023`.
