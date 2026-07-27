@@ -12,7 +12,7 @@ emit several lines or pull in a driver class.
 
 | Image | Block `type` | Generated MicroPython |
 | --- | --- | --- |
-|  | `createMainMethod` | Emits the standard header (`from machine import Pin, SoftI2C, ADC, PWM, UART`, `from time import sleep, sleep_ms, sleep_us`, `import network`, `import math`, …) followed by a `### start` marker and the body. Extra imports (`neopixel`, `ssd1306`, `_thread`, `servo`, `dht`, `sprite`, `urequests`) are added on demand. |
+| `No Image` | `createMainMethod` | Emits the standard header (`from machine import Pin, SoftI2C, ADC, PWM, UART`, `from time import sleep, sleep_ms, sleep_us`, `import network`, `import math`, …) followed by a `### start` marker and the body. Extra imports (`neopixel`, `ssd1306`, `_thread`, `servo`, `dht`, `sprite`, `urequests`) are added on demand. |
 | ![](block/machine1.png){width=inherit} | `softReset` | `machine.soft_reset()` |
 | ![](block/machine2.png){width=inherit} | `hardReset` | `machine.reset()` |
 | ![](block/machine3.png){width=inherit} | `sleep` | `sleep(time)` |
