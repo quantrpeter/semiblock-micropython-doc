@@ -1,5 +1,7 @@
 # Generative AI Overview
 
+> ![](img/index1.png)
+
 The **Generative AI** category lets your ESP32 board talk to a Large Language
 Model (LLM). It has a single block, `askDeepSeek`, which sends a text question
 over the internet and gives you the answer back as a string.
@@ -17,6 +19,8 @@ reply text, which you store in a variable:
 ```python
 var1=askDeepSeek("who is SPS School")
 ```
+
+> ![](img/index2.png)
 
 You can then `print()` the variable, show it on an OLED, or feed it into other
 blocks.
@@ -42,6 +46,8 @@ def connectWifi(ssid, password):
 
 connectWifi("YOUR_SSID", "YOUR_PASSWORD")
 ```
+
+> ![](img/index3.png)
 
 Replace `YOUR_SSID` and `YOUR_PASSWORD` with your network name and password.
 
