@@ -1,5 +1,7 @@
 # Looks
 
+> ![](img/index1.png)
+
 Looks blocks change how a sprite **appears** on the **simulator** stage: show
 or hide it, switch its costume, and set or read its size. They are the purple
 Scratch-style blocks.
@@ -20,10 +22,32 @@ run on the microcontroller — they animate the browser stage.
 | Block | Generated code |
 | ----- | -------------- |
 | `spriteShow` | `sprite.show("cat")` |
+
+> ![](img/index2.png)
+
+| Block | Generated code |
+| ----- | -------------- |
 | `spriteHide` | `sprite.hide("cat")` |
+
+> ![](img/index3.png)
+
+| Block | Generated code |
+| ----- | -------------- |
 | `spriteSwitchCostume` | `sprite.switch_costume("cat", "costume1")` |
+
+> ![](img/index4.png)
+
+| Block | Generated code |
+| ----- | -------------- |
 | `spriteSetSize` | `sprite.set_size("cat", 100)` |
+
+> ![](img/index5.png)
+
+| Block | Generated code |
+| ----- | -------------- |
 | `spriteGetSize` | `sprite.get_size("cat")` |
+
+> ![](img/index6.png)
 
 ## Next
 
