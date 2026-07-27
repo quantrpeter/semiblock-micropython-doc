@@ -74,6 +74,8 @@ emit several lines or pull in a driver class.
 
 ## String
 
+> ![](hardblock/hardblock_String.png){width=inherit}
+
 | Image | Block `type` | Generated MicroPython |
 | --- | --- | --- |
 | ![](block/string1.png){width=inherit} | `stringText` | `'text'` |
