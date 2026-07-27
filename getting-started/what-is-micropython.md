@@ -37,9 +37,26 @@ That is a complete, real MicroPython program that blinks an LED once.
 | MicroPython piece | What it does |
 |-------------------|--------------|
 | `machine.Pin`     | Read or control a GPIO pin |
+
+> ![](img/hardblocks/hardblock_Pin.png){width=inherit}
+
+| MicroPython piece | What it does |
+|-------------------|--------------|
 | `time.sleep`      | Pause the program for seconds |
+
+> ![](img/block_sleep.png){width=inherit}
+
+| MicroPython piece | What it does |
+|-------------------|--------------|
 | `network`         | Connect to Wi-Fi |
+
+> ![](img/hardblocks/block_wifi.png){width=inherit}
+
+| MicroPython piece | What it does |
+|-------------------|--------------|
 | `ADC`, `PWM`      | Read analog values / control brightness, motors |
+
+> ![](img/hardblocks/hardblock_ADC.png){width=inherit}
 
 SemiBlock has blocks for all of these, so you rarely type them by hand.
 
