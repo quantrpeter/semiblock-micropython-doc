@@ -41,11 +41,36 @@ emit several lines or pull in a driver class.
 
 ## Math
 
-| Block `type` | Generated MicroPython |
-| --- | --- |
-| `mathAdd` | `A + B` |
-| `mathMultiply` | `A * B` |
-| `integerInit` | `value` |
+> ![](hardblock/hardblock_Math.png){width=inherit}
+
+| Image | Block `type` | Generated MicroPython |
+| --- | --- | --- |
+| ![](block/math1.png){width=inherit} | `mathNumber` | `value` |
+| ![](block/math2.png){width=inherit} | `mathAdd` | `A + B` |
+| ![](block/math3.png){width=inherit} | `mathSubtract` | `A - B` |
+| ![](block/math4.png){width=inherit} | `mathMultiply` | `A * B` |
+| ![](block/math5.png){width=inherit} | `mathDivide` | `A / B` |
+| ![](block/math6.png){width=inherit} | `mathModulo` | `A % B` |
+| ![](block/math7.png){width=inherit} | `mathPower` | `A ** B` |
+| ![](block/math8.png){width=inherit} | `mathSqrt` | `math.sqrt(A)` |
+| ![](block/math9.png){width=inherit} | `mathSin` | `math.sin(A)` |
+| ![](block/math10.png){width=inherit} | `mathCos` | `math.cos(A)` |
+| ![](block/math11.png){width=inherit} | `mathTan` | `math.tan(A)` |
+| ![](block/math12.png){width=inherit} | `mathLog` | `math.log(A)` |
+| ![](block/math13.png){width=inherit} | `mathExp` | `math.exp(A)` |
+| ![](block/math14.png){width=inherit} | `mathAbs` | `abs(A)` |
+| ![](block/math15.png){width=inherit} | `mathFloor` | `math.floor(A)` |
+| ![](block/math16.png){width=inherit} | `mathCeil` | `math.ceil(A)` |
+| ![](block/math17.png){width=inherit} | `mathRound` | `round(A)` |
+| ![](block/math18.png){width=inherit} | `mathMin` | `min(A, B)` |
+| ![](block/math19.png){width=inherit} | `mathMax` | `max(A, B)` |
+| ![](block/math20.png){width=inherit} | `mathPi` | `math.pi` |
+| ![](block/math21.png){width=inherit} | `mathE` | `math.e` |
+| ![](block/math22.png){width=inherit} | `mathRandom` | `random.random()` |
+| ![](block/math23.png){width=inherit} | `mathRandint` | `random.randint(A, B)` |
+| ![](block/math24.png){width=inherit} | `mathDivmod` | `divmod(A, B)` |
+| ![](block/math25.png){width=inherit} | `mathHex` | `hex(A)` |
+| ![](block/math26.png){width=inherit} | `mathOrd` | `ord(A)` |
 
 ## String
 
