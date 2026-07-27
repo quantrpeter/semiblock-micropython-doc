@@ -14,6 +14,8 @@ Makes the selected sprite visible. Takes only the sprite picker (default `cat`).
 sprite.show("cat")
 ```
 
+> ![](img/index2.png)
+
 ## `spriteHide` — hide
 
 Hides the selected sprite. It still exists and keeps its position — it just
@@ -24,6 +26,8 @@ isn't drawn. Takes only the sprite picker.
 ```python
 sprite.hide("cat")
 ```
+
+> ![](img/index3.png)
 
 ## `spriteSwitchCostume` — switch costume to
 
@@ -42,6 +46,8 @@ back to `costume1`.
 sprite.switch_costume("cat", "costume1")
 ```
 
+> ![](img/index4.png)
+
 ## Worked example: blink and swap
 
 Hide the cat briefly, then show it again wearing a different costume:
@@ -49,9 +55,11 @@ Hide the cat briefly, then show it again wearing a different costume:
 ```python
 sprite.hide("cat")
 await time.sleep(0.5)
-sprite.switch_costume("cat", "costume2")
+sprite.switch_costume("cat", "costume1")
 sprite.show("cat")
 ```
+
+> ![](img/vis1.png)
 
 In the simulator, `time.sleep` is awaited so the half-second pause animates
 correctly instead of freezing the stage.
