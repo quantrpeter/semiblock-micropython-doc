@@ -29,6 +29,8 @@ def askDeepSeek(question):
 connectWifi("YOUR_SSID", "YOUR_PASSWORD")
 ```
 
+> ![](img/pat1.png)
+
 ## 1. Simple chatbot loop
 
 Read a question typed in the REPL, ask the model, and print the answer — forever.
@@ -39,6 +41,8 @@ while True:
     answer = askDeepSeek(question)
     print("DeepSeek:", answer)
 ```
+
+> ![](img/pat2.png)
 
 Each loop sends one question and waits for one reply before asking again.
 
@@ -60,6 +64,8 @@ print("Temperature:", temp)
 print("DeepSeek:", answer)
 ```
 
+> ![](img/pat3.png)
+
 Note how the numeric reading is turned into text with `str(temp)` before being
 joined into the question.
 
@@ -80,6 +86,8 @@ while True:
         print("DeepSeek:", answer)
         time.sleep(1)                # simple debounce
 ```
+
+> ![](img/pat4.png)
 
 Every press sends a fixed prompt and prints the model's reply. You could swap the
 prompt for text captured elsewhere in your project, or show `answer` on an OLED
