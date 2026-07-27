@@ -50,7 +50,7 @@ That is a complete, real MicroPython program that blinks an LED once.
 |-------------------|--------------|
 | `network`         | Connect to Wi-Fi |
 
-> ![](img/hardblocks/block_wifi.png){width=inherit}
+> ![](img/block_wifi.png){width=inherit}
 
 | MicroPython piece | What it does |
 |-------------------|--------------|
