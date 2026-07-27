@@ -8,18 +8,18 @@ emit several lines or pull in a driver class.
 
 ## Core / Machine
 
+> ![](hardblock/hardblock_Machine.png){width=inherit}
 
-
-| Block `type` | Generated MicroPython |
-| --- | --- |
-| `createMainMethod` | Emits the standard header (`from machine import Pin, SoftI2C, ADC, PWM, UART`, `from time import sleep, sleep_ms, sleep_us`, `import network`, `import math`, …) followed by a `### start` marker and the body. Extra imports (`neopixel`, `ssd1306`, `_thread`, `servo`, `dht`, `sprite`, `urequests`) are added on demand. |
-| `softReset` | `machine.soft_reset()` |
-| `hardReset` | `machine.reset()` |
-| `sleep` | `sleep(time)` |
-| `sleep_ms` | `sleep_ms(time)` |
-| `connectWifi` | `connectWifi("ssid", "password")` |
-| `mem32Read` | `var_name = machine.mem32(address)` |
-| `getCPUFreq` | `var_name = machine.freq()` |
+| Image | Block `type` | Generated MicroPython |
+| --- | --- | --- |
+|  | `createMainMethod` | Emits the standard header (`from machine import Pin, SoftI2C, ADC, PWM, UART`, `from time import sleep, sleep_ms, sleep_us`, `import network`, `import math`, …) followed by a `### start` marker and the body. Extra imports (`neopixel`, `ssd1306`, `_thread`, `servo`, `dht`, `sprite`, `urequests`) are added on demand. |
+| ![](block/machine1.png){width=inherit} | `softReset` | `machine.soft_reset()` |
+| ![](block/machine2.png){width=inherit} | `hardReset` | `machine.reset()` |
+| ![](block/machine3.png){width=inherit} | `sleep` | `sleep(time)` |
+| ![](block/machine4.png){width=inherit} | `sleep_ms` | `sleep_ms(time)` |
+| ![](block/machine5.png){width=inherit} | `connectWifi` | `connectWifi("ssid", "password")` |
+| ![](block/machine6.png){width=inherit} | `mem32Read` | `var_name = machine.mem32(address)` |
+| ![](block/machine7.png){width=inherit} | `getCPUFreq` | `var_name = machine.freq()` |
 
 ## Language
 
