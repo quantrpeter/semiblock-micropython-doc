@@ -20,6 +20,8 @@ it currently faces.
 sprite.move_steps("cat", 10)
 ```
 
+> ![](img/move1.png)
+
 ## `spriteTurnRight` — turn ↻ N degrees
 
 Rotates the sprite **clockwise**.
@@ -34,6 +36,8 @@ Rotates the sprite **clockwise**.
 ```python
 sprite.turn_right("cat", 15)
 ```
+
+> ![](img/move2.png)
 
 ## `spriteTurnLeft` — turn ↺ N degrees
 
@@ -50,6 +54,8 @@ Rotates the sprite **counter-clockwise**.
 sprite.turn_left("cat", 15)
 ```
 
+> ![](img/move3.png)
+
 ## Worked example: move and bounce
 
 Move the cat forward, and if it hits the edge of the stage, bounce it back.
@@ -59,6 +65,8 @@ Place these in a loop so the sprite keeps travelling:
 sprite.move_steps("cat", 10)
 sprite.if_on_edge_bounce("cat")
 ```
+
+> ![](img/move4.png)
 
 Each tick the cat steps 10 forward; when it reaches the edge,
 `if_on_edge_bounce` flips its direction so it heads back across the stage.
