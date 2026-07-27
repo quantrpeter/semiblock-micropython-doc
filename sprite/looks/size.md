@@ -18,6 +18,8 @@ Sets the sprite's scale.
 sprite.set_size("cat", 100)
 ```
 
+> ![](img/index5.png)
+
 ## `spriteGetSize` — size
 
 A **reporter** block that returns the sprite's current size as a percentage.
@@ -30,11 +32,15 @@ only the sprite picker.
 sprite.get_size("cat")
 ```
 
+> ![](img/index6.png)
+
 Used inside a `print`, for example:
 
 ```python
 print(sprite.get_size("cat"))
 ```
+
+> ![](img/size1.png)
 
 ## Worked example: grow then check
 
@@ -45,6 +51,8 @@ sprite.set_size("cat", 150)
 print(sprite.get_size("cat"))
 ```
 
+> ![](img/size2.png)
+
 The stage redraws the cat at 1.5× its normal size, and the simulator console
 shows `150`.
 
@@ -54,6 +62,8 @@ the current value — handy for a pulsing effect inside a loop:
 ```python
 sprite.set_size("cat", sprite.get_size("cat") + 10)
 ```
+
+> ![](img/size3.png)
 
 ## Next
 
