@@ -16,6 +16,8 @@ the result.
 re.findall(pattern, string)
 ```
 
+> ![](img/find1.png)
+
 ## The `reFindIter` block
 
 - **Label:** `result = re.finditer(%1, %2)` — inputs `pattern`, `string`. Returns
@@ -24,6 +26,8 @@ re.findall(pattern, string)
 ```python
 re.finditer(pattern, string)
 ```
+
+> ![](img/find2.png)
 
 ## The `reSub` block
 
@@ -34,6 +38,8 @@ re.finditer(pattern, string)
 re.sub(pattern, replacement, string)
 ```
 
+> ![](img/find3.png)
+
 ## The `reSplit` block
 
 - **Label:** `result = re.split(%1, %2)` — inputs `pattern`, `string`. Splits the
@@ -42,6 +48,8 @@ re.sub(pattern, replacement, string)
 ```python
 re.split(pattern, string)
 ```
+
+> ![](img/find4.png)
 
 ## Worked example
 
@@ -52,6 +60,8 @@ numbers = re.findall("[0-9]+", "a1b22c333")
 clean = re.sub("[0-9]", "*", "a1b2")
 print(numbers, clean)
 ```
+
+> ![](img/find5.png)
 
 ## Next
 

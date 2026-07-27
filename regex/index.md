@@ -25,6 +25,8 @@ import re
 re.search("[0-9]+", "abc123")
 ```
 
+> ![](img/index1.png)
+
 ## Next
 
 Continue to [`re.match`, `re.search`, `re.compile`](match-search.md)

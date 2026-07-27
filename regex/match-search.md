@@ -16,6 +16,8 @@ Each block emits a **bare call** — to keep the result, plug the block into a
 re.match(pattern, string)
 ```
 
+> ![](img/match1.png)
+
 ## The `reSearch` block
 
 - **Label:** `result = re.search(%1, %2)` — inputs `pattern`, `string`. Looks for
@@ -25,6 +27,8 @@ re.match(pattern, string)
 re.search(pattern, string)
 ```
 
+> ![](img/match2.png)
+
 ## The `reCompile` block
 
 - **Label:** `pattern = re.compile(%1)` — input `pattern`. Pre-builds a pattern
@@ -33,6 +37,8 @@ re.search(pattern, string)
 ```python
 re.compile(pattern)
 ```
+
+> ![](img/match3.png)
 
 ## Worked example
 
@@ -44,6 +50,8 @@ import re
 found = re.search("[0-9]+", "room 42")
 print(found)
 ```
+
+> ![](img/match4.png)
 
 `re.search` returns a match object if it finds something, or `None` if not —
 perfect to test with an [`if`](../language/if-else.md) block.
