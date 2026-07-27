@@ -22,7 +22,7 @@ except Exception:
 	print("That was not a number")
 ```
 
-> ![](img/index_img.png)
+> ![](img/index_img.png){width=inherit}
 
 ## Next
 

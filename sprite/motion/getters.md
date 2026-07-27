@@ -17,7 +17,7 @@ Reports the sprite's current x-coordinate.
 sprite.get_x("cat")
 ```
 
-> ![](img/get1.png)
+> ![](img/get1.png){width=inherit}
 
 ## `spriteGetY` — y position
 
@@ -29,7 +29,7 @@ Reports the sprite's current y-coordinate.
 sprite.get_y("cat")
 ```
 
-> ![](img/get2.png)
+> ![](img/get2.png){width=inherit}
 
 ## `spriteGetDirection` — direction
 
@@ -41,7 +41,7 @@ Reports the sprite's facing direction in degrees (`90` = right, `0` = up).
 sprite.get_direction("cat")
 ```
 
-> ![](img/get3.png)
+> ![](img/get3.png){width=inherit}
 
 ## Using a reporter
 
@@ -52,7 +52,7 @@ dropping `x position` into a `print` block produces:
 print(sprite.get_x("cat"))
 ```
 
-> ![](img/get4.png)
+> ![](img/get4.png){width=inherit}
 
 And used in a comparison to test whether the cat has crossed the centre line:
 
@@ -61,7 +61,7 @@ if sprite.get_x("cat") > 0:
     sprite.point_in_direction("cat", -90)
 ```
 
-> ![](img/get5.png)
+> ![](img/get5.png){width=inherit}
 
 ## Worked example: report all three
 
@@ -71,7 +71,7 @@ print(sprite.get_y("cat"))
 print(sprite.get_direction("cat"))
 ```
 
-> ![](img/get6.png)
+> ![](img/get6.png){width=inherit}
 
 This prints the cat's position and heading to the simulator console — handy for
 checking where a sprite ended up after a sequence of motion blocks.

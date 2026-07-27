@@ -25,7 +25,7 @@ import re
 re.search("[0-9]+", "abc123")
 ```
 
-> ![](img/index1.png)
+> ![](img/index1.png){width=inherit}
 
 ## Next
 

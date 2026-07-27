@@ -16,7 +16,7 @@ Each block emits a **bare call** — to keep the result, plug the block into a
 re.match(pattern, string)
 ```
 
-> ![](img/match1.png)
+> ![](img/match1.png){width=inherit}
 
 ## The `reSearch` block
 
@@ -27,7 +27,7 @@ re.match(pattern, string)
 re.search(pattern, string)
 ```
 
-> ![](img/match2.png)
+> ![](img/match2.png){width=inherit}
 
 ## The `reCompile` block
 
@@ -38,7 +38,7 @@ re.search(pattern, string)
 re.compile(pattern)
 ```
 
-> ![](img/match3.png)
+> ![](img/match3.png){width=inherit}
 
 ## Worked example
 
@@ -51,7 +51,7 @@ found = re.search("[0-9]+", "room 42")
 print(found)
 ```
 
-> ![](img/match4.png)
+> ![](img/match4.png){width=inherit}
 
 `re.search` returns a match object if it finds something, or `None` if not —
 perfect to test with an [`if`](../language/if-else.md) block.

@@ -19,7 +19,7 @@ except Exception:
 	print("failed")
 ```
 
-> ![](img/try1.png)
+> ![](img/try1.png){width=inherit}
 
 `Exception` catches almost any error. You can type a more specific type such as
 `ValueError` to catch only that one.
@@ -34,7 +34,7 @@ finally:
 	print("done")
 ```
 
-> ![](img/try2.png)
+> ![](img/try2.png){width=inherit}
 
 Attach it after a `try`/`except` block to clean up — for example to close a file
 or turn off a motor.
@@ -51,7 +51,7 @@ finally:
 	print("Finished")
 ```
 
-> ![](img/try3.png)
+> ![](img/try3.png){width=inherit}
 
 ## Next
 

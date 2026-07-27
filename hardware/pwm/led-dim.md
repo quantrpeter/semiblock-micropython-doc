@@ -21,7 +21,7 @@ for i in range(1024):
 	sleep_ms(2)
 ```
 
-> ![](img/led_dim.png)
+> ![](img/led_dim.png){width=inherit}
 
 ## How it works
 

@@ -16,7 +16,7 @@ Both fields are inserted **verbatim**, so write the message with quotes:
 assert x > 0, "Assertion failed"
 ```
 
-> ![](img/assert1.png)
+> ![](img/assert1.png){width=inherit}
 
 
 If `x > 0` is true, nothing happens and the program continues. If it is false,
@@ -30,7 +30,7 @@ assert temperature < 100, "Temperature out of safe range"
 print("Safe to continue")
 ```
 
-> ![](img/assert2.png)
+> ![](img/assert2.png){width=inherit}
 
 
 Because `25 < 100` is true, the assert passes and `Safe to continue` is printed.

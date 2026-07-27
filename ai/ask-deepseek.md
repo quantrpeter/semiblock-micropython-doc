@@ -5,7 +5,7 @@ the reply in a variable. It is the only block in the **Generative AI** category.
 
 ## The block
 
-> ![](img/index2.png)
+> ![](img/index2.png){width=inherit}
 
 The block reads:
 
@@ -28,7 +28,7 @@ For the default block above, SemiBlock generates:
 var1=askDeepSeek("who is SPS School")
 ```
 
-> ![](img/index2.png)
+> ![](img/index2.png){width=inherit}
 
 The question text is wrapped in double quotes, and the result is assigned to
 your variable name.
@@ -47,7 +47,7 @@ def askDeepSeek(question):
     return r.text
 ```
 
-> ![](img/ask1.png)
+> ![](img/ask1.png){width=inherit}
 
 So `askDeepSeek` simply makes an HTTP GET request to
 `https://build.semiblock.ai/api/deepseek/` with your question appended to the
@@ -63,7 +63,7 @@ var1=askDeepSeek("who is SPS School")
 print(var1)
 ```
 
-> ![](img/ask2.png)
+> ![](img/ask2.png){width=inherit}
 
 Remember that the request travels over the network, so:
 
@@ -96,7 +96,7 @@ var1=askDeepSeek("who is SPS School")
 print(var1)
 ```
 
-> ![](img/ask3.png)
+> ![](img/ask3.png){width=inherit}
 
 ## Next
 

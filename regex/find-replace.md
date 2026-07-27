@@ -16,7 +16,7 @@ the result.
 re.findall(pattern, string)
 ```
 
-> ![](img/find1.png)
+> ![](img/find1.png){width=inherit}
 
 ## The `reFindIter` block
 
@@ -27,7 +27,7 @@ re.findall(pattern, string)
 re.finditer(pattern, string)
 ```
 
-> ![](img/find2.png)
+> ![](img/find2.png){width=inherit}
 
 ## The `reSub` block
 
@@ -38,7 +38,7 @@ re.finditer(pattern, string)
 re.sub(pattern, replacement, string)
 ```
 
-> ![](img/find3.png)
+> ![](img/find3.png){width=inherit}
 
 ## The `reSplit` block
 
@@ -49,7 +49,7 @@ re.sub(pattern, replacement, string)
 re.split(pattern, string)
 ```
 
-> ![](img/find4.png)
+> ![](img/find4.png){width=inherit}
 
 ## Worked example
 
@@ -61,7 +61,7 @@ clean = re.sub("[0-9]", "*", "a1b2")
 print(numbers, clean)
 ```
 
-> ![](img/find5.png)
+> ![](img/find5.png){width=inherit}
 
 ## Next
 

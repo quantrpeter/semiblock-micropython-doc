@@ -8,6 +8,8 @@ emit several lines or pull in a driver class.
 
 ## Core / Machine
 
+
+
 | Block `type` | Generated MicroPython |
 | --- | --- |
 | `createMainMethod` | Emits the standard header (`from machine import Pin, SoftI2C, ADC, PWM, UART`, `from time import sleep, sleep_ms, sleep_us`, `import network`, `import math`, …) followed by a `### start` marker and the body. Extra imports (`neopixel`, `ssd1306`, `_thread`, `servo`, `dht`, `sprite`, `urequests`) are added on demand. |
@@ -173,3 +175,4 @@ emit several lines or pull in a driver class.
 ---
 
 **Next:** [Full block reference](blocks.md)
+

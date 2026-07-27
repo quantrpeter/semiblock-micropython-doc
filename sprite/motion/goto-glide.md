@@ -13,19 +13,19 @@ dropdown with these options:
 | -------- | ------------------ |
 | random position | `"_random_"` |
 
-> ![](img/random.png)
+> ![](img/random.png){width=inherit}
 
 | You pick | Generated argument |
 | -------- | ------------------ |
 | mouse-pointer | `"_mouse_"` |
 
-> ![](img/mouse.png)
+> ![](img/mouse.png){width=inherit}
 
 | You pick | Generated argument |
 | -------- | ------------------ |
 | *another sprite name* | `"that_sprite"` |
 
-> ![](img/another.png)
+> ![](img/another.png){width=inherit}
 
 ## `spriteGoToMenu` — go to a target
 
@@ -39,7 +39,7 @@ Instantly moves the sprite to a target location.
 sprite.go_to("cat", "_random_")
 ```
 
-> ![](img/goto1.png)
+> ![](img/goto1.png){width=inherit}
 
 ## `spriteGoToXY` — go to x, y
 
@@ -53,7 +53,7 @@ Instantly moves the sprite to an exact stage coordinate.
 sprite.goto("cat", 0, 0)
 ```
 
-> ![](img/goto2.png)
+> ![](img/goto2.png){width=inherit}
 
 ## `spriteGlideToMenu` — glide to a target
 
@@ -69,7 +69,7 @@ target dropdown.
 await sprite.glide_to("cat", 1, "_mouse_")
 ```
 
-> ![](img/goto3.png)
+> ![](img/goto3.png){width=inherit}
 
 ## `spriteGlideToXY` — glide to x, y
 
@@ -85,7 +85,7 @@ shadows `1`, `0`, `0`).
 await sprite.glide_to_xy("cat", 1, 0, 0)
 ```
 
-> ![](img/goto4.png)
+> ![](img/goto4.png){width=inherit}
 
 ## Worked example: slide across, then snap back
 

@@ -14,7 +14,7 @@ The field is inserted **verbatim**, so include the full exception expression:
 raise Exception("Error message")
 ```
 
-> ![](img/raise1.png)
+> ![](img/raise1.png){width=inherit}
 
 You can type any error type and message you like, such as
 `ValueError("temperature too high")`.
@@ -31,7 +31,7 @@ except Exception:
 	print("Caught it")
 ```
 
-> ![](img/raise2.png)
+> ![](img/raise2.png){width=inherit}
 
 ## Worked example
 
@@ -42,7 +42,7 @@ def set_speed(value):
 	print(value)
 ```
 
-> ![](img/raise3.png)
+> ![](img/raise3.png){width=inherit}
 
 Calling `set_speed(150)` would raise the error; `set_speed(80)` prints `80`.
 

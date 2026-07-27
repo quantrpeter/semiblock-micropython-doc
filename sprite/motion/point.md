@@ -22,7 +22,7 @@ Sets the sprite's heading to an exact angle.
 sprite.point_in_direction("cat", 90)
 ```
 
-> ![](img/point1.png)
+> ![](img/point1.png){width=inherit}
 
 
 ## `spritePointTowards` — point towards a target
@@ -34,19 +34,19 @@ options as the *go to* menu:
 | -------- | ------------------ |
 | random position | `"_random_"` |
 
-> ![](img/point2.png)
+> ![](img/point2.png){width=inherit}
 
 | You pick | Generated argument |
 | -------- | ------------------ |
 | mouse-pointer | `"_mouse_"` |
 
-> ![](img/point3.png)
+> ![](img/point3.png){width=inherit}
 
 | You pick | Generated argument |
 | -------- | ------------------ |
 | *another sprite name* | `"that_sprite"` |
 
-> ![](img/point1.png)
+> ![](img/point1.png){width=inherit}
 
 **Inputs**
 
@@ -59,7 +59,7 @@ options as the *go to* menu:
 sprite.point_towards("cat", "_mouse_")
 ```
 
-> ![](img/point3.png)
+> ![](img/point3.png){width=inherit}
 
 ## Worked example: chase the mouse
 
@@ -70,7 +70,7 @@ sprite.point_towards("cat", "_mouse_")
 sprite.move_steps("cat", 10)
 ```
 
-> ![](img/point4.png)
+> ![](img/point4.png){width=inherit}
 
 Each time these run, the cat turns to face the mouse-pointer and steps 10
 towards it. Put them in a loop for a continuous chase.

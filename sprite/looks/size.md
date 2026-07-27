@@ -18,7 +18,7 @@ Sets the sprite's scale.
 sprite.set_size("cat", 100)
 ```
 
-> ![](img/index5.png)
+> ![](img/index5.png){width=inherit}
 
 ## `spriteGetSize` — size
 
@@ -32,7 +32,7 @@ only the sprite picker.
 sprite.get_size("cat")
 ```
 
-> ![](img/index6.png)
+> ![](img/index6.png){width=inherit}
 
 Used inside a `print`, for example:
 
@@ -40,7 +40,7 @@ Used inside a `print`, for example:
 print(sprite.get_size("cat"))
 ```
 
-> ![](img/size1.png)
+> ![](img/size1.png){width=inherit}
 
 ## Worked example: grow then check
 
@@ -51,7 +51,7 @@ sprite.set_size("cat", 150)
 print(sprite.get_size("cat"))
 ```
 
-> ![](img/size2.png)
+> ![](img/size2.png){width=inherit}
 
 The stage redraws the cat at 1.5× its normal size, and the simulator console
 shows `150`.
@@ -63,7 +63,7 @@ the current value — handy for a pulsing effect inside a loop:
 sprite.set_size("cat", sprite.get_size("cat") + 10)
 ```
 
-> ![](img/size3.png)
+> ![](img/size3.png){width=inherit}
 
 ## Next
 

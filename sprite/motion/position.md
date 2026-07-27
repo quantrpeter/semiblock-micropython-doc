@@ -17,7 +17,7 @@ shadow `10`).
 sprite.change_x("cat", 10)
 ```
 
-> ![](img/pos1.png)
+> ![](img/pos1.png){width=inherit}
 
 ## `spriteSetX` — set x to
 
@@ -31,7 +31,7 @@ Sets the sprite's x-coordinate to an exact value.
 sprite.set_x("cat", 0)
 ```
 
-> ![](img/pos2.png)
+> ![](img/pos2.png){width=inherit}
 
 ## `spriteChangeY` — change y by
 
@@ -45,7 +45,7 @@ Adds an amount to the sprite's current y-coordinate (moves it vertically).
 sprite.change_y("cat", 10)
 ```
 
-> ![](img/pos3.png)
+> ![](img/pos3.png){width=inherit}
 
 ## `spriteSetY` — set y to
 
@@ -59,7 +59,7 @@ Sets the sprite's y-coordinate to an exact value.
 sprite.set_y("cat", 0)
 ```
 
-> ![](img/pos4.png)
+> ![](img/pos4.png){width=inherit}
 
 ## `spriteIfOnEdgeBounce` — if on edge, bounce
 
@@ -72,7 +72,7 @@ heads back. Takes no value inputs — just the sprite picker.
 sprite.if_on_edge_bounce("cat")
 ```
 
-> ![](img/pos5.png)
+> ![](img/pos5.png){width=inherit}
 
 ## `spriteSetRotationStyle` — set rotation style
 
@@ -85,7 +85,7 @@ Controls how the sprite is drawn as it turns. The **STYLE** dropdown offers
 sprite.set_rotation_style("cat", "all around")
 ```
 
-> ![](img/pos6.png)
+> ![](img/pos6.png){width=inherit}
 
 ## Worked example: drift down and across
 
@@ -95,7 +95,7 @@ sprite.change_y("cat", -5)
 sprite.if_on_edge_bounce("cat")
 ```
 
-> ![](img/pos7.png)
+> ![](img/pos7.png){width=inherit}
 
 The cat slides 10 to the right and 5 down each tick, bouncing when it reaches a
 wall.

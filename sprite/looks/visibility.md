@@ -14,7 +14,7 @@ Makes the selected sprite visible. Takes only the sprite picker (default `cat`).
 sprite.show("cat")
 ```
 
-> ![](img/index2.png)
+> ![](img/index2.png){width=inherit}
 
 ## `spriteHide` — hide
 
@@ -27,7 +27,7 @@ isn't drawn. Takes only the sprite picker.
 sprite.hide("cat")
 ```
 
-> ![](img/index3.png)
+> ![](img/index3.png){width=inherit}
 
 ## `spriteSwitchCostume` — switch costume to
 
@@ -46,7 +46,7 @@ back to `costume1`.
 sprite.switch_costume("cat", "costume1")
 ```
 
-> ![](img/index4.png)
+> ![](img/index4.png){width=inherit}
 
 ## Worked example: blink and swap
 
@@ -59,7 +59,7 @@ sprite.switch_costume("cat", "costume1")
 sprite.show("cat")
 ```
 
-> ![](img/vis1.png)
+> ![](img/vis1.png){width=inherit}
 
 In the simulator, `time.sleep` is awaited so the half-second pause animates
 correctly instead of freezing the stage.

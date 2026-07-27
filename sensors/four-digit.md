@@ -26,7 +26,7 @@ With the default fields (variable `tm`, clk `13`, dio `0`) the block generates:
 tm=TM1637(clk = Pin(13), dio = Pin(0))
 ```
 
-> ![](img/four1.png)
+> ![](img/four1.png){width=inherit}
 
 ### Show a number
 
@@ -36,7 +36,7 @@ tm=TM1637(clk = Pin(13), dio = Pin(0))
 tm.number(1234)
 ```
 
-> ![](img/four2.png)
+> ![](img/four2.png){width=inherit}
 
 The `number()` method displays an integer right-aligned across the four digits. Values from
 `0` to `9999` fit; negative or larger values depend on your TM1637 driver build.
@@ -56,7 +56,7 @@ while True:
     sleep(1)
 ```
 
-> ![](img/four3.png)
+> ![](img/four3.png){width=inherit}
 
 The program creates the display once, then every second shows the next number and increments the
 counter — a simple seconds counter on the 4-digit display.
