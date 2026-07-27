@@ -74,12 +74,21 @@ emit several lines or pull in a driver class.
 
 ## String
 
-| Block `type` | Generated MicroPython |
-| --- | --- |
-| `stringUpper` | `value.upper()` |
-| `stringReplace` | `value.replace(old, new)` |
-| `stringSplit` | `value.split(delimiter)` |
-| `stringLength` | `len(value)` |
+| Image | Block `type` | Generated MicroPython |
+| --- | --- | --- |
+| ![](block/string1.png){width=inherit} | `stringText` | `'text'` |
+| ![](block/string2.png){width=inherit} | `stringUpper` | `text.upper()` |
+| ![](block/string3.png){width=inherit} | `stringLower` | `TEXT.lower()` |
+| ![](block/string4.png){width=inherit} | `stringStrip` | `text.strip()` |
+| ![](block/string5.png){width=inherit} | `stringReplace` | `text.replace('t', 'T')` |
+| ![](block/string6.png){width=inherit} | `stringFind` | `text.find('t')` |
+| ![](block/string7.png){width=inherit} | `stringSplit` | `'a,b,c'.split(',')` |
+| ![](block/string8.png){width=inherit} | `stringJoin` | `','.join(['a', 'b', 'c'])` |
+| ![](block/string9.png){width=inherit} | `stringStartswith` | `text.startswith('t')` |
+| ![](block/string10.png){width=inherit} | `stringEndswith` | `text.endswith('t')` |
+| ![](block/string11.png){width=inherit} | `stringLen` | `len(text)` |
+| ![](block/string12.png){width=inherit} | `stringInsertNewlineEveryNChars` | `'\n'.join([s[i:i+4] for i in range(0, len(s), 4)])` |
+| ![](block/string13.png){width=inherit} | `stringAdd` | `'abc' + 'def'` |
 
 ## List
 
