@@ -23,19 +23,21 @@ emit several lines or pull in a driver class.
 
 ## Language
 
-| Block `type` | Generated MicroPython |
-| --- | --- |
-| `print` | `print(value)` |
-| `variable` | `var_name = <statements>` |
-| `comment` | `# comment` |
-| `pass` | `pass` |
-| `def` | `def funcName(parameters):` + indented body |
-| `forLoop` | `for var1 in range(var2):` + indented body |
-| `whileLoop` | `while conditions:` + indented body |
-| `ifLoop` | `if conditions:` + indented body |
-| `importCode` | `import libraryName` |
-| `fromImportCode` | `from libraryName import component` |
-| `startThread` | `varName = _thread.start_new_thread(funcName, ())` |
+> ![](hardblock/hardblock_Language.png){width=inherit}
+
+| Image | Block `type` | Generated MicroPython |
+| --- | --- | --- |
+| ![](block/lang1.png){width=inherit} | `print` | `print(value)` |
+| ![](block/lang2.png){width=inherit} | `variable` | `var_name = <statements>` |
+| ![](block/lang3.png){width=inherit} | `comment` | `# comment` |
+| ![](block/lang4.png){width=inherit} | `pass` | `pass` |
+| ![](block/lang5.png){width=inherit} | `def` | `def funcName(parameters):` + indented body |
+| ![](block/lang6.png){width=inherit} | `forLoop` | `for var1 in range(var2):` + indented body |
+| ![](block/lang7.png){width=inherit} | `whileLoop` | `while conditions:` + indented body |
+| ![](block/lang8.png){width=inherit} | `ifLoop` | `if conditions:` + indented body |
+| ![](block/lang9.png){width=inherit} | `importCode` | `import libraryName` |
+| ![](block/lang10.png){width=inherit} | `fromImportCode` | `from libraryName import component` |
+| ![](block/lang11.png){width=inherit} | `startThread` | `varName = _thread.start_new_thread(funcName, ())` |
 
 ## Math
 
