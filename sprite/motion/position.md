@@ -17,6 +17,8 @@ shadow `10`).
 sprite.change_x("cat", 10)
 ```
 
+> ![](img/pos1.png)
+
 ## `spriteSetX` — set x to
 
 Sets the sprite's x-coordinate to an exact value.
@@ -28,6 +30,8 @@ Sets the sprite's x-coordinate to an exact value.
 ```python
 sprite.set_x("cat", 0)
 ```
+
+> ![](img/pos2.png)
 
 ## `spriteChangeY` — change y by
 
@@ -41,6 +45,8 @@ Adds an amount to the sprite's current y-coordinate (moves it vertically).
 sprite.change_y("cat", 10)
 ```
 
+> ![](img/pos3.png)
+
 ## `spriteSetY` — set y to
 
 Sets the sprite's y-coordinate to an exact value.
@@ -53,6 +59,8 @@ Sets the sprite's y-coordinate to an exact value.
 sprite.set_y("cat", 0)
 ```
 
+> ![](img/pos4.png)
+
 ## `spriteIfOnEdgeBounce` — if on edge, bounce
 
 If the sprite is touching the edge of the stage, flips its direction so it
@@ -63,6 +71,8 @@ heads back. Takes no value inputs — just the sprite picker.
 ```python
 sprite.if_on_edge_bounce("cat")
 ```
+
+> ![](img/pos5.png)
 
 ## `spriteSetRotationStyle` — set rotation style
 
@@ -75,6 +85,8 @@ Controls how the sprite is drawn as it turns. The **STYLE** dropdown offers
 sprite.set_rotation_style("cat", "all around")
 ```
 
+> ![](img/pos6.png)
+
 ## Worked example: drift down and across
 
 ```python
@@ -82,6 +94,8 @@ sprite.change_x("cat", 10)
 sprite.change_y("cat", -5)
 sprite.if_on_edge_bounce("cat")
 ```
+
+> ![](img/pos7.png)
 
 The cat slides 10 to the right and 5 down each tick, bouncing when it reaches a
 wall.
