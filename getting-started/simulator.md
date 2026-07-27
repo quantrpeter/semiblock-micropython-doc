@@ -61,6 +61,8 @@ while True:
     time.sleep(1)
 ```
 
+> ![](img/simulate.png)
+
 The simulator interprets the motion blocks visually instead of sending them to a
 chip.
 
