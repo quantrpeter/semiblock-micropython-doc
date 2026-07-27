@@ -26,6 +26,8 @@ greeting = "Hello, World!"
 print(greeting.upper())
 ```
 
+> ![](img/string1.png)
+
 ## Next
 
 Continue to [Creating strings](create.md)
