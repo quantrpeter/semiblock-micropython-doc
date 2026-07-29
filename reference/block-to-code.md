@@ -287,18 +287,23 @@ emit several lines or pull in a driver class.
 | ![](block/bus12.png){width=inherit} | `oneWireReadbyte` | `data = ow.readbyte()` |
 | ![](block/bus13.png){width=inherit} | `oneWireWritebyte` | `ow.writebyte(0xFF)` |
 
-## Sensors
+## Sensors / HC-SR04 Sonar
 
-| Block `type` | Generated MicroPython |
-| --- | --- |
-| `temperature` | `var_name = getTemperature(D0, ADC)` |
-| `servo` | `var_name = Servo(pin_number)` |
-| `servoAngle` | `servo_Angle(var_name, angle)` |
-| `motorOn` | `var_name (1)` |
-| `dhtInit` | `var_name = dht.dht_type(Pin(pin))` |
-| `dhtReadTemperature` | `dht_name.measure()` / `var_name = dht_name.temperature()` |
-| `hcsr04Init` | Emits the full `HCSR04` driver class, then `var_name = HCSR04(trigger_pin=…, echo_pin=…, echo_timeout_us=…)` |
-| `hcsr04DistanceCm` | `var_name = sonar_name.distance_cm()` |
+> ![](hardblock/hardblock_Sensors.png){width=inherit} ![](hardblock/Sonar.png){width=inherit}
+
+| Image | Block `type` | Generated MicroPython |
+| --- | --- | --- |
+| ![](block/sen1.png){width=inherit} | `getTemperature` | `temp = getTemperature(13, 0)` |
+| ![](block/sen2.png){width=inherit} | `tm1637Init` | `tm = tm1637.TM1637(clk=Pin(13), dio=Pin(0))` |
+| ![](block/sen3.png){width=inherit} | `tm1637Number` | `tm.number(1234)` |
+| ![](block/sen4.png){width=inherit} | `motorInit` | `motor = machine.Pin(15, machine.Pin.OUT)` |
+| ![](block/sen5.png){width=inherit} | `motorOn` | `motor(1)` |
+| ![](block/sen6.png){width=inherit} | `motorOff` | `motor(0)` |
+| ![](block/sen7.png){width=inherit} | `servoInit` | `servo = Servo(15)` |
+| ![](block/sen8.png){width=inherit} | `servoAngle` | `servoAngle(servo, 15)` |
+| ![](block/sen9.png){width=inherit} | `hcsr04Init` | `sonar = HCSR04(trigger_pin=14, echo_pin=15, echo_timeout_us=500000)` |
+| ![](block/sen10.png){width=inherit} | `hcsr04DistanceCm` | `Distance_cm = sonar.distance_cm()` |
+| ![](block/sen11.png){width=inherit} | `hcsr04DistanceMm` | `Distance_mm = sonar.distance_mm()` |
 
 ## Generative AI / Open Data
 
