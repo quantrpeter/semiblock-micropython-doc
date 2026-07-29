@@ -162,12 +162,26 @@ emit several lines or pull in a driver class.
 | ![](block/iot1.png){width=inherit} | `iotConnect` | `IOT_SERVER = "https://build.semiblock.ai"` / `IOT_DEVICE_ID = "device_id"` / `IOT_SECRET = "secret"` |
 | ![](block/iot2.png){width=inherit} | `iotPushReading` | `urequests.post(IOT_SERVER + "/iot/data", json={"device_id": IOT_DEVICE_ID, "secret_key": IOT_SECRET, "sensor_type": "dht11", "data": {"temperature": 24, "humidity": 60}})` |
 | ![](block/iot3.png){width=inherit} | `iotPushSingleValue` | `urequests.post(IOT_SERVER + "/iot/data", json={"device_id": IOT_DEVICE_ID, "secret_key": IOT_SECRET, "sensor_type": "thermometer", "data": {"temperature": temp}})` |
+
 ## OS / CSV
 
-| Block `type` | Generated MicroPython |
-| --- | --- |
-| `csvRead` | Opens the file and appends each `csv.reader` row into `var_name`. |
-| `csvAppend` | Opens the file in append mode and `csv.writer(...).writerow(data)`. |
+| Image | Block `type` | Generated MicroPython |
+| --- | --- | --- |
+| ![](block/os1.png){width=inherit} | `csvRead` | `data = read_csv('file.csv')` |
+| ![](block/os2.png){width=inherit} | `csvWrite` | `write_csv('file.csv', [["col1", "col2"], ["val1", "val2"]])` |
+| ![](block/os3.png){width=inherit} | `csvAppend` | `append_csv('file.csv', ["val1", "val2"])` |
+| ![](block/os4.png){width=inherit} | `osListdir` | `os.listdir('/')` |
+| ![](block/os5.png){width=inherit} | `osRemove` | `os.remove('/file.txt')` |
+| ![](block/os6.png){width=inherit} | `osRename` | `os.rename('/old.txt', '/new.txt')` |
+| ![](block/os7.png){width=inherit} | `osMkdir` | `os.mkdir('/new_folder')` |
+| ![](block/os8.png){width=inherit} | `osRmdir` | `os.rmdir('/folder')` |
+| ![](block/os9.png){width=inherit} | `osGetcwd` | `os.getcwd()` |
+| ![](block/os10.png){width=inherit} | `osChdir` | `os.chdir('/new_folder')` |
+| ![](block/os11.png){width=inherit} | `osStat` | `os.stat('/file.txt')` |
+| ![](block/os12.png){width=inherit} | `osUname` | `os.uname()` |
+| ![](block/os13.png){width=inherit} | `osSync` | `os.sync()` |
+| ![](block/os14.png){width=inherit} | `osSystem` | `os.system('ls')` |
+| ![](block/os15.png){width=inherit} | `osUrandom` | `os.urandom(16)` |
 
 ## Display (SSD1306)
 
