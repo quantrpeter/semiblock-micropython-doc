@@ -32,26 +32,28 @@ description of what the block does.
 
 ## Motion (sprite)
 
-| Block `type` | Description |
-| --- | --- |
-| `spriteMoveSteps` | Move the sprite forward a number of steps. |
-| `spriteTurnRight` | Rotate the sprite clockwise. |
-| `spriteTurnLeft` | Rotate the sprite anticlockwise. |
-| `spriteGoToMenu` | Go to a target chosen from a menu. |
-| `spriteGoToXY` | Go to an absolute X/Y position. |
-| `spriteGlideToMenu` | Glide to a menu target over a number of seconds. |
-| `spriteGlideToXY` | Glide to an X/Y position over a number of seconds. |
-| `spritePointInDirection` | Point in a specific direction (degrees). |
-| `spritePointTowards` | Point towards a target. |
-| `spriteChangeX` | Change the sprite's X by an amount. |
-| `spriteSetX` | Set the sprite's X position. |
-| `spriteChangeY` | Change the sprite's Y by an amount. |
-| `spriteSetY` | Set the sprite's Y position. |
-| `spriteIfOnEdgeBounce` | Bounce when touching the stage edge. |
-| `spriteSetRotationStyle` | Set the rotation style. |
-| `spriteGetX` | Report the sprite's X position. |
-| `spriteGetY` | Report the sprite's Y position. |
-| `spriteGetDirection` | Report the sprite's direction. |
+> ![](hardblock/hardblock_Motion.png){width=inherit}
+
+| Image | Block `type` | Description |
+| --- | --- | --- |
+| ![](all_blocks/spriteMoveSteps.png){width=inherit} | `spriteMoveSteps` | Move the sprite forward a number of steps. |
+| ![](all_blocks/spriteTurnRight.png){width=inherit} | `spriteTurnRight` | Rotate the sprite clockwise. |
+| ![](all_blocks/spriteTurnLeft.png){width=inherit} | `spriteTurnLeft` | Rotate the sprite anticlockwise. |
+| ![](all_blocks/spriteGoToMenu.png){width=inherit} | `spriteGoToMenu` | Go to a target chosen from a menu. |
+| ![](all_blocks/spriteGoToXY.png){width=inherit} | `spriteGoToXY` | Go to an absolute X/Y position. |
+| ![](all_blocks/spriteGlideToMenu.png){width=inherit} | `spriteGlideToMenu` | Glide to a menu target over a number of seconds. |
+| ![](all_blocks/spriteGlideToXY.png){width=inherit} | `spriteGlideToXY` | Glide to an X/Y position over a number of seconds. |
+| ![](all_blocks/spritePointInDirection.png){width=inherit} | `spritePointInDirection` | Point in a specific direction (degrees). |
+| ![](all_blocks/spritePointTowards.png){width=inherit} | `spritePointTowards` | Point towards a target. |
+| ![](all_blocks/spriteChangeX.png){width=inherit} | `spriteChangeX` | Change the sprite's X by an amount. |
+| ![](all_blocks/spriteSetX.png){width=inherit} | `spriteSetX` | Set the sprite's X position. |
+| ![](all_blocks/spriteChangeY.png){width=inherit} | `spriteChangeY` | Change the sprite's Y by an amount. |
+| ![](all_blocks/spriteSetY.png){width=inherit} | `spriteSetY` | Set the sprite's Y position. |
+| ![](all_blocks/spriteIfOnEdgeBounce.png){width=inherit} | `spriteIfOnEdgeBounce` | Bounce when touching the stage edge. |
+| ![](all_blocks/spriteSetRotationStyle.png){width=inherit} | `spriteSetRotationStyle` | Set the rotation style. |
+| ![](all_blocks/spriteGetX.png){width=inherit} | `spriteGetX` | Report the sprite's X position. |
+| ![](all_blocks/spriteGetY.png){width=inherit} | `spriteGetY` | Report the sprite's Y position. |
+| ![](all_blocks/spriteGetDirection.png){width=inherit} | `spriteGetDirection` | Report the sprite's direction. |
 
 ## Looks (sprite)
 
