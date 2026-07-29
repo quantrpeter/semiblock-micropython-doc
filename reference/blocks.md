@@ -127,17 +127,19 @@ description of what the block does.
 
 ## Dictionary
 
-| Block `type` | Description |
-| --- | --- |
-| `createDict` | Create an empty dict. |
-| `dictSet` | Set `dict[key] = value`. |
-| `dictGet` | Get `dict[key]`. |
-| `dictKeys` | Get `dict.keys()`. |
-| `dictValues` | Get `dict.values()`. |
-| `dictItems` | Get `dict.items()`. |
-| `dictPop` | Pop a key. |
-| `dictUpdate` | Update from another dict. |
-| `dictClear` | Clear the dict. |
+> ![](hardblock/hardblock_Dict.png){width=inherit}
+
+| Image | Block `type` | Description |
+| --- | --- | --- |
+| ![](all_blocks/createDict.png){width=inherit} | `createDict` | Create an empty dict. |
+| ![](all_blocks/dictSet.png){width=inherit} | `dictSet` | Set `dict[key] = value`. |
+| ![](all_blocks/dictGet.png){width=inherit} | `dictGet` | Get `dict[key]`. |
+| ![](all_blocks/dictKeys.png){width=inherit} | `dictKeys` | Get `dict.keys()`. |
+| ![](all_blocks/dictValues.png){width=inherit} | `dictValues` | Get `dict.values()`. |
+| ![](all_blocks/dictItems.png){width=inherit} | `dictItems` | Get `dict.items()`. |
+| ![](all_blocks/dictPop.png){width=inherit} | `dictPop` | Pop a key. |
+| ![](all_blocks/dictUpdate.png){width=inherit} | `dictUpdate` | Update from another dict. |
+| ![](all_blocks/dictClear.png){width=inherit} | `dictClear` | Clear the dict. |
 
 ## Math
 
