@@ -138,11 +138,22 @@ emit several lines or pull in a driver class.
 
 ## Regex / Requests
 
-| Block `type` | Generated MicroPython |
-| --- | --- |
-| `reCompile` | `re.compile(pattern)` |
-| `urequestsGet` | `urequests.get(url)` |
-| `urequestsPost` | `urequests.post(url, data=data)` |
+| Image | Block `type` | Generated MicroPython |
+| --- | --- | --- |
+| ![](block/req1.png){width=inherit} | `reMatch` | `result = re.match(pattern, string)` |
+| ![](block/req2.png){width=inherit} | `reSearch` | `result = re.search(pattern, string)` |
+| ![](block/req3.png){width=inherit} | `reFindall` | `result = re.findall(pattern, string)` |
+| ![](block/req4.png){width=inherit} | `reFinditer` | `result = re.finditer(pattern, string)` |
+| ![](block/req5.png){width=inherit} | `reSub` | `result = re.sub(pattern, replacement, string)` |
+| ![](block/req6.png){width=inherit} | `reSplit` | `result = re.split(pattern, string)` |
+| ![](block/req7.png){width=inherit} | `reCompile` | `compiled_pattern = re.compile(pattern)` |
+| ![](block/req8.png){width=inherit} | `urequestsGet` | `response = urequests.get('http://example.com')` |
+| ![](block/req9.png){width=inherit} | `urequestsJson` | `data = response.json()` |
+| ![](block/req10.png){width=inherit} | `urequestsPost` | `response = urequests.post('http://example.com', {"key": "value"})` |
+| ![](block/req11.png){width=inherit} | `urequestsPut` | `response = urequests.put('http://example.com', {"key": "value"})` |
+| ![](block/req12.png){width=inherit} | `urequestsDelete` | `response = urequests.delete('http://example.com')` |
+| ![](block/req13.png){width=inherit} | `urequestsHead` | `response = urequests.head('http://example.com')` |
+
 
 ## SemiBlock IoT
 
