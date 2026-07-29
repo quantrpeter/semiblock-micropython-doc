@@ -176,40 +176,46 @@ description of what the block does.
 
 ## String
 
-| Block `type` | Description |
-| --- | --- |
-| `stringInit` | A string literal. |
-| `stringUpper` | Upper-case. |
-| `stringLower` | Lower-case. |
-| `stringStrip` | Strip whitespace. |
-| `stringReplace` | Replace substring. |
-| `stringFind` | Find substring index. |
-| `stringSplit` | Split on a delimiter. |
-| `stringJoin` | Join a list with a delimiter. |
-| `stringStartsWith` | Prefix test. |
-| `stringEndsWith` | Suffix test. |
-| `stringLength` | String length. |
+> ![](hardblock/hardblock_String.png){width=inherit}
+
+| Image | Block `type` | Description |
+| --- | --- | --- |
+| ![](all_blocks/stringInit.png){width=inherit} | `stringInit` | A string literal. |
+| ![](all_blocks/stringUpper.png){width=inherit} | `stringUpper` | Upper-case. |
+| ![](all_blocks/stringLower.png){width=inherit} | `stringLower` | Lower-case. |
+| ![](all_blocks/stringStrip.png){width=inherit} | `stringStrip` | Strip whitespace. |
+| ![](all_blocks/stringReplace.png){width=inherit} | `stringReplace` | Replace substring. |
+| ![](all_blocks/stringFind.png){width=inherit} | `stringFind` | Find substring index. |
+| ![](all_blocks/stringSplit.png){width=inherit} | `stringSplit` | Split on a delimiter. |
+| ![](all_blocks/stringJoin.png){width=inherit} | `stringJoin` | Join a list with a delimiter. |
+| ![](all_blocks/stringStartsWith.png){width=inherit} | `stringStartsWith` | Prefix test. |
+| ![](all_blocks/stringEndsWith.png){width=inherit} | `stringEndsWith` | Suffix test. |
+| ![](all_blocks/stringLength.png){width=inherit} | `stringLength` | String length. |
 
 ## Random
 
-| Block `type` | Description |
-| --- | --- |
-| `random` | Random float in `[0, 1)`. |
-| `randint` | Random integer in a range. |
-| `choice` | Random element from a sequence. |
-| `shuffle` | Shuffle a sequence in place. |
-| `uniform` | Random float in a range. |
-| `randrange` | Random value from a range with a step. |
-| `sample` | Random sample of unique elements. |
+> ![](hardblock/hardblock_Random.png){width=inherit}
+
+| Image | Block `type` | Description |
+| --- | --- | --- |
+| ![](all_blocks/random.png){width=inherit} | `random` | Random float in `[0, 1)`. |
+| ![](all_blocks/randint.png){width=inherit} | `randint` | Random integer in a range. |
+| ![](all_blocks/choice.png){width=inherit} | `choice` | Random element from a sequence. |
+| ![](all_blocks/shuffle.png){width=inherit} | `shuffle` | Shuffle a sequence in place. |
+| ![](all_blocks/uniform.png){width=inherit} | `uniform` | Random float in a range. |
+| ![](all_blocks/randrange.png){width=inherit} | `randrange` | Random value from a range with a step. |
+| ![](all_blocks/sample.png){width=inherit} | `sample` | Random sample of unique elements. |
 
 ## Exception
 
-| Block `type` | Description |
-| --- | --- |
-| `tryExcept` | `try` / `except` block. |
-| `raiseException` | `raise` an exception. |
-| `assertStatement` | `assert` a condition. |
-| `finallyBlock` | `finally` clause. |
+> ![](hardblock/hardblock_Exception.png){width=inherit}
+
+| Image | Block `type` | Description |
+| --- | --- | --- |
+| ![](all_blocks/tryExcept.png){width=inherit} | `tryExcept` | `try` / `except` block. |
+| ![](all_blocks/raiseException.png){width=inherit} | `raiseException` | `raise` an exception. |
+| ![](all_blocks/assertStatement.png){width=inherit} | `assertStatement` | `assert` a condition. |
+| ![](all_blocks/finallyBlock.png){width=inherit} | `finallyBlock` | `finally` clause. |
 
 ## Regex
 
