@@ -307,6 +307,8 @@ emit several lines or pull in a driver class.
 
 ## Generative AI / Open Data
 
+> ![](hardblock/hardblock_AI.png){width=inherit} ![](hardblock/hardblock_OpenData.png){width=inherit}
+
 | Image | Block `type` | Generated MicroPython |
 | --- | --- | --- |
 | ![](block/ai1.png){width=inherit} | `askDeepSeek` | `var_name = askDeepSeek("question")` |
