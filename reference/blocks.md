@@ -7,26 +7,28 @@ description of what the block does.
 
 ## Machine
 
-| Block `type` | Description |
-| --- | --- |
-| `createMainMethod` | The program entry point; wraps imports and the `### start` body. |
-| `softReset` | Soft-reset the interpreter (`machine.soft_reset()`). |
-| `hardReset` | Hard-reset the board (`machine.reset()`). |
-| `sleep` | Pause for a number of seconds. |
-| `sleep_ms` | Pause for a number of milliseconds. |
-| `sleep_us` | Pause for a number of microseconds. |
-| `connectWifi` | Connect to a Wi-Fi network by SSID and password. |
-| `mem8Read` | Read an 8-bit value from a memory address. |
-| `mem16Read` | Read a 16-bit value from a memory address. |
-| `mem32Read` | Read a 32-bit value from a memory address. |
-| `mem8Write` | Write an 8-bit value to a memory address. |
-| `mem16Write` | Write a 16-bit value to a memory address. |
-| `mem32Write` | Write a 32-bit value to a memory address. |
-| `getCPUFreq` | Read the current CPU frequency. |
-| `setCPUFreq` | Set the CPU frequency. |
-| `ticksMs` | Read the millisecond tick counter. |
-| `ticksDiff` | Difference between two tick values. |
-| `bytearrayInit` | Create a `bytearray`. |
+> ![](hardblock/hardblock_Machine.png){width=inherit}
+
+| Image | Block `type` | Generated MicroPython |
+| --- | --- | --- |
+| ![](all_blocks/createMainMethod.png){width=inherit} | `createMainMethod` | The program entry point; wraps imports and the `### start` body. |
+| ![](all_blocks/softReset.png){width=inherit} | `softReset` | `machine.soft_reset()` |
+| ![](all_blocks/hardReset.png){width=inherit} | `hardReset` | `machine.reset()` |
+| ![](all_blocks/sleep.png){width=inherit} | `sleep` | `time.sleep(1)` |
+| ![](all_blocks/sleep_ms.png){width=inherit} | `sleep_ms` | `time.sleep_ms(1000)` |
+| ![](all_blocks/sleep_us.png){width=inherit} | `sleep_us` | `time.sleep_us(1000)` |
+| ![](all_blocks/connectWifi.png){width=inherit} | `connectWifi` | `connectWifi('SSID', 'PASSWORD')` |
+| ![](all_blocks/mem8Read.png){width=inherit} | `mem8Read` | `machine.mem8[address]` |
+| ![](all_blocks/mem16Read.png){width=inherit} | `mem16Read` | `machine.mem16[address]` |
+| ![](all_blocks/mem32Read.png){width=inherit} | `mem32Read` | `machine.mem32[address]` |
+| ![](all_blocks/mem8Write.png){width=inherit} | `mem8Write` | `machine.mem8[address] = value` |
+| ![](all_blocks/mem16Write.png){width=inherit} | `mem16Write` | `machine.mem16[address] = value` |
+| ![](all_blocks/mem32Write.png){width=inherit} | `mem32Write` | `machine.mem32[address] = value` |
+| ![](all_blocks/getCPUFreq.png){width=inherit} | `getCPUFreq` | `machine.freq()` |
+| ![](all_blocks/setCPUFreq.png){width=inherit} | `setCPUFreq` | `machine.freq(240000000)` |
+| ![](all_blocks/ticksMs.png){width=inherit} | `ticksMs` | `time.ticks_ms()` |
+| ![](all_blocks/ticksDiff.png){width=inherit} | `ticksDiff` | `time.ticks_diff(t1, t2)` |
+| ![](all_blocks/bytearrayInit.png){width=inherit} | `bytearrayInit` | `bytearray(10)` |
 
 ## Motion (sprite)
 
