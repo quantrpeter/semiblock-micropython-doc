@@ -126,11 +126,15 @@ emit several lines or pull in a driver class.
 
 ## Random
 
-| Block `type` | Generated MicroPython |
-| --- | --- |
-| `random` | `random.random()` |
-| `randint` | `random.randint(A, B)` |
-| `choice` | `random.choice(list)` |
+| Image | Block `type` | Generated MicroPython |
+| --- | --- | --- |
+| ![](block/ran1.png){width=inherit} | `randomRandom` | `random.random()` |
+| ![](block/ran2.png){width=inherit} | `randomRandint` | `random.randint(A, B)` |
+| ![](block/ran3.png){width=inherit} | `randomChoice` | `random.choice(A)` |
+| ![](block/ran4.png){width=inherit} | `randomShuffle` | `random.shuffle(A)` |
+| ![](block/ran5.png){width=inherit} | `randomUniform` | `random.uniform(A, B)` |
+| ![](block/ran6.png){width=inherit} | `randomRandrange` | `random.randrange(A, B, C)` |
+| ![](block/ran7.png){width=inherit} | `randomSample` | `random.sample(A, B)` |
 
 ## Regex / Requests
 
