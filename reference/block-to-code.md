@@ -157,11 +157,11 @@ emit several lines or pull in a driver class.
 
 ## SemiBlock IoT
 
-| Block `type` | Generated MicroPython |
-| --- | --- |
-| `iotConnect` | `IOT_SERVER = "server"` / `IOT_DEVICE_ID = "device_id"` / `IOT_SECRET = "secret"` |
-| `iotPushReading` | `urequests.post(IOT_SERVER + "/iot/data", json={"device_id": IOT_DEVICE_ID, "secret_key": IOT_SECRET, "sensor_type": "sensor_type", "data": data})` |
-
+| Image | Block `type` | Generated MicroPython |
+| --- | --- | --- |
+| ![](block/iot1.png){width=inherit} | `iotConnect` | `IOT_SERVER = "https://build.semiblock.ai"` / `IOT_DEVICE_ID = "device_id"` / `IOT_SECRET = "secret"` |
+| ![](block/iot2.png){width=inherit} | `iotPushReading` | `urequests.post(IOT_SERVER + "/iot/data", json={"device_id": IOT_DEVICE_ID, "secret_key": IOT_SECRET, "sensor_type": "dht11", "data": {"temperature": 24, "humidity": 60}})` |
+| ![](block/iot3.png){width=inherit} | `iotPushSingleValue` | `urequests.post(IOT_SERVER + "/iot/data", json={"device_id": IOT_DEVICE_ID, "secret_key": IOT_SECRET, "sensor_type": "thermometer", "data": {"temperature": temp}})` |
 ## OS / CSV
 
 | Block `type` | Generated MicroPython |
