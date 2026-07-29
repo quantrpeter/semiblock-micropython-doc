@@ -234,14 +234,20 @@ emit several lines or pull in a driver class.
 
 ## Pin
 
-| Block `type` | Generated MicroPython |
-| --- | --- |
-| `pin` | `var_name = Pin(pinNo, Pin.pinDirection)` |
-| `on` | `var_name.on()` |
-| `off` | `var_name.off()` |
-| `uartInit` | `var_name = UART(uartNo, baudrate=baudrate, tx=tx, rx=rx)` |
-| `neoPixel` | `var_name = neopixel.NeoPixel(Pin(pinNo, Pin.OUT), 1)` |
-| `neoPixelWrite` | `var_name[0] = (r, g, b)` / `var_name.write()` |
+> ![](hardblock/hardblock_Pin.png){width=inherit}
+
+| Image | Block `type` | Generated MicroPython |
+| --- | --- | --- |
+| ![](block/pin1.png){width=inherit} | `pinInitOut` | `p0 = Pin(0, OUT)` |
+| ![](block/pin2.png){width=inherit} | `pinInitIn` | `p0 = Pin(0, IN, PULL_UP)` |
+| ![](block/pin3.png){width=inherit} | `pinOn` | `p0.on()` |
+| ![](block/pin4.png){width=inherit} | `pinOff` | `p0.off()` |
+| ![](block/pin5.png){width=inherit} | `pinValue` | `var1 = p0.value()` |
+| ![](block/pin6.png){width=inherit} | `uartInit` | `var1 = UART(0, baudrate=9600, tx=16, rx=17)` |
+| ![](block/pin7.png){width=inherit} | `uartRead` | `var1.read(8)` |
+| ![](block/pin8.png){width=inherit} | `uartWrite` | `var1.write('hello')` |
+| ![](block/pin9.png){width=inherit} | `neopixelInit` | `pixel = neopixel.NeoPixel(Pin(8, Pin.OUT), 1)` |
+| ![](block/pin10.png){width=inherit} | `neopixelSetWrite` | `pixel[0] = (0xff, 0xff, 0xff)`<br>`pixels.write()` |
 
 ## Timer / PWM / ADC
 
