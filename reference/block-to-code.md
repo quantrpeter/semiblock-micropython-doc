@@ -307,11 +307,11 @@ emit several lines or pull in a driver class.
 
 ## Generative AI / Open Data
 
-| Block `type` | Generated MicroPython |
-| --- | --- |
-| `askDeepSeek` | `var_name = askDeepSeek("question")` |
-| `getOpenDataTemperature` | `var_name = getOpenDataTemperature("location")` |
-| `getBusArrivalTime` | `var_name = getBusArrivalTime(stopID, no)` |
+| Image | Block `type` | Generated MicroPython |
+| --- | --- | --- |
+| ![](block/ai1.png){width=inherit} | `askDeepSeek` | `var_name = askDeepSeek("question")` |
+| ![](block/ai2.png){width=inherit} | `getOpenDataTemperature` | `var_name = getOpenDataTemperature("location")` |
+| ![](block/ai3.png){width=inherit} | `getBusArrivalTime` | `var_name = getBusArrivalTime(stopID, no)` |
 
 ---
 
