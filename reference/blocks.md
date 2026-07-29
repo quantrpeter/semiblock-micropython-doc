@@ -107,6 +107,8 @@ description of what the block does.
 
 ## List
 
+> ![](hardblock/hardblock_List.png){width=inherit}
+
 | Image | Block `type` | Description |
 | --- | --- | --- |
 | ![](all_blocks/createList.png){width=inherit} | `createList` | Create a list literal. |
