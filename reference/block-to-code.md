@@ -94,12 +94,21 @@ emit several lines or pull in a driver class.
 
 ## List
 
-| Block `type` | Generated MicroPython |
-| --- | --- |
-| `createList` | `list_name = [list]` |
-| `appendList` | `list_name.append(value)` |
-| `sortList` | `list_name.sort()` |
-| `getListSlice` | `var_name = list_name[start:end]` |
+| Image | Block `type` | Generated MicroPython |
+| --- | --- | --- |
+| ![](block/list1.png){width=inherit} | `listInit` | `list1 = [20, 50, 30]` |
+| ![](block/list2.png){width=inherit} | `listAppend` | `list1.append(10)` |
+| ![](block/list3.png){width=inherit} | `listInsert` | `list1.insert(0, 10)` |
+| ![](block/list4.png){width=inherit} | `listRemove` | `list1.remove(10)` |
+| ![](block/list5.png){width=inherit} | `listPop` | `list1.pop(-1)` |
+| ![](block/list6.png){width=inherit} | `listSort` | `list1.sort()` |
+| ![](block/list7.png){width=inherit} | `listReverse` | `list1.reverse()` |
+| ![](block/list8.png){width=inherit} | `listLen` | `length = len(list1)` |
+| ![](block/list9.png){width=inherit} | `listItem` | `item = list1[0]` |
+| ![](block/list10.png){width=inherit} | `listSliceStartEnd` | `slice = list1[0:2]` |
+| ![](block/list11.png){width=inherit} | `listSliceEnd` | `slice = list1[:2]` |
+| ![](block/list12.png){width=inherit} | `listSliceStart` | `slice = list1[0:]` |
+| ![](block/list13.png){width=inherit} | `listSliceCopy` | `slice = list1[:]` |
 
 ## Dictionary
 
