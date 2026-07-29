@@ -284,6 +284,8 @@ description of what the block does.
 
 ## Display (SSD1306)
 
+> ![](hardblock/hardblock_Display.png){width=inherit}
+
 | Block `type` | Description |
 | --- | --- |
 | `ssd1306` | Create an SSD1306 I²C display object. |
