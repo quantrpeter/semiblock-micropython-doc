@@ -185,12 +185,28 @@ emit several lines or pull in a driver class.
 
 ## Display (SSD1306)
 
-| Block `type` | Generated MicroPython |
-| --- | --- |
-| `ssd1306` | `display = ssd1306.SSD1306_I2C(width, height, SoftI2C(sda=Pin(sda), scl=Pin(scl)))` |
-| `ssd1306_fill` | `display.fill(number)` |
-| `ssd1306_show` | `display.show()` |
-| `ssd1306_fillCircle` | `display.fill_circle(x, y, radius, 1)` |
+| Image | Block `type` | Generated MicroPython |
+| --- | --- | --- |
+| ![](block/dis1.png){width=inherit} | `ssd1306` | `display = ssd1306.SSD1306_I2C(128, 64, SoftI2C(sda=Pin(10), scl=Pin(10)))` |
+| ![](block/dis2.png){width=inherit} | `ssd1306_fill` | `display.fill(0)` |
+| ![](block/dis3.png){width=inherit} | `ssd1306_show` | `display.show()` |
+| ![](block/dis4.png){width=inherit} | `ssd1306_contrast` | `display.contrast(255)` |
+| ![](block/dis5.png){width=inherit} | `ssd1306_invert` | `display.invert(0)` |
+| ![](block/dis6.png){width=inherit} | `ssd1306_rotate` | `display.rotate(True)` |
+| ![](block/dis7.png){width=inherit} | `ssd1306_text` | `display.text("Helloworld", 0, 0)` |
+| ![](block/dis8.png){width=inherit} | `ssd1306_pixel` | `display.pixel(0, 0, 1)` |
+| ![](block/dis9.png){width=inherit} | `ssd1306_hline` | `display.hline(0, 0, 4, 1)` |
+| ![](block/dis10.png){width=inherit} | `ssd1306_vline` | `display.vline(0, 0, 4, 1)` |
+| ![](block/dis11.png){width=inherit} | `ssd1306_line` | `display.line(0, 0, 100, 100, 1)` |
+| ![](block/dis12.png){width=inherit} | `ssd1306_rect` | `display.rect(0, 0, 100, 50, 1)` |
+| ![](block/dis13.png){width=inherit} | `ssd1306_fill_rect` | `display.fill_rect(0, 0, 100, 50, 1)` |
+| ![](block/dis14.png){width=inherit} | `ssd1306_circle` | `display.circle(64, 32, 10, 1)` |
+| ![](block/dis15.png){width=inherit} | `ssd1306_fillCircle` | `display.fill_circle(64, 32, 10, 1)` |
+| ![](block/dis16.png){width=inherit} | `ssd1306_scroll` | `display.scroll(10, 0)` |
+| ![](block/dis17.png){width=inherit} | `display_create_image` | `image = bytearray([...])` |
+| ![](block/dis18.png){width=inherit} | `display_draw_pixels` | `display.blit(image, 0, 0)` |
+| ![](block/dis19.png){width=inherit} | `display_setColor` | `display.setColor('Red')` |
+| ![](block/dis20.png){width=inherit} | `display_setFontSize` | `display.setFontSize(10)` |
 
 ## LVGL
 
