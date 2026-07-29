@@ -77,7 +77,7 @@ description of what the block does.
 
 ## Waveshare 3.5
 
-> ![](hardblock){width=inherit}
+> ![](hardblock/hardblock_Waveshare.png){width=inherit}
 
 | Image | Block `type` | Description |
 | --- | --- | --- |
@@ -85,23 +85,25 @@ description of what the block does.
 
 ## Language
 
-| Block `type` | Description |
-| --- | --- |
-| `freeCode` | Insert a raw line of MicroPython. |
-| `importCode` | `import <library>`. |
-| `importCode2` | `import <library> as <alias>`. |
-| `fromImportCode` | `from <library> import <component>`. |
-| `forLoop` | `for` loop over a range. |
-| `whileLoop` | `while` loop. |
-| `ifLoop` | `if` statement. |
-| `elseIfLoop` | `elif` branch. |
-| `elseLoop` | `else` branch. |
-| `print` | Print a value to the REPL. |
-| `variable` | Assign a value to a variable. |
-| `comment` | A `#` comment line. |
-| `pass` | The `pass` statement. |
-| `def` | Define a function. |
-| `startThread` | Start a new thread with `_thread`. |
+> ![](hardblock/hardblock_Language.png){width=inherit}
+
+| Image | Block `type` | Description |
+| --- | --- | --- |
+| ![](all_blocks/freeCode.png){width=inherit} | `freeCode` | Insert a raw line of MicroPython. |
+| ![](all_blocks/importCode.png){width=inherit} | `importCode` | `import <library>`. |
+| ![](all_blocks/importCode2.png){width=inherit} | `importCode2` | `import <library> as <alias>`. |
+| ![](all_blocks/fromImportCode.png){width=inherit} | `fromImportCode` | `from <library> import <component>`. |
+| ![](all_blocks/forLoop.png){width=inherit} | `forLoop` | `for` loop over a range. |
+| ![](all_blocks/whileLoop.png){width=inherit} | `whileLoop` | `while` loop. |
+| ![](all_blocks/ifLoop.png){width=inherit} | `ifLoop` | `if` statement. |
+| ![](all_blocks/elseIfLoop.png){width=inherit} | `elseIfLoop` | `elif` branch. |
+| ![](all_blocks/elseLoop.png){width=inherit} | `elseLoop` | `else` branch. |
+| ![](all_blocks/print.png){width=inherit} | `print` | Print a value to the REPL. |
+| ![](all_blocks/variable.png){width=inherit} | `variable` | Assign a value to a variable. |
+| ![](all_blocks/comment.png){width=inherit} | `comment` | A `#` comment line. |
+| ![](all_blocks/pass.png){width=inherit} | `pass` | The `pass` statement. |
+| ![](all_blocks/def.png){width=inherit} | `def` | Define a function. |
+| ![](all_blocks/startThread.png){width=inherit} | `startThread` | Start a new thread with `_thread`. |
 
 ## List
 
