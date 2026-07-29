@@ -143,34 +143,36 @@ description of what the block does.
 
 ## Math
 
-| Block `type` | Description |
-| --- | --- |
-| `integerInit` | An integer literal. |
-| `mathAdd` | Addition. |
-| `mathSubtract` | Subtraction. |
-| `mathMultiply` | Multiplication. |
-| `mathDivide` | Division. |
-| `mathModulo` | Modulo. |
-| `mathPower` | Exponentiation. |
-| `mathSqrt` | Square root. |
-| `mathSin` | Sine. |
-| `mathCos` | Cosine. |
-| `mathTan` | Tangent. |
-| `mathLog` | Logarithm. |
-| `mathExp` | Exponential. |
-| `mathAbs` | Absolute value. |
-| `mathFloor` | Floor. |
-| `mathCeil` | Ceiling. |
-| `mathRound` | Round. |
-| `mathMin` | Minimum. |
-| `mathMax` | Maximum. |
-| `mathPi` | The constant π. |
-| `mathE` | The constant e. |
-| `mathRandom` | Random float. |
-| `mathRandomInt` | Random integer. |
-| `divmod` | `divmod()` quotient and remainder. |
-| `hex` | Hexadecimal string. |
-| `ord` | Unicode code point. |
+> ![](hardblock/hardblock_Math.png){width=inherit}
+
+| Image | Block `type` | Description |
+| --- | --- | --- |
+| ![](all_blocks/integerInit.png){width=inherit} | `integerInit` | An integer literal. |
+| ![](all_blocks/mathAdd.png){width=inherit} | `mathAdd` | Addition. |
+| ![](all_blocks/mathSubtract.png){width=inherit} | `mathSubtract` | Subtraction. |
+| ![](all_blocks/mathMultiply.png){width=inherit} | `mathMultiply` | Multiplication. |
+| ![](all_blocks/mathDivide.png){width=inherit} | `mathDivide` | Division. |
+| ![](all_blocks/mathModulo.png){width=inherit} | `mathModulo` | Modulo. |
+| ![](all_blocks/mathPower.png){width=inherit} | `mathPower` | Exponentiation. |
+| ![](all_blocks/mathSqrt.png){width=inherit} | `mathSqrt` | Square root. |
+| ![](all_blocks/mathSin.png){width=inherit} | `mathSin` | Sine. |
+| ![](all_blocks/mathCos.png){width=inherit} | `mathCos` | Cosine. |
+| ![](all_blocks/mathTan.png){width=inherit} | `mathTan` | Tangent. |
+| ![](all_blocks/mathLog.png){width=inherit} | `mathLog` | Logarithm. |
+| ![](all_blocks/mathExp.png){width=inherit} | `mathExp` | Exponential. |
+| ![](all_blocks/mathAbs.png){width=inherit} | `mathAbs` | Absolute value. |
+| ![](all_blocks/mathFloor.png){width=inherit} | `mathFloor` | Floor. |
+| ![](all_blocks/mathCeil.png){width=inherit} | `mathCeil` | Ceiling. |
+| ![](all_blocks/mathRound.png){width=inherit} | `mathRound` | Round. |
+| ![](all_blocks/mathMin.png){width=inherit} | `mathMin` | Minimum. |
+| ![](all_blocks/mathMax.png){width=inherit} | `mathMax` | Maximum. |
+| ![](all_blocks/mathPi.png){width=inherit} | `mathPi` | The constant π. |
+| ![](all_blocks/mathE.png){width=inherit} | `mathE` | The constant e. |
+| ![](all_blocks/mathRandom.png){width=inherit} | `mathRandom` | Random float. |
+| ![](all_blocks/mathRandomInt.png){width=inherit} | `mathRandomInt` | Random integer. |
+| ![](all_blocks/divmod.png){width=inherit} | `divmod` | `divmod()` quotient and remainder. |
+| ![](all_blocks/hex.png){width=inherit} | `hex` | Hexadecimal string. |
+| ![](all_blocks/ord.png){width=inherit} | `ord` | Unicode code point. |
 
 ## String
 
