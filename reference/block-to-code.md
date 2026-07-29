@@ -144,7 +144,7 @@ emit several lines or pull in a driver class.
 
 ## Regex / Requests
 
-> ![](hardblock/hardblock_Regex.png){width=inherit} > ![](hardblock/hardblock_Req.png){width=inherit}
+> ![](hardblock/hardblock_Regex.png){width=inherit} ![](hardblock/hardblock_Req.png){width=inherit}
 
 | Image | Block `type` | Generated MicroPython |
 | --- | --- | --- |
@@ -175,7 +175,7 @@ emit several lines or pull in a driver class.
 
 ## OS / CSV
 
-> ![](hardblock/hardblock_OS.png){width=inherit} > ![](hardblock/hardblock_CSV.png){width=inherit}
+> ![](hardblock/hardblock_OS.png){width=inherit} ![](hardblock/hardblock_CSV.png){width=inherit}
 
 | Image | Block `type` | Generated MicroPython |
 | --- | --- | --- |
@@ -251,14 +251,21 @@ emit several lines or pull in a driver class.
 
 ## Timer / PWM / ADC
 
-| Block `type` | Generated MicroPython |
-| --- | --- |
-| `timerInit` | `var_name = Timer(timer_id)` |
-| `timerStart` | `var_name.init(period=period, mode=mode, callback=callback)` |
-| `pwmInit` | `var_name = PWM(Pin(pin_number))` |
-| `pwmSetDuty` | `var_name.duty(duty)` |
-| `adcInit` | `var_name = ADC(Pin(pin_number))` |
-| `adcRead` | `var_name = adc_name.read()` |
+> ![](hardblock/hardblock_Timer.png){width=inherit} ![](hardblock/hardblock_PWM.png){width=inherit} ![](hardblock/hardblock_ADC.png){width=inherit}
+
+| Image | Block `type` | Generated MicroPython |
+| --- | --- | --- |
+| ![](block/mach1.png){width=inherit} | `timerInit` | `timer1 = Timer(0)` |
+| ![](block/mach2.png){width=inherit} | `timerConfig` | `timer1.init(period=1000, mode=Timer.ONE_SHOT, callback=callback_function)` |
+| ![](block/mach3.png){width=inherit} | `timerDeinit` | `timer1.deinit()` |
+| ![](block/mach4.png){width=inherit} | `pwmInit` | `pwm1 = PWM(Pin(15))` |
+| ![](block/mach5.png){width=inherit} | `pwmFreq` | `pwm1.freq(1000)` |
+| ![](block/mach6.png){width=inherit} | `pwmDuty` | `pwm1.duty(512)` |
+| ![](block/mach7.png){width=inherit} | `pwmDeinit` | `pwm1.deinit()` |
+| ![](block/mach8.png){width=inherit} | `adcInit` | `adc1 = ADC(Pin(32))` |
+| ![](block/mach9.png){width=inherit} | `adcRead` | `value = adc1.read()` |
+| ![](block/mach10.png){width=inherit} | `dacInit` | `dac1 = DAC(Pin(25))` |
+| ![](block/mach11.png){width=inherit} | `dacWrite` | `dac1.write(128)` |
 
 ## SPI / I2C / One-Wire
 
