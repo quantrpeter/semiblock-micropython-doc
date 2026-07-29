@@ -219,58 +219,68 @@ description of what the block does.
 
 ## Regex
 
-| Block `type` | Description |
-| --- | --- |
-| `reMatch` | `re.match`. |
-| `reSearch` | `re.search`. |
-| `reFindAll` | `re.findall`. |
-| `reFindIter` | `re.finditer`. |
-| `reSub` | `re.sub`. |
-| `reSplit` | `re.split`. |
-| `reCompile` | `re.compile`. |
+> ![](hardblock/hardblock_Regex.png){width=inherit}
+
+| Image | Block `type` | Description |
+| --- | --- | --- |
+| ![](all_blocks/reMatch.png){width=inherit} | `reMatch` | `re.match`. |
+| ![](all_blocks/reSearch.png){width=inherit} | `reSearch` | `re.search`. |
+| ![](all_blocks/reFindAll.png){width=inherit} | `reFindAll` | `re.findall`. |
+| ![](all_blocks/reFindIter.png){width=inherit} | `reFindIter` | `re.finditer`. |
+| ![](all_blocks/reSub.png){width=inherit} | `reSub` | `re.sub`. |
+| ![](all_blocks/reSplit.png){width=inherit} | `reSplit` | `re.split`. |
+| ![](all_blocks/reCompile.png){width=inherit} | `reCompile` | `re.compile`. |
 
 ## Requests
 
-| Block `type` | Description |
-| --- | --- |
-| `urequestsGet` | HTTP `GET`. |
-| `urequestsPost` | HTTP `POST` with data. |
-| `urequestsPut` | HTTP `PUT` with data. |
-| `urequestsDelete` | HTTP `DELETE`. |
-| `urequestsHead` | HTTP `HEAD`. |
+> ![](hardblock/hardblock_Req.png){width=inherit}
+
+| Image | Block `type` | Description |
+| --- | --- | --- |
+| ![](all_blocks/urequestsGet.png){width=inherit} | `urequestsGet` | HTTP `GET`. |
+| ![](all_blocks/urequestsPost.png){width=inherit} | `urequestsPost` | HTTP `POST` with data. |
+| ![](all_blocks/urequestsPut.png){width=inherit} | `urequestsPut` | HTTP `PUT` with data. |
+| ![](all_blocks/urequestsDelete.png){width=inherit} | `urequestsDelete` | HTTP `DELETE`. |
+| ![](all_blocks/urequestsHead.png){width=inherit} | `urequestsHead` | HTTP `HEAD`. |
 
 ## SemiBlock IoT
 
-| Block `type` | Description |
-| --- | --- |
-| `iotConnect` | Set the IoT server, device ID, and secret. |
-| `iotPushReading` | Push a single sensor reading to the cloud. |
-| `iotPushValue` | Push a keyed value to the cloud. |
+> ![](hardblock/hardblock_IoT.png){width=inherit}
+
+| Image | Block `type` | Description |
+| --- | --- | --- |
+| ![](all_blocks/iotConnect.png){width=inherit} | `iotConnect` | Set the IoT server, device ID, and secret. |
+| ![](all_blocks/iotPushReading.png){width=inherit} | `iotPushReading` | Push a single sensor reading to the cloud. |
+| ![](all_blocks/iotPushValue.png){width=inherit} | `iotPushValue` | Push a keyed value to the cloud. |
 
 ## CSV
 
-| Block `type` | Description |
-| --- | --- |
-| `csvRead` | Read all rows of a CSV file into a list. |
-| `csvWrite` | Write rows to a CSV file. |
-| `csvAppend` | Append a row to a CSV file. |
+> ![](hardblock/hardblock_CSV.png){width=inherit}
+
+| Image | Block `type` | Description |
+| --- | --- | --- |
+| ![](all_blocks/csvRead.png){width=inherit} | `csvRead` | Read all rows of a CSV file into a list. |
+| ![](all_blocks/csvWrite.png){width=inherit} | `csvWrite` | Write rows to a CSV file. |
+| ![](all_blocks/csvAppend.png){width=inherit} | `csvAppend` | Append a row to a CSV file. |
 
 ## OS
 
-| Block `type` | Description |
-| --- | --- |
-| `osListDir` | List directory contents. |
-| `osRemove` | Remove a file. |
-| `osRename` | Rename a file. |
-| `osMkdir` | Make a directory. |
-| `osRmdir` | Remove a directory. |
-| `osGetcwd` | Current working directory. |
-| `osChdir` | Change directory. |
-| `osStat` | File status. |
-| `osUname` | System information. |
-| `osSync` | Flush filesystem buffers. |
-| `osSystem` | Run a system command. |
-| `osUrandom` | Random bytes. |
+> ![](hardblock/hardblock_OS.png){width=inherit}
+
+| Image | Block `type` | Description |
+| --- | --- | --- |
+| ![](all_blocks/osListDir.png){width=inherit} | `osListDir` | List directory contents. |
+| ![](all_blocks/osRemove.png){width=inherit} | `osRemove` | Remove a file. |
+| ![](all_blocks/osRename.png){width=inherit} | `osRename` | Rename a file. |
+| ![](all_blocks/osMkdir.png){width=inherit} | `osMkdir` | Make a directory. |
+| ![](all_blocks/osRmdir.png){width=inherit} | `osRmdir` | Remove a directory. |
+| ![](all_blocks/osGetcwd.png){width=inherit} | `osGetcwd` | Current working directory. |
+| ![](all_blocks/osChdir.png){width=inherit} | `osChdir` | Change directory. |
+| ![](all_blocks/osStat.png){width=inherit} | `osStat` | File status. |
+| ![](all_blocks/osUname.png){width=inherit} | `osUname` | System information. |
+| ![](all_blocks/osSync.png){width=inherit} | `osSync` | Flush filesystem buffers. |
+| ![](all_blocks/osSystem.png){width=inherit} | `osSystem` | Run a system command. |
+| ![](all_blocks/osUrandom.png){width=inherit} | `osUrandom` | Random bytes. |
 
 ## Display (SSD1306)
 
