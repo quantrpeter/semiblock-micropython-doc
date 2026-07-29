@@ -94,6 +94,8 @@ emit several lines or pull in a driver class.
 
 ## List
 
+> ![](hardblock/hardblock_List.png){width=inherit}
+
 | Image | Block `type` | Generated MicroPython |
 | --- | --- | --- |
 | ![](block/list1.png){width=inherit} | `listInit` | `list1 = [20, 50, 30]` |
@@ -112,6 +114,8 @@ emit several lines or pull in a driver class.
 
 ## Dictionary
 
+> ![](hardblock/hardblock_Dict.png){width=inherit}
+
 | Image | Block `type` | Generated MicroPython |
 | --- | --- | --- |
 | ![](block/dict1.png){width=inherit} | `dictInit` | `dict1 = {}` |
@@ -126,6 +130,8 @@ emit several lines or pull in a driver class.
 
 ## Random
 
+> ![](hardblock/hardblock_Random.png){width=inherit}
+
 | Image | Block `type` | Generated MicroPython |
 | --- | --- | --- |
 | ![](block/ran1.png){width=inherit} | `randomRandom` | `random.random()` |
@@ -137,6 +143,8 @@ emit several lines or pull in a driver class.
 | ![](block/ran7.png){width=inherit} | `randomSample` | `random.sample(A, B)` |
 
 ## Regex / Requests
+
+> ![](hardblock/hardblock_Regex.png){width=inherit} > ![](hardblock/hardblock_Req.png){width=inherit}
 
 | Image | Block `type` | Generated MicroPython |
 | --- | --- | --- |
@@ -157,6 +165,8 @@ emit several lines or pull in a driver class.
 
 ## SemiBlock IoT
 
+> ![](hardblock/hardblock_IoT.png){width=inherit}
+
 | Image | Block `type` | Generated MicroPython |
 | --- | --- | --- |
 | ![](block/iot1.png){width=inherit} | `iotConnect` | `IOT_SERVER = "https://build.semiblock.ai"` / `IOT_DEVICE_ID = "device_id"` / `IOT_SECRET = "secret"` |
@@ -164,6 +174,8 @@ emit several lines or pull in a driver class.
 | ![](block/iot3.png){width=inherit} | `iotPushSingleValue` | `urequests.post(IOT_SERVER + "/iot/data", json={"device_id": IOT_DEVICE_ID, "secret_key": IOT_SECRET, "sensor_type": "thermometer", "data": {"temperature": temp}})` |
 
 ## OS / CSV
+
+> ![](hardblock/hardblock_OS.png){width=inherit} > ![](hardblock/hardblock_CSV.png){width=inherit}
 
 | Image | Block `type` | Generated MicroPython |
 | --- | --- | --- |
@@ -184,6 +196,8 @@ emit several lines or pull in a driver class.
 | ![](block/os15.png){width=inherit} | `osUrandom` | `os.urandom(16)` |
 
 ## Display (SSD1306)
+
+> ![](hardblock/hardblock_Display.png){width=inherit}
 
 | Image | Block `type` | Generated MicroPython |
 | --- | --- | --- |
