@@ -57,13 +57,15 @@ description of what the block does.
 
 ## Looks (sprite)
 
-| Block `type` | Description |
-| --- | --- |
-| `spriteShow` | Show the sprite. |
-| `spriteHide` | Hide the sprite. |
-| `spriteSwitchCostume` | Switch to another costume. |
-| `spriteSetSize` | Set the sprite size (percent). |
-| `spriteGetSize` | Report the sprite size. |
+> ![](hardblock/hardblock_Looks.png){width=inherit}
+
+| Image | Block `type` | Description |
+| --- | --- | --- |
+| ![](all_blocks/spriteShow.png){width=inherit} | `spriteShow` | Show the sprite. |
+| ![](all_blocks/spriteHide.png){width=inherit} | `spriteHide` | Hide the sprite. |
+| ![](all_blocks/spriteSwitchCostume.png){width=inherit} | `spriteSwitchCostume` | Switch to another costume. |
+| ![](all_blocks/spriteSetSize.png){width=inherit} | `spriteSetSize` | Set the sprite size (percent). |
+| ![](all_blocks/spriteGetSize.png){width=inherit} | `spriteGetSize` | Report the sprite size. |
 
 ## Events (sprite)
 
