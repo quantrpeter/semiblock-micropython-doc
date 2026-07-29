@@ -107,21 +107,21 @@ description of what the block does.
 
 ## List
 
-| Block `type` | Description |
-| --- | --- |
-| `createList` | Create a list literal. |
-| `appendList` | Append a value. |
-| `insertList` | Insert a value at an index. |
-| `removeList` | Remove a value. |
-| `popList` | Pop an item at an index. |
-| `sortList` | Sort the list in place. |
-| `reverseList` | Reverse the list in place. |
-| `lenList` | Length of the list. |
-| `getList` | Get the item at an index. |
-| `getListSlice` | Slice `[start:end]`. |
-| `getListSlice2` | Slice `[start:]`. |
-| `getListSlice3` | Slice `[:end]`. |
-| `getListSlice4` | Copy slice `[:]`. |
+| Image | Block `type` | Description |
+| --- | --- | --- |
+| ![](all_blocks/createList.png){width=inherit} | `createList` | Create a list literal. |
+| ![](all_blocks/appendList.png){width=inherit} | `appendList` | Append a value. |
+| ![](all_blocks/insertList.png){width=inherit} | `insertList` | Insert a value at an index. |
+| ![](all_blocks/removeList.png){width=inherit} | `removeList` | Remove a value. |
+| ![](all_blocks/popList.png){width=inherit} | `popList` | Pop an item at an index. |
+| ![](all_blocks/sortList.png){width=inherit} | `sortList` | Sort the list in place. |
+| ![](all_blocks/reverseList.png){width=inherit} | `reverseList` | Reverse the list in place. |
+| ![](all_blocks/lenList.png){width=inherit} | `lenList` | Length of the list. |
+| ![](all_blocks/getList.png){width=inherit} | `getList` | Get the item at an index. |
+| ![](all_blocks/getListSlice.png){width=inherit} | `getListSlice` | Slice `[start:end]`. |
+| ![](all_blocks/getListSlice2.png){width=inherit} | `getListSlice2` | Slice `[start:]`. |
+| ![](all_blocks/getListSlice3.png){width=inherit} | `getListSlice3` | Slice `[:end]`. |
+| ![](all_blocks/getListSlice4.png){width=inherit} | `getListSlice4` | Copy slice `[:]`. |
 
 ## Dictionary
 
