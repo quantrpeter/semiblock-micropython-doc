@@ -69,15 +69,19 @@ description of what the block does.
 
 ## Events (sprite)
 
-| Block `type` | Description |
-| --- | --- |
-| `spriteWhenClicked` | Run blocks when the sprite is clicked. |
+> ![](hardblock/hardblock_Events.png){width=inherit}
+
+| Image | Block `type` | Description |
+| --- | --- | --- |
+| ![](all_blocks/spriteWhenClicked.png){width=inherit} | `spriteWhenClicked` | Run blocks when the sprite is clicked. |
 
 ## Waveshare 3.5
 
-| Block `type` | Description |
-| --- | --- |
-| `waveshare35Init` | Initialise the Waveshare 3.5" all-in-one display board. |
+> ![](hardblock){width=inherit}
+
+| Image | Block `type` | Description |
+| --- | --- | --- |
+| ![](all_blocks/waveshare35Init.png){width=inherit} | `waveshare35Init` | Initialise the Waveshare 3.5" all-in-one display board. |
 
 ## Language
 
