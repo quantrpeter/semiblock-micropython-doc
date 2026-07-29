@@ -269,12 +269,23 @@ emit several lines or pull in a driver class.
 
 ## SPI / I2C / One-Wire
 
-| Block `type` | Generated MicroPython |
-| --- | --- |
-| `spiInit` | `var_name = SPI(spi_id, baudrate=…, polarity=…, phase=…, sck=Pin(sck), mosi=Pin(mosi), miso=Pin(miso))` |
-| `i2cInit` | `var_name = I2C(i2c_id, scl=Pin(scl), sda=Pin(sda), freq=freq)` |
-| `i2cScan` | `var_name = i2c_name.scan()` |
-| `oneWireScan` | `var_name = ow_name.scan()` |
+> ![](hardblock/hardblock_SPI.png){width=inherit} ![](hardblock/hardblock_I2C.png){width=inherit} ![](hardblock/hardblock_OneWire.png){width=inherit}
+
+| Image | Block `type` | Generated MicroPython |
+| --- | --- | --- |
+| ![](block/bus1.png){width=inherit} | `spiInit` | `spi1 = SPI(1, baudrate=1000000, polarity=0, phase=0, sck=Pin(18), mosi=Pin(23), miso=Pin(19))` |
+| ![](block/bus2.png){width=inherit} | `spiBusInit` | `spi_bus = machine.SPI.Bus(host=1, mosi=1, miso=2, sck=5)` |
+| ![](block/bus3.png){width=inherit} | `spiRead` | `data = spi1.read(10)` |
+| ![](block/bus4.png){width=inherit} | `spiWrite` | `spi1.write(b"\x01\x02\x03")` |
+| ![](block/bus5.png){width=inherit} | `spiReadinto` | `buffer = spi1.readinto(bytearray(10))` |
+| ![](block/bus6.png){width=inherit} | `i2cInit` | `i2c1 = I2C(0, scl=Pin(22), sda=Pin(21), freq=400000)` |
+| ![](block/bus7.png){width=inherit} | `i2cScan` | `devices = i2c1.scan()` |
+| ![](block/bus8.png){width=inherit} | `i2cReadfrom` | `data = i2c1.readfrom(0x3C, 10)` |
+| ![](block/bus9.png){width=inherit} | `i2cWriteto` | `i2c1.writeto(0x3C, b"\x01\x02\x03")` |
+| ![](block/bus10.png){width=inherit} | `oneWireInit` | `ow = OneWire(Pin(4))` |
+| ![](block/bus11.png){width=inherit} | `oneWireScan` | `devices = ow.scan()` |
+| ![](block/bus12.png){width=inherit} | `oneWireReadbyte` | `data = ow.readbyte()` |
+| ![](block/bus13.png){width=inherit} | `oneWireWritebyte` | `ow.writebyte(0xFF)` |
 
 ## Sensors
 
