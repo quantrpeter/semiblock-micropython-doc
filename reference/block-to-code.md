@@ -112,11 +112,17 @@ emit several lines or pull in a driver class.
 
 ## Dictionary
 
-| Block `type` | Generated MicroPython |
-| --- | --- |
-| `createDict` | `var_name = {}` |
-| `dictSet` | `dict_name[key] = value` |
-| `dictKeys` | `var_name = dict_name.keys()` |
+| Image | Block `type` | Generated MicroPython |
+| --- | --- | --- |
+| ![](block/dict1.png){width=inherit} | `dictInit` | `dict1 = {}` |
+| ![](block/dict2.png){width=inherit} | `dictSet` | `dict1['key1'] = value1` |
+| ![](block/dict3.png){width=inherit} | `dictGet` | `value = dict1['key1']` |
+| ![](block/dict4.png){width=inherit} | `dictKeys` | `keys = dict1.keys()` |
+| ![](block/dict5.png){width=inherit} | `dictValues` | `values = dict1.values()` |
+| ![](block/dict6.png){width=inherit} | `dictItems` | `items = dict1.items()` |
+| ![](block/dict7.png){width=inherit} | `dictPop` | `value = dict1.pop('key1')` |
+| ![](block/dict8.png){width=inherit} | `dictUpdate` | `dict1.update(dict2)` |
+| ![](block/dict9.png){width=inherit} | `dictClear` | `dict1.clear()` |
 
 ## Random
 
