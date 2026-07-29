@@ -224,13 +224,13 @@ emit several lines or pull in a driver class.
 
 ## LVGL
 
-| Block `type` | Generated MicroPython |
-| --- | --- |
-| `lvglInit` | `import lvgl as lv` |
-| `lvglScreenCreate` | `screen_name = lv.obj()` |
-| `lvglLabelCreate` | `label_name = lv.label(parent)` |
-| `lvglLabelSetText` | `label_name.set_text("text")` |
-| `lvglTaskHandler` | `lv.task_handler()` |
+| Image | Block `type` | Generated MicroPython |
+| --- | --- | --- |
+| ![](block/lv1.png){width=inherit} | `lvglInit` | `import lvgl as lv` |
+| ![](block/lv2.png){width=inherit} | `lvglScreenCreate` | `screen_name = lv.obj()` |
+| ![](block/lv3.png){width=inherit} | `lvglLabelCreate` | `label_name = lv.label(parent)` |
+| ![](block/lv4.png){width=inherit} | `lvglLabelSetText` | `label_name.set_text("text")` |
+| ![](block/lv5.png){width=inherit} | `lvglTaskHandler` | `lv.task_handler()` |
 
 ## Pin
 
