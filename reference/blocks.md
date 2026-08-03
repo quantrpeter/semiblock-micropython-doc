@@ -585,23 +585,27 @@ description of what the block does.
 
 ## Generative AI
 
-| Block `type` | Description |
-| --- | --- |
-| `askDeepSeek` | Ask a DeepSeek LLM a question and store the answer. |
+> ![](hardblock/hardblock_AI.png){width=inherit}
+
+| Image | Block `type` | Description |
+| --- | --- | --- |
+| ![](all_blocks/askDeepSeek.png){width=inherit} | `askDeepSeek` | Ask a DeepSeek LLM a question and store the answer. |
 
 ## Open Data
 
-| Block `type` | Description |
-| --- | --- |
-| `getOpenDataTemperature` | Get temperature for a location. |
-| `getOpenDataRainfall` | Get rainfall for a location. |
-| `getOpenDataHumidity` | Get humidity. |
-| `getPublicHoliday` | Get public holiday data. |
-| `getBusStopID` | Look up a bus stop ID. |
-| `getBusRouteNo` | Look up a bus route number. |
-| `getBusArrivalTime` | Get bus arrival time. |
-| `getFlightList` | Get a flight list. |
-| `getMTR` | Get MTR information. |
+> ![](hardblock/hardblock_OpenData.png){width=inherit}
+
+| Image | Block `type` | Description |
+| --- | --- | --- |
+| ![](all_blocks/getOpenDataTemperature1.png){width=inherit} ![](all_blocks/getOpenDataTemperature2.png){width=inherit} | `getOpenDataTemperature` | Get temperature for a location. |
+| ![](all_blocks/getOpenDataRainfall1.png){width=inherit} ![](all_blocks/getOpenDataRainfall2.png){width=inherit} | `getOpenDataRainfall` | Get rainfall for a location. |
+| ![](all_blocks/getOpenDataHumidity1.png){width=inherit} ![](all_blocks/getOpenDataHumidity2.png){width=inherit} | `getOpenDataHumidity` | Get humidity. |
+| `In Progress` | `getPublicHoliday` | Get public holiday data. |
+| ![](all_blocks/getBusStopID1.png){width=inherit} ![](all_blocks/getBusStopID2.png){width=inherit} | `getBusStopID` | Look up a bus stop ID. |
+| ![](all_blocks/getBusRouteNo1.png){width=inherit} ![](all_blocks/getBusRouteNo2.png){width=inherit} | `getBusRouteNo` | Look up a bus route number. |
+| ![](all_blocks/getBusArrivalTime1.png){width=inherit} ![](all_blocks/getBusArrivalTime2.png){width=inherit} | `getBusArrivalTime` | Get bus arrival time. |
+| `In Progress` | `getFlightList` | Get a flight list. |
+| `In Progress` | `getMTR` | Get MTR information. |
 
 ---
 
