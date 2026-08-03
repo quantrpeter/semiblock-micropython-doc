@@ -330,8 +330,6 @@ description of what the block does.
 | ![](all_blocks/displaySetRotation.png){width=inherit} | `displaySetRotation` | Set screen rotation. |
 | ![](all_blocks/displaySetColorInversion.png){width=inherit} | `displaySetColorInversion` | Toggle colour inversion. |
 | ![](all_blocks/displaySetBacklight.png){width=inherit} | `displaySetBacklight` | Set backlight level. |
-| Image | Block `type` | Description |
-| --- | --- | --- |
 | ![](all_blocks/taskHandlerInit.png){width=inherit} | `taskHandlerInit` | Initialise the LVGL task handler. |
 | ![](all_blocks/lvglFsDrvtInit.png){width=inherit} | `lvglFsDrvtInit` | Initialise the LVGL FS driver. |
 | ![](all_blocks/lvglFsRegister.png){width=inherit} | `lvglFsRegister` | Register the FS driver. |
@@ -352,8 +350,6 @@ description of what the block does.
 | ![](all_blocks/lvglSetX.png){width=inherit} | `lvglSetX` | Set object X. |
 | ![](all_blocks/lvglSetY.png){width=inherit} | `lvglSetY` | Set object Y. |
 | ![](all_blocks/lvglAlign.png){width=inherit} | `lvglAlign` | Align an object. |
-| Image | Block `type` | Description |
-| --- | --- | --- |
 | ![](all_blocks/lvglSliderCreate.png){width=inherit} | `lvglSliderCreate` | Create a slider. |
 | ![](all_blocks/lvglSliderSetValue.png){width=inherit} | `lvglSliderSetValue` | Set slider value. |
 | ![](all_blocks/lvglSliderGetValue.png){width=inherit} | `lvglSliderGetValue` | Get slider value. |
