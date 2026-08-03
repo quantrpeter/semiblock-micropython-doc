@@ -364,8 +364,6 @@ description of what the block does.
 | ![](all_blocks/lvglTextareaSetText.png){width=inherit} | `lvglTextareaSetText` | Set text-area text. |
 | ![](all_blocks/lvglDropdownCreate.png){width=inherit} | `lvglDropdownCreate` | Create a dropdown. |
 | ![](all_blocks/lvglDropdownSetOptions.png){width=inherit} | `lvglDropdownSetOptions` | Set dropdown options. |
-| Image | Block `type` | Description |
-| --- | --- | --- |
 | ![](all_blocks/lvglRollerCreate.png){width=inherit} | `lvglRollerCreate` | Create a roller. |
 | ![](all_blocks/lvglRollerSetOptions.png){width=inherit} | `lvglRollerSetOptions` | Set roller options. |
 | ![](all_blocks/lvglImageCreate.png){width=inherit} | `lvglImageCreate` | Create an image. |
@@ -383,39 +381,39 @@ description of what the block does.
 | ![](all_blocks/lvglSetBgColor.png){width=inherit} | `lvglSetBgColor` | Set background colour. |
 | ![](all_blocks/lvglSetTextColor.png){width=inherit} | `lvglSetTextColor` | Set text colour. |
 | ![](all_blocks/lvglSetOpacity.png){width=inherit} | `lvglSetOpacity` | Set opacity. |
-| `lvglSetStyleTextFont` | Set the text font style. |
-| `lvglSetStyleBgOpa` | Set the background-opacity style. |
-| `lvglSetStyleRadius` | Set the corner-radius style. |
-| `lvglSetStylePad` | Set the padding style. |
-| `lvglSetStyleBorderWidth` | Set the border-width style. |
-| `lvglSetStyleBorderColor` | Set the border-colour style. |
-| `lvglSetStyleShadowWidth` | Set the shadow-width style. |
-| `lvglSetStyleShadowColor` | Set the shadow-colour style. |
-| `lvglColorHex` | Make a colour from a hex value. |
-| `lvglGetDisplay` | Get the display handle. |
-| `lvglAddEventCb` | Add an event callback. |
-| `lvglSpinnerCreate` | Create a spinner. |
-| `lvglChartCreate` | Create a chart. |
-| `lvglChartAddSeries` | Add a chart series. |
-| `lvglChartSetPoint` | Set a chart point. |
-| `lvglMeterCreate` | Create a meter. |
-| `lvglAddFlag` | Add an object flag. |
-| `lvglClearFlag` | Clear an object flag. |
-| `lvglRemoveFlag` | Remove an object flag. |
-| `lvglAnimCreate` | Create an animation. |
-| `lvglAnimInit` | Initialise an animation. |
-| `lvglAnimSetVar` | Set the animation target. |
-| `lvglAnimSetTime` | Set the animation duration. |
-| `lvglAnimSetValues` | Set the animation start/end. |
-| `lvglAnimStart` | Start an animation. |
-| `lvglObjDelete` | Delete an object. |
-| `lvglObjClean` | Remove an object's children. |
-| `lvglObjInvalidate` | Mark an object for redraw. |
-| `lvglCanvasCreate` | Create a canvas. |
-| `lvglCanvasSetBuffer` | Set the canvas buffer. |
-| `lvglCanvasFillBg` | Fill the canvas background. |
-| `lvglCanvasSetPx` | Set a canvas pixel. |
-| `lvglTickInc` | Advance the LVGL tick counter. |
+| ![](all_blocks/lvglSetStyleTextFont.png){width=inherit} | `lvglSetStyleTextFont` | Set the text font style. |
+| ![](all_blocks/lvglSetStyleBgOpa.png){width=inherit} | `lvglSetStyleBgOpa` | Set the background-opacity style. |
+| ![](all_blocks/lvglSetStyleRadius.png){width=inherit} | `lvglSetStyleRadius` | Set the corner-radius style. |
+| ![](all_blocks/lvglSetStylePad.png){width=inherit} | `lvglSetStylePad` | Set the padding style. |
+| ![](all_blocks/lvglSetStyleBorderWidth.png){width=inherit} | `lvglSetStyleBorderWidth` | Set the border-width style. |
+| ![](all_blocks/lvglSetStyleBorderColor.png){width=inherit} | `lvglSetStyleBorderColor` | Set the border-colour style. |
+| ![](all_blocks/lvglSetStyleShadowWidth.png){width=inherit} | `lvglSetStyleShadowWidth` | Set the shadow-width style. |
+| ![](all_blocks/lvglSetStyleShadowColor.png){width=inherit} | `lvglSetStyleShadowColor` | Set the shadow-colour style. |
+| ![](all_blocks/lvglColorHex.png){width=inherit} | `lvglColorHex` | Make a colour from a hex value. |
+| ![](all_blocks/lvglGetDisplay.png){width=inherit} | `lvglGetDisplay` | Get the display handle. |
+| ![](all_blocks/lvglAddEventCb.png){width=inherit} | `lvglAddEventCb` | Add an event callback. |
+| ![](all_blocks/lvglSpinnerCreate.png){width=inherit} | `lvglSpinnerCreate` | Create a spinner. |
+| ![](all_blocks/lvglChartCreate.png){width=inherit} | `lvglChartCreate` | Create a chart. |
+| ![](all_blocks/lvglChartAddSeries.png){width=inherit} | `lvglChartAddSeries` | Add a chart series. |
+| ![](all_blocks/lvglChartSetPoint.png){width=inherit} | `lvglChartSetPoint` | Set a chart point. |
+| ![](all_blocks/lvglMeterCreate.png){width=inherit} | `lvglMeterCreate` | Create a meter. |
+| ![](all_blocks/lvglAddFlag.png){width=inherit} | `lvglAddFlag` | Add an object flag. |
+| ![](all_blocks/lvglClearFlag.png){width=inherit} | `lvglClearFlag` | Clear an object flag. |
+| ![](all_blocks/lvglRemoveFlag.png){width=inherit} | `lvglRemoveFlag` | Remove an object flag. |
+| ![](all_blocks/lvglAnimCreate.png){width=inherit} | `lvglAnimCreate` | Create an animation. |
+| ![](all_blocks/lvglAnimInit.png){width=inherit} | `lvglAnimInit` | Initialise an animation. |
+| ![](all_blocks/lvglAnimSetVar.png){width=inherit} | `lvglAnimSetVar` | Set the animation target. |
+| ![](all_blocks/lvglAnimSetTime.png){width=inherit} | `lvglAnimSetTime` | Set the animation duration. |
+| ![](all_blocks/lvglAnimSetValues.png){width=inherit} | `lvglAnimSetValues` | Set the animation start/end. |
+| ![](all_blocks/lvglAnimStart.png){width=inherit} | `lvglAnimStart` | Start an animation. |
+| ![](all_blocks/lvglObjDelete.png){width=inherit} | `lvglObjDelete` | Delete an object. |
+| ![](all_blocks/lvglObjClean.png){width=inherit} | `lvglObjClean` | Remove an object's children. |
+| ![](all_blocks/lvglObjInvalidate.png){width=inherit} | `lvglObjInvalidate` | Mark an object for redraw. |
+| ![](all_blocks/lvglCanvasCreate.png){width=inherit} | `lvglCanvasCreate` | Create a canvas. |
+| ![](all_blocks/lvglCanvasSetBuffer.png){width=inherit} | `lvglCanvasSetBuffer` | Set the canvas buffer. |
+| ![](all_blocks/lvglCanvasFillBg.png){width=inherit} | `lvglCanvasFillBg` | Fill the canvas background. |
+| ![](all_blocks/lvglCanvasSetPx.png){width=inherit} | `lvglCanvasSetPx` | Set a canvas pixel. |
+| ![](all_blocks/lvglTickInc.png){width=inherit} | `lvglTickInc` | Advance the LVGL tick counter. |
 
 ## Pin
 
