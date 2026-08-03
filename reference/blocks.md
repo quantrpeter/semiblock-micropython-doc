@@ -434,29 +434,35 @@ description of what the block does.
 
 ## Timer
 
-| Block `type` | Description |
-| --- | --- |
-| `timerInit` | Create a `Timer`. |
-| `timerStart` | Start a periodic/one-shot timer. |
-| `timerStop` | De-initialise the timer. |
+> ![](hardblock/hardblock_Timer.png){width=inherit}
+
+| Image | Block `type` | Description |
+| --- | --- | --- |
+| ![](all_blocks/timerInit.png){width=inherit} | `timerInit` | Create a `Timer`. |
+| ![](all_blocks/timerStart.png){width=inherit} | `timerStart` | Start a periodic/one-shot timer. |
+| ![](all_blocks/timerStop.png){width=inherit} | `timerStop` | De-initialise the timer. |
 
 ## PWM
 
-| Block `type` | Description |
-| --- | --- |
-| `pwmInit` | Create a PWM on a pin. |
-| `pwmSetFreq` | Set PWM frequency. |
-| `pwmSetDuty` | Set PWM duty cycle. |
-| `pwmDeinit` | De-initialise PWM. |
+> ![](hardblock/hardblock_PWM.png){width=inherit}
+
+| Image | Block `type` | Description |
+| --- | --- | --- |
+| ![](all_blocks/pwmInit.png){width=inherit} | `pwmInit` | Create a PWM on a pin. |
+| ![](all_blocks/pwmSetFreq.png){width=inherit} | `pwmSetFreq` | Set PWM frequency. |
+| ![](all_blocks/pwmSetDuty.png){width=inherit} | `pwmSetDuty` | Set PWM duty cycle. |
+| ![](all_blocks/pwmDeinit.png){width=inherit} | `pwmDeinit` | De-initialise PWM. |
 
 ## ADC
 
-| Block `type` | Description |
-| --- | --- |
-| `adcInit` | Create an ADC on a pin. |
-| `adcRead` | Read the ADC. |
-| `dacInit` | Create a DAC on a pin. |
-| `dacWrite` | Write to the DAC. |
+> ![](hardblock/hardblock_ADC.png){width=inherit}
+
+| Image | Block `type` | Description |
+| --- | --- | --- |
+| ![](all_blocks/adcInit.png){width=inherit} | `adcInit` | Create an ADC on a pin. |
+| ![](all_blocks/adcRead.png){width=inherit} | `adcRead` | Read the ADC. |
+| ![](all_blocks/dacInit.png){width=inherit} | `dacInit` | Create a DAC on a pin. |
+| ![](all_blocks/dacWrite.png){width=inherit} | `dacWrite` | Write to the DAC. |
 
 ## SPI
 
