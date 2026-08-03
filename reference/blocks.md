@@ -311,23 +311,23 @@ description of what the block does.
 
 ## LVGL
 
-| Block `type` | Description |
-| --- | --- |
-| `lvglInit` | `import lvgl as lv`. |
-| `importLcdBus` | Import the LCD bus module. |
-| `importSt7796` | Import the ST7796 driver. |
-| `importSt7735` | Import the ST7735 driver. |
-| `importTaskHandler` | Import the task handler. |
-| `importFsDriver` | Import the filesystem driver. |
-| `lcdSpiBusInit` | Initialise the LCD SPI bus. |
-| `allocateFramebuffer` | Allocate a framebuffer. |
-| `st7796Init` | Initialise an ST7796 panel. |
-| `st7735Init` | Initialise an ST7735 panel. |
-| `displayInit` | Generic display init. |
-| `displayInitWithType` | Display init with a panel type. |
-| `displaySetRotation` | Set screen rotation. |
-| `displaySetColorInversion` | Toggle colour inversion. |
-| `displaySetBacklight` | Set backlight level. |
+| Image | Block `type` | Description |
+| --- | --- | --- |
+| ![](all_blocks/lvglInit.png){width=inherit} | `lvglInit` | `import lvgl as lv`. |
+| ![](all_blocks/importLcdBus.png){width=inherit} | `importLcdBus` | Import the LCD bus module. |
+| ![](all_blocks/importSt7796.png){width=inherit} | `importSt7796` | Import the ST7796 driver. |
+| ![](all_blocks/importSt7735.png){width=inherit} | `importSt7735` | Import the ST7735 driver. |
+| ![](all_blocks/importTaskHandler.png){width=inherit} | `importTaskHandler` | Import the task handler. |
+| ![](all_blocks/importFsDriver.png){width=inherit} | `importFsDriver` | Import the filesystem driver. |
+| ![](all_blocks/lcdSpiBusInit.png){width=inherit} | `lcdSpiBusInit` | Initialise the LCD SPI bus. |
+| ![](all_blocks/allocateFramebuffer.png){width=inherit} | `allocateFramebuffer` | Allocate a framebuffer. |
+| ![](all_blocks/st7796Init.png){width=inherit} | `st7796Init` | Initialise an ST7796 panel. |
+| ![](all_blocks/st7735Init.png){width=inherit} | `st7735Init` | Initialise an ST7735 panel. |
+| ![](all_blocks/displayInit.png){width=inherit} | `displayInit` | Generic display init. |
+| ![](all_blocks/displayInitWithType.png){width=inherit} | `displayInitWithType` | Display init with a panel type. |
+| ![](all_blocks/displaySetRotation.png){width=inherit} | `displaySetRotation` | Set screen rotation. |
+| ![](all_blocks/displaySetColorInversion.png){width=inherit} | `displaySetColorInversion` | Toggle colour inversion. |
+| ![](all_blocks/displaySetBacklight.png){width=inherit} | `displaySetBacklight` | Set backlight level. |
 | `taskHandlerInit` | Initialise the LVGL task handler. |
 | `lvglFsDrvtInit` | Initialise the LVGL FS driver. |
 | `lvglFsRegister` | Register the FS driver. |
