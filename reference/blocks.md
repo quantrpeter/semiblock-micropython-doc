@@ -364,23 +364,25 @@ description of what the block does.
 | ![](all_blocks/lvglTextareaSetText.png){width=inherit} | `lvglTextareaSetText` | Set text-area text. |
 | ![](all_blocks/lvglDropdownCreate.png){width=inherit} | `lvglDropdownCreate` | Create a dropdown. |
 | ![](all_blocks/lvglDropdownSetOptions.png){width=inherit} | `lvglDropdownSetOptions` | Set dropdown options. |
-| `lvglRollerCreate` | Create a roller. |
-| `lvglRollerSetOptions` | Set roller options. |
-| `lvglImageCreate` | Create an image. |
-| `lvglImageSetSrc` | Set image source. |
-| `lvglImageSetSrcCostume` | Set image source from a costume. |
-| `lvglLedCreate` | Create an LED widget. |
-| `lvglLedOn` | Turn the LED widget on. |
-| `lvglLedOff` | Turn the LED widget off. |
-| `lvglLedToggle` | Toggle the LED widget. |
-| `lvglLedSetBrightness` | Set LED-widget brightness. |
-| `lvglKeyboardCreate` | Create a keyboard. |
-| `lvglKeyboardSetTextarea` | Bind keyboard to a text area. |
-| `lvglTabviewCreate` | Create a tab view. |
-| `lvglTabviewAddTab` | Add a tab. |
-| `lvglSetBgColor` | Set background colour. |
-| `lvglSetTextColor` | Set text colour. |
-| `lvglSetOpacity` | Set opacity. |
+| Image | Block `type` | Description |
+| --- | --- | --- |
+| ![](all_blocks/lvglRollerCreate.png){width=inherit} | `lvglRollerCreate` | Create a roller. |
+| ![](all_blocks/lvglRollerSetOptions.png){width=inherit} | `lvglRollerSetOptions` | Set roller options. |
+| ![](all_blocks/lvglImageCreate.png){width=inherit} | `lvglImageCreate` | Create an image. |
+| ![](all_blocks/lvglImageSetSrc.png){width=inherit} | `lvglImageSetSrc` | Set image source. |
+| ![](all_blocks/lvglImageSetSrcCostume.png){width=inherit} | `lvglImageSetSrcCostume` | Set image source from a costume. |
+| ![](all_blocks/lvglLedCreate.png){width=inherit} | `lvglLedCreate` | Create an LED widget. |
+| ![](all_blocks/lvglLedOn.png){width=inherit} | `lvglLedOn` | Turn the LED widget on. |
+| ![](all_blocks/lvglLedOff.png){width=inherit} | `lvglLedOff` | Turn the LED widget off. |
+| ![](all_blocks/lvglLedToggle.png){width=inherit} | `lvglLedToggle` | Toggle the LED widget. |
+| ![](all_blocks/lvglLedSetBrightness.png){width=inherit} | `lvglLedSetBrightness` | Set LED-widget brightness. |
+| ![](all_blocks/lvglKeyboardCreate.png){width=inherit} | `lvglKeyboardCreate` | Create a keyboard. |
+| ![](all_blocks/lvglKeyboardSetTextarea.png){width=inherit} | `lvglKeyboardSetTextarea` | Bind keyboard to a text area. |
+| ![](all_blocks/lvglTabviewCreate.png){width=inherit} | `lvglTabviewCreate` | Create a tab view. |
+| ![](all_blocks/lvglTabviewAddTab.png){width=inherit} | `lvglTabviewAddTab` | Add a tab. |
+| ![](all_blocks/lvglSetBgColor.png){width=inherit} | `lvglSetBgColor` | Set background colour. |
+| ![](all_blocks/lvglSetTextColor.png){width=inherit} | `lvglSetTextColor` | Set text colour. |
+| ![](all_blocks/lvglSetOpacity.png){width=inherit} | `lvglSetOpacity` | Set opacity. |
 | `lvglSetStyleTextFont` | Set the text font style. |
 | `lvglSetStyleBgOpa` | Set the background-opacity style. |
 | `lvglSetStyleRadius` | Set the corner-radius style. |
