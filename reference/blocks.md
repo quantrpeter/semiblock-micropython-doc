@@ -311,6 +311,8 @@ description of what the block does.
 
 ## LVGL
 
+> ![](hardblock/hardblock_LVGL.png){width=inherit}
+
 | Image | Block `type` | Description |
 | --- | --- | --- |
 | ![](all_blocks/lvglInit.png){width=inherit} | `lvglInit` | `import lvgl as lv`. |
@@ -328,26 +330,28 @@ description of what the block does.
 | ![](all_blocks/displaySetRotation.png){width=inherit} | `displaySetRotation` | Set screen rotation. |
 | ![](all_blocks/displaySetColorInversion.png){width=inherit} | `displaySetColorInversion` | Toggle colour inversion. |
 | ![](all_blocks/displaySetBacklight.png){width=inherit} | `displaySetBacklight` | Set backlight level. |
-| `taskHandlerInit` | Initialise the LVGL task handler. |
-| `lvglFsDrvtInit` | Initialise the LVGL FS driver. |
-| `lvglFsRegister` | Register the FS driver. |
-| `lvglSetScrollbarMode` | Set scrollbar mode. |
-| `lvglScreenCreate` | Create a screen object. |
-| `lvglScreenLoad` | Load a screen. |
-| `lvglScreenActive` | Get the active screen. |
-| `lvglRefrNow` | Force an immediate refresh. |
-| `lvglTaskHandler` | Run one task-handler pass. |
-| `lvglLabelCreate` | Create a label. |
-| `lvglLabelSetText` | Set label text. |
-| `lvglButtonCreate` | Create a button. |
-| `lvglContainerCreate` | Create a container. |
-| `lvglSetPos` | Set object position. |
-| `lvglSetSize` | Set object size. |
-| `lvglSetWidth` | Set object width. |
-| `lvglSetHeight` | Set object height. |
-| `lvglSetX` | Set object X. |
-| `lvglSetY` | Set object Y. |
-| `lvglAlign` | Align an object. |
+| Image | Block `type` | Description |
+| --- | --- | --- |
+| ![](all_blocks/taskHandlerInit.png){width=inherit} | `taskHandlerInit` | Initialise the LVGL task handler. |
+| ![](all_blocks/lvglFsDrvtInit.png){width=inherit} | `lvglFsDrvtInit` | Initialise the LVGL FS driver. |
+| ![](all_blocks/lvglFsRegister.png){width=inherit} | `lvglFsRegister` | Register the FS driver. |
+| ![](all_blocks/lvglSetScrollbarMode.png){width=inherit} | `lvglSetScrollbarMode` | Set scrollbar mode. |
+| ![](all_blocks/lvglScreenCreate.png){width=inherit} | `lvglScreenCreate` | Create a screen object. |
+| ![](all_blocks/lvglScreenLoad.png){width=inherit} | `lvglScreenLoad` | Load a screen. |
+| ![](all_blocks/lvglScreenActive.png){width=inherit} | `lvglScreenActive` | Get the active screen. |
+| ![](all_blocks/lvglRefrNow.png){width=inherit} | `lvglRefrNow` | Force an immediate refresh. |
+| ![](all_blocks/lvglTaskHandler.png){width=inherit} | `lvglTaskHandler` | Run one task-handler pass. |
+| ![](all_blocks/lvglLabelCreate.png){width=inherit} | `lvglLabelCreate` | Create a label. |
+| ![](all_blocks/lvglLabelSetText.png){width=inherit} | `lvglLabelSetText` | Set label text. |
+| ![](all_blocks/lvglButtonCreate.png){width=inherit} | `lvglButtonCreate` | Create a button. |
+| ![](all_blocks/lvglContainerCreate.png){width=inherit} | `lvglContainerCreate` | Create a container. |
+| ![](all_blocks/lvglSetPos.png){width=inherit} | `lvglSetPos` | Set object position. |
+| ![](all_blocks/lvglSetSize.png){width=inherit} | `lvglSetSize` | Set object size. |
+| ![](all_blocks/lvglSetWidth.png){width=inherit} | `lvglSetWidth` | Set object width. |
+| ![](all_blocks/lvglSetHeight.png){width=inherit} | `lvglSetHeight` | Set object height. |
+| ![](all_blocks/lvglSetX.png){width=inherit} | `lvglSetX` | Set object X. |
+| ![](all_blocks/lvglSetY.png){width=inherit} | `lvglSetY` | Set object Y. |
+| ![](all_blocks/lvglAlign.png){width=inherit} | `lvglAlign` | Align an object. |
 | `lvglSliderCreate` | Create a slider. |
 | `lvglSliderSetValue` | Set slider value. |
 | `lvglSliderGetValue` | Get slider value. |
