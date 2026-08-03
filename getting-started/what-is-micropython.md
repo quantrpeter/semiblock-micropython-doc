@@ -56,7 +56,7 @@ That is a complete, real MicroPython program that blinks an LED once.
 |-------------------|--------------|
 | `ADC`, `PWM`      | Read analog values / control brightness, motors |
 
-> ![](img/hardblocks/hardblock_ADC.png){width=inherit}
+> ![](img/hardblocks/hardblock_ADC.png){width=inherit} ![](img/hardblocks/hardblock_PWM.png){width=inherit}
 
 SemiBlock has blocks for all of these, so you rarely type them by hand.
 
