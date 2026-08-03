@@ -417,18 +417,20 @@ description of what the block does.
 
 ## Pin
 
-| Block `type` | Description |
-| --- | --- |
-| `pin` | Create a `Pin` with a direction. |
-| `pin2` | Create a `Pin` with input + pull type. |
-| `on` | Drive the pin high. |
-| `off` | Drive the pin low. |
-| `pinValue` | Read the pin value. |
-| `uartInit` | Initialise a UART. |
-| `uartRead` | Read bytes from UART. |
-| `uartWrite` | Write to UART. |
-| `neoPixel` | Create a NeoPixel strip. |
-| `neoPixelWrite` | Set and write a NeoPixel colour. |
+> ![](hardblock/hardblock_Pin.png){width=inherit}
+
+| Image | Block `type` | Description |
+| --- | --- | --- |
+| ![](all_blocks/pin.png){width=inherit} | `pin` | Create a `Pin` with a direction. |
+| ![](all_blocks/pin2.png){width=inherit} | `pin2` | Create a `Pin` with input + pull type. |
+| ![](all_blocks/on.png){width=inherit} | `on` | Drive the pin high. |
+| ![](all_blocks/off.png){width=inherit} | `off` | Drive the pin low. |
+| ![](all_blocks/pinValue.png){width=inherit} | `pinValue` | Read the pin value. |
+| ![](all_blocks/uartInit.png){width=inherit} | `uartInit` | Initialise a UART. |
+| ![](all_blocks/uartRead.png){width=inherit} | `uartRead` | Read bytes from UART. |
+| ![](all_blocks/uartWrite.png){width=inherit} | `uartWrite` | Write to UART. |
+| ![](all_blocks/neoPixel.png){width=inherit} | `neoPixel` | Create a NeoPixel strip. |
+| ![](all_blocks/neoPixelWrite.png){width=inherit} | `neoPixelWrite` | Set and write a NeoPixel colour. |
 
 ## Timer
 
