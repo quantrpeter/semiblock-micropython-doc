@@ -26,6 +26,8 @@ area = 3.14159 * 5 ** 2
 print(math.sqrt(area))
 ```
 
+> ![](img/index1.png){width=inherit}
+
 Here a power block (`5 ** 2`), a multiply block, and a `sqrt` block work
 together. The next pages explain each one.
 
