@@ -508,66 +508,80 @@ description of what the block does.
 
 ## SD Card
 
-| Block `type` | Description |
-| --- | --- |
-| `sdCardInit` | Create an `SDCard`. |
-| `sdCardMount` | Mount the card. |
-| `sdCardUnmount` | Unmount the card. |
-| `sdCardFileWrite` | Write a file to the card. |
-| `sdCardFileRead` | Read a file from the card. |
+> ![](hardblock/hardblock_SDcard.png){width=inherit}
+
+| Image | Block `type` | Description |
+| --- | --- | --- |
+| ![](all_blocks/sdCardInit.png){width=inherit} | `sdCardInit` | Create an `SDCard`. |
+| ![](all_blocks/sdCardMount.png){width=inherit} | `sdCardMount` | Mount the card. |
+| ![](all_blocks/sdCardUnmount.png){width=inherit} | `sdCardUnmount` | Unmount the card. |
+| ![](all_blocks/sdCardFileWrite.png){width=inherit} | `sdCardFileWrite` | Write a file to the card. |
+| ![](all_blocks/sdCardFileRead.png){width=inherit} | `sdCardFileRead` | Read a file from the card. |
 
 ## RMT
 
-| Block `type` | Description |
-| --- | --- |
-| `rmtInit` | Create an RMT channel. |
-| `rmtWrite` | Write RMT pulses. |
-| `rmtDeinit` | De-initialise RMT. |
+> ![](hardblock/hardblock_RMT.png){width=inherit}
+
+| Image | Block `type` | Description |
+| --- | --- | --- |
+| ![](all_blocks/rmtInit.png){width=inherit} | `rmtInit` | Create an RMT channel. |
+| ![](all_blocks/rmtWrite.png){width=inherit} | `rmtWrite` | Write RMT pulses. |
+| ![](all_blocks/rmtDeinit.png){width=inherit} | `rmtDeinit` | De-initialise RMT. |
 
 ## One-Wire
 
-| Block `type` | Description |
-| --- | --- |
-| `oneWireInit` | Create a OneWire bus. |
-| `oneWireScan` | Scan for OneWire devices. |
-| `oneWireRead` | Read a byte. |
-| `oneWireWrite` | Write a byte. |
+> ![](hardblock/hardblock_OneWire.png){width=inherit}
+
+| Image | Block `type` | Description |
+| --- | --- | --- |
+| ![](all_blocks/oneWireInit.png){width=inherit} | `oneWireInit` | Create a OneWire bus. |
+| ![](all_blocks/oneWireScan.png){width=inherit} | `oneWireScan` | Scan for OneWire devices. |
+| ![](all_blocks/oneWireRead.png){width=inherit} | `oneWireRead` | Read a byte. |
+| ![](all_blocks/oneWireWrite.png){width=inherit} | `oneWireWrite` | Write a byte. |
 
 ## Capacitive Touch
 
-| Block `type` | Description |
-| --- | --- |
-| `touchInit` | Create a `TouchPad`. |
-| `touchRead` | Read the touch value. |
+> ![](hardblock/hardblock_Touch.png){width=inherit}
+
+| Image | Block `type` | Description |
+| --- | --- | --- |
+| ![](all_blocks/touchInit.png){width=inherit} | `touchInit` | Create a `TouchPad`. |
+| ![](all_blocks/touchRead.png){width=inherit} | `touchRead` | Read the touch value. |
 
 ## DHT
 
-| Block `type` | Description |
-| --- | --- |
-| `dhtInit` | Create a DHT sensor. |
-| `dhtReadTemperature` | Measure and read temperature. |
-| `dhtReadHumidity` | Measure and read humidity. |
+> ![](hardblock/hardblock_DHT.png){width=inherit}
+
+| Image | Block `type` | Description |
+| --- | --- | --- |
+| ![](all_blocks/dhtInit.png){width=inherit} | `dhtInit` | Create a DHT sensor. |
+| ![](all_blocks/dhtReadTemperature.png){width=inherit} | `dhtReadTemperature` | Measure and read temperature. |
+| ![](all_blocks/dhtReadHumidity.png){width=inherit} | `dhtReadHumidity` | Measure and read humidity. |
 
 ## HC-SR04 Sonar
 
-| Block `type` | Description |
-| --- | --- |
-| `hcsr04Init` | Define the driver and create an HC-SR04 sensor. |
-| `hcsr04DistanceCm` | Read distance in centimetres. |
-| `hcsr04DistanceMm` | Read distance in millimetres. |
+> ![](hardblock/hardblock_Sonar.png){width=inherit}
+
+| Image | Block `type` | Description |
+| --- | --- | --- |
+| ![](all_blocks/hcsr04Init.png){width=inherit} | `hcsr04Init` | Define the driver and create an HC-SR04 sensor. |
+| ![](all_blocks/hcsr04DistanceCm.png){width=inherit} | `hcsr04DistanceCm` | Read distance in centimetres. |
+| ![](all_blocks/hcsr04DistanceMm.png){width=inherit} | `hcsr04DistanceMm` | Read distance in millimetres. |
 
 ## Sensors
 
-| Block `type` | Description |
-| --- | --- |
-| `temperature` | Read an analog thermistor via `getTemperature`. |
-| `fourDigitDisplay` | Create a TM1637 4-digit display. |
-| `fourDigitDisplay_setNumber` | Show a number on the display. |
-| `motor` | Create a DC-motor control pin. |
-| `motorOn` | Turn the motor on. |
-| `motorOff` | Turn the motor off. |
-| `servo` | Create a servo. |
-| `servoAngle` | Set the servo angle. |
+> ![](hardblock/hardblock_Sensors.png){width=inherit}
+
+| Image | Block `type` | Description |
+| --- | --- | --- |
+| ![](all_blocks/temperature.png){width=inherit} | `temperature` | Read an analog thermistor via `getTemperature`. |
+| ![](all_blocks/fourDigitDisplay.png){width=inherit} | `fourDigitDisplay` | Create a TM1637 4-digit display. |
+| ![](all_blocks/fourDigitDisplay_setNumber.png){width=inherit} | `fourDigitDisplay_setNumber` | Show a number on the display. |
+| ![](all_blocks/motor.png){width=inherit} | `motor` | Create a DC-motor control pin. |
+| ![](all_blocks/motorOn.png){width=inherit} | `motorOn` | Turn the motor on. |
+| ![](all_blocks/motorOff.png){width=inherit} | `motorOff` | Turn the motor off. |
+| ![](all_blocks/servo.png){width=inherit} | `servo` | Create a servo. |
+| ![](all_blocks/servoAngle.png){width=inherit} | `servoAngle` | Set the servo angle. |
 
 ## Generative AI
 
