@@ -466,39 +466,45 @@ description of what the block does.
 
 ## SPI
 
-| Block `type` | Description |
-| --- | --- |
-| `spiInit` | Create a hardware SPI. |
-| `spiBusInit` | Initialise an SPI bus. |
-| `spiRead` | Read from SPI. |
-| `spiWrite` | Write to SPI. |
-| `spiReadWrite` | Full-duplex read into a buffer. |
+> ![](hardblock/hardblock_SPI.png){width=inherit}
+
+| Image | Block `type` | Description |
+| --- | --- | --- |
+| ![](all_blocks/spiInit.png){width=inherit} | `spiInit` | Create a hardware SPI. |
+| ![](all_blocks/spiBusInit.png){width=inherit} | `spiBusInit` | Initialise an SPI bus. |
+| ![](all_blocks/spiRead.png){width=inherit} | `spiRead` | Read from SPI. |
+| ![](all_blocks/spiWrite.png){width=inherit} | `spiWrite` | Write to SPI. |
+| ![](all_blocks/spiReadWrite.png){width=inherit} | `spiReadWrite` | Full-duplex read into a buffer. |
 
 ## I2C
 
-| Block `type` | Description |
-| --- | --- |
-| `i2cInit` | Create an I²C bus. |
-| `i2cScan` | Scan for I²C addresses. |
-| `i2cRead` | Read from a device. |
-| `i2cWrite` | Write to a device. |
+> ![](hardblock/hardblock_I2C.png){width=inherit}
+
+| Image | Block `type` | Description |
+| --- | --- | --- |
+| ![](all_blocks/i2cInit.png){width=inherit} | `i2cInit` | Create an I²C bus. |
+| ![](all_blocks/i2cScan.png){width=inherit} | `i2cScan` | Scan for I²C addresses. |
+| ![](all_blocks/i2cRead.png){width=inherit} | `i2cRead` | Read from a device. |
+| ![](all_blocks/i2cWrite.png){width=inherit} | `i2cWrite` | Write to a device. |
 
 ## WatchDog (RTC, WDT, deep sleep)
 
-| Block `type` | Description |
-| --- | --- |
-| `rtcInit` | Create an `RTC`. |
-| `rtcSetTime` | Set the RTC datetime. |
-| `rtcGetTime` | Get the RTC datetime tuple. |
-| `rtcGetYear` | Get the year. |
-| `rtcGetMonth` | Get the month. |
-| `rtcGetDay` | Get the day. |
-| `rtcGetHour` | Get the hour. |
-| `rtcGetMinute` | Get the minute. |
-| `rtcGetSecond` | Get the second. |
-| `wdtInit` | Create a watchdog timer. |
-| `wdtFeed` | Feed the watchdog. |
-| `deepSleep` | Enter deep sleep for a duration. |
+> ![](hardblock/hardblock_WatchDog.png){width=inherit}
+
+| Image | Block `type` | Description |
+| --- | --- | --- |
+| ![](all_blocks/rtcInit.png){width=inherit} | `rtcInit` | Create an `RTC`. |
+| ![](all_blocks/rtcSetTime.png){width=inherit} | `rtcSetTime` | Set the RTC datetime. |
+| ![](all_blocks/rtcGetTime.png){width=inherit} | `rtcGetTime` | Get the RTC datetime tuple. |
+| ![](all_blocks/rtcGetYear.png){width=inherit} | `rtcGetYear` | Get the year. |
+| ![](all_blocks/rtcGetMonth.png){width=inherit} | `rtcGetMonth` | Get the month. |
+| ![](all_blocks/rtcGetDay.png){width=inherit} | `rtcGetDay` | Get the day. |
+| ![](all_blocks/rtcGetHour.png){width=inherit} | `rtcGetHour` | Get the hour. |
+| ![](all_blocks/rtcGetMinute.png){width=inherit} | `rtcGetMinute` | Get the minute. |
+| ![](all_blocks/rtcGetSecond.png){width=inherit} | `rtcGetSecond` | Get the second. |
+| ![](all_blocks/wdtInit.png){width=inherit} | `wdtInit` | Create a watchdog timer. |
+| ![](all_blocks/wdtFeed.png){width=inherit} | `wdtFeed` | Feed the watchdog. |
+| ![](all_blocks/deepSleep.png){width=inherit} | `deepSleep` | Enter deep sleep for a duration. |
 
 ## SD Card
 
