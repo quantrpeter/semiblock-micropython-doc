@@ -76,6 +76,8 @@ height = math.sin(angle)
 print(height)
 ```
 
+> ![](img/func8.png){width=inherit}
+
 > Tip: trig blocks expect **radians**. Multiply degrees by `math.pi / 180` to
 > convert.
 
