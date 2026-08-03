@@ -352,20 +352,22 @@ description of what the block does.
 | ![](all_blocks/lvglSetX.png){width=inherit} | `lvglSetX` | Set object X. |
 | ![](all_blocks/lvglSetY.png){width=inherit} | `lvglSetY` | Set object Y. |
 | ![](all_blocks/lvglAlign.png){width=inherit} | `lvglAlign` | Align an object. |
-| `lvglSliderCreate` | Create a slider. |
-| `lvglSliderSetValue` | Set slider value. |
-| `lvglSliderGetValue` | Get slider value. |
-| `lvglBarCreate` | Create a bar. |
-| `lvglBarSetValue` | Set bar value. |
-| `lvglArcCreate` | Create an arc. |
-| `lvglArcSetValue` | Set arc value. |
-| `lvglCheckboxCreate` | Create a checkbox. |
-| `lvglCheckboxSetText` | Set checkbox text. |
-| `lvglSwitchCreate` | Create a switch. |
-| `lvglTextareaCreate` | Create a text area. |
-| `lvglTextareaSetText` | Set text-area text. |
-| `lvglDropdownCreate` | Create a dropdown. |
-| `lvglDropdownSetOptions` | Set dropdown options. |
+| Image | Block `type` | Description |
+| --- | --- | --- |
+| ![](all_blocks/lvglSliderCreate.png){width=inherit} | `lvglSliderCreate` | Create a slider. |
+| ![](all_blocks/lvglSliderSetValue.png){width=inherit} | `lvglSliderSetValue` | Set slider value. |
+| ![](all_blocks/lvglSliderGetValue.png){width=inherit} | `lvglSliderGetValue` | Get slider value. |
+| ![](all_blocks/lvglBarCreate.png){width=inherit} | `lvglBarCreate` | Create a bar. |
+| ![](all_blocks/lvglBarSetValue.png){width=inherit} | `lvglBarSetValue` | Set bar value. |
+| ![](all_blocks/lvglArcCreate.png){width=inherit} | `lvglArcCreate` | Create an arc. |
+| ![](all_blocks/lvglArcSetValue.png){width=inherit} | `lvglArcSetValue` | Set arc value. |
+| ![](all_blocks/lvglCheckboxCreate.png){width=inherit} | `lvglCheckboxCreate` | Create a checkbox. |
+| ![](all_blocks/lvglCheckboxSetText.png){width=inherit} | `lvglCheckboxSetText` | Set checkbox text. |
+| ![](all_blocks/lvglSwitchCreate.png){width=inherit} | `lvglSwitchCreate` | Create a switch. |
+| ![](all_blocks/lvglTextareaCreate.png){width=inherit} | `lvglTextareaCreate` | Create a text area. |
+| ![](all_blocks/lvglTextareaSetText.png){width=inherit} | `lvglTextareaSetText` | Set text-area text. |
+| ![](all_blocks/lvglDropdownCreate.png){width=inherit} | `lvglDropdownCreate` | Create a dropdown. |
+| ![](all_blocks/lvglDropdownSetOptions.png){width=inherit} | `lvglDropdownSetOptions` | Set dropdown options. |
 | `lvglRollerCreate` | Create a roller. |
 | `lvglRollerSetOptions` | Set roller options. |
 | `lvglImageCreate` | Create an image. |
