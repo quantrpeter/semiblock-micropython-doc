@@ -286,28 +286,28 @@ description of what the block does.
 
 > ![](hardblock/hardblock_Display.png){width=inherit}
 
-| Block `type` | Description |
-| --- | --- |
-| `ssd1306` | Create an SSD1306 I²C display object. |
-| `ssd1306_fill` | Fill the screen buffer. |
-| `ssd1306_show` | Flush the buffer to the screen. |
-| `ssd1306_contrast` | Set contrast. |
-| `ssd1306_invert` | Invert colours. |
-| `ssd1306_rotate` | Rotate the display. |
-| `ssd1306_text` | Draw text. |
-| `ssd1306_pixel` | Set a pixel. |
-| `ssd1306_hline` | Horizontal line. |
-| `ssd1306_vline` | Vertical line. |
-| `ssd1306_line` | Arbitrary line. |
-| `ssd1306_rect` | Rectangle outline. |
-| `ssd1306_fillRect` | Filled rectangle. |
-| `ssd1306_circle` | Circle outline. |
-| `ssd1306_fillCircle` | Filled circle. |
-| `ssd1306_scroll` | Scroll the buffer. |
-| `imageEditor` | Draw a bitmap in the SemiBlock image editor. |
-| `drawPixels` | Render an edited bitmap to the display. |
-| `ssd1306_setColor` | Set the draw colour. |
-| `ssd1306_setFontSize` | Set the font size. |
+| Image | Block `type` | Description |
+| --- | --- | --- |
+| ![](all_blocks/ssd1306.png){width=inherit} | `ssd1306` | Create an SSD1306 I²C display object. |
+| ![](all_blocks/ssd1306_fill.png){width=inherit} | `ssd1306_fill` | Fill the screen buffer. |
+| ![](all_blocks/ssd1306_show.png){width=inherit} | `ssd1306_show` | Flush the buffer to the screen. |
+| ![](all_blocks/ssd1306_contrast.png){width=inherit} | `ssd1306_contrast` | Set contrast. |
+| ![](all_blocks/ssd1306_invert.png){width=inherit} | `ssd1306_invert` | Invert colours. |
+| ![](all_blocks/ssd1306_rotate.png){width=inherit} | `ssd1306_rotate` | Rotate the display. |
+| ![](all_blocks/ssd1306_text.png){width=inherit} | `ssd1306_text` | Draw text. |
+| ![](all_blocks/ssd1306_pixel.png){width=inherit} | `ssd1306_pixel` | Set a pixel. |
+| ![](all_blocks/ssd1306_hline.png){width=inherit} | `ssd1306_hline` | Horizontal line. |
+| ![](all_blocks/ssd1306_vline.png){width=inherit} | `ssd1306_vline` | Vertical line. |
+| ![](all_blocks/ssd1306_line.png){width=inherit} | `ssd1306_line` | Arbitrary line. |
+| ![](all_blocks/ssd1306_rect.png){width=inherit} | `ssd1306_rect` | Rectangle outline. |
+| ![](all_blocks/ssd1306_fillRect.png){width=inherit} | `ssd1306_fillRect` | Filled rectangle. |
+| ![](all_blocks/ssd1306_circle.png){width=inherit} | `ssd1306_circle` | Circle outline. |
+| ![](all_blocks/ssd1306_fillCircle.png){width=inherit} | `ssd1306_fillCircle` | Filled circle. |
+| ![](all_blocks/ssd1306_scroll.png){width=inherit} | `ssd1306_scroll` | Scroll the buffer. |
+| ![](all_blocks/imageEditor.png){width=inherit} | `imageEditor` | Draw a bitmap in the SemiBlock image editor. |
+| ![](all_blocks/drawPixels.png){width=inherit} | `drawPixels` | Render an edited bitmap to the display. |
+| ![](all_blocks/ssd1306_setColor.png){width=inherit} | `ssd1306_setColor` | Set the draw colour. |
+| ![](all_blocks/ssd1306_setFontSize.png){width=inherit} | `ssd1306_setFontSize` | Set the font size. |
 
 ## LVGL
 
