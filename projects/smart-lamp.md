@@ -27,20 +27,46 @@ A desk lamp whose brightness you control by touching a wire. A capacitive
 - **Hardware → PWM**: `pwmInit`, `pwmSetFreq`, `pwmSetDuty` — see
   [../hardware/pwm/api.md](../hardware/pwm/api.md) and
   [../hardware/pwm/led-dim.md](../hardware/pwm/led-dim.md).
+
+> ![](img/pwmInit.png){width=inherit} ![](img/pwmSetFreq.png){width=inherit} ![](img/pwmSetDuty.png){width=inherit}
+
 - **Hardware → Touch**: `touchInit`, `touchRead` — see
   [../hardware/touch/api.md](../hardware/touch/api.md).
+
+> ![](img/touchInit.png){width=inherit} ![](img/touchRead.png){width=inherit}
+
 - **Logic / Loops**: a forever `while` loop, a variable, and `sleep_ms`.
+
+> ![](img/whileLoop.png){width=inherit} ![](img/sleep_ms.png){width=inherit}
 
 ## Step-by-step block assembly
 
 1. From **PWM**, drag **`init PWM led on pin 2`**. This creates the LED output.
+
+> ![](img/p3e1.png){width=inherit}
+
 2. Add **`set led frequency to 1000`** so the LED flickers far above what the
    eye can see.
+
+> ![](img/p3e2.png){width=inherit}
+
 3. From **Touch**, drag **`init touch touch on pin 4`**.
+
+> ![](img/p3e3.png){width=inherit}
+
 4. Add a forever **`while True`** loop.
+
+> ![](img/whileLoop.png){width=inherit}
+
 5. Inside the loop, place **`read touch touch into value`**.
+
+> ![](img/p3e4.png){width=inherit}
+
 6. Add a variable block: `duty = (1023 - value) * 4`. As touch grows, `value`
    drops, so `duty` (0–1023 range for `.duty()`) grows — brighter lamp.
+
+> ![](img/p3e6.png){width=inherit}
+
 7. From **PWM**, add **`set led duty to duty`**.
 8. Finish with **`sleep 50 ms`** to pace the loop.
 
@@ -67,6 +93,8 @@ while True:
     led.duty(duty)
     sleep_ms(50)
 ```
+
+> ![](img/p3e7.png){width=inherit}
 
 > The PWM/Touch blocks emit `PWM(Pin(2))` and `TouchPad(Pin(4))` exactly as
 > shown. `TouchPad` is provided by the SemiBlock firmware's `machine` module; on
