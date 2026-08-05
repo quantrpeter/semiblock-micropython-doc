@@ -33,29 +33,32 @@ value comes from a local sensor or is fetched over **Wi-Fi**.
 > ![](img/connectWiFi.png){width=inherit}
 
 
-### **Display → LVGL → Init/Screens**: `lvglInit`, `lvglScreenCreate`,
-  `lvglScreenLoad` — see [../display/lvgl/screens.md](../display/lvgl/screens.md).
+### **Display → LVGL → Init/Screens**: `lvglInit`, `lvglScreenCreate`, `lvglScreenLoad`
+see [../display/lvgl/screens.md](../display/lvgl/screens.md).
 
 > ![](img/lvglInit.png){width=inherit} ![](img/lvglScreenCreate.png){width=inherit} ![](img/lvglScreenLoad.png){width=inherit}
 
 
-### **Display → LVGL → Data widgets**: `lvglChartCreate`, `lvglChartAddSeries`,
-  `lvglChartSetPoint` — see [../display/lvgl/widgets-data.md](../display/lvgl/widgets-data.md).
+### **Display → LVGL → Data widgets**: `lvglChartCreate`, `lvglChartAddSeries`, `lvglChartSetPoint`
+see [../display/lvgl/widgets-data.md](../display/lvgl/widgets-data.md).
 
 > ![](img/lvglChartCreate.png){width=inherit} ![](img/lvglChartAddSeries.png){width=inherit} ![](img/lvglChartSetPoint.png){width=inherit}
 
 
-### **Display → LVGL → Basic widgets**: `lvglLabelCreate`, `lvglLabelSetText` — see [../display/lvgl/widgets-basic.md](../display/lvgl/widgets-basic.md).
+### **Display → LVGL → Basic widgets**: `lvglLabelCreate`, `lvglLabelSetText`
+[../display/lvgl/widgets-basic.md](../display/lvgl/widgets-basic.md).
 
 > ![](img/lvglLabelCreate.png){width=inherit} ![](img/lvglLabelSetText.png){width=inherit}
 
 
-### **Display → LVGL → Tick**: `lvglTaskHandler` — see [../display/lvgl/tick.md](../display/lvgl/tick.md).
+### **Display → LVGL → Tick**: `lvglTaskHandler`
+[../display/lvgl/tick.md](../display/lvgl/tick.md).
 
 > ![](img/lvglTaskHandler.png){width=inherit}
 
 
-### **Sensors → DHT**: `dhtInit`, `dhtReadTemperature` — see [../sensors/dht.md](../sensors/dht.md).
+### **Sensors → DHT**: `dhtInit`, `dhtReadTemperature`
+[../sensors/dht.md](../sensors/dht.md).
 
 > ![](img/dhtInit.png){width=inherit} ![](img/dhtReadTemperature.png){width=inherit}
 
