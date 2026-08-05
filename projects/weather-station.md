@@ -23,27 +23,56 @@ them in a browser.
 
 - **Sensors → DHT**: `dhtInit`, `dhtReadTemperature`, `dhtReadHumidity` — see
   [../sensors/dht.md](../sensors/dht.md).
+
+> ![](img/dhtInit.png){width=inherit} ![](img/dhtReadTemperature.png){width=inherit} ![](img/dhtReadHumidity.png){width=inherit}
+
 - **Display → SSD1306**: `ssd1306`, `ssd1306_fill`, `ssd1306_text`,
   `ssd1306_show` — see [../display/ssd1306/index.md](../display/ssd1306/index.md)
   and [../display/ssd1306/setup.md](../display/ssd1306/setup.md).
+
+> ![](img/ssd1306.png){width=inherit} ![](img/ssd1306_fill.png){width=inherit} ![](img/ssd1306_text.png){width=inherit} ![](img/ssd1306_show.png){width=inherit}
+
 - **Network**: `connectWifi` to join Wi-Fi before uploading.
+
+> ![](img/connectWifi.png){width=inherit}
+
 - **IoT**: `iotConnect`, `iotPushValue` — see
   [../iot/connect.md](../iot/connect.md) and [../iot/push.md](../iot/push.md).
+
+> ![](img/iotConnect.png){width=inherit} ![](img/iotPushValue.png){width=inherit}
 
 ## Step-by-step block assembly
 
 1. Add **`connect WiFi`** with your SSID and password (needed for the upload).
+
+> ![](img/connectWifi.png){width=inherit}
+
 2. From **IoT**, drag **`iot connect`** and fill in your server, device id, and
    secret from the SemiBlock dashboard.
+
+> ![](img/iotConnect.png){width=inherit}
+
 3. From **DHT**, add **`init DHT22 sensor on pin 15`**.
+
+> ![](img/p2e3.png){width=inherit}
+
 4. From **SSD1306**, add **`OLED 128 x 64 sda 21 scl 22`**.
+
+> ![](img/OLED.png){width=inherit}
+
 5. Start a forever **`while True`** loop.
+
+> ![](img/whileLoop.png){width=inherit}
+
 6. Inside: **`read DHT22 sensor temperature into temp`**, then
    **`read DHT22 sensor humidity into hum`**.
-7. Clear the screen with **`fill 0`**, then two **`text`** blocks for temp and
+
+> ![](img/dhtReadTemperature.png){width=inherit} ![](img/humidity.png){width=inherit}
+
+1. Clear the screen with **`fill 0`**, then two **`text`** blocks for temp and
    humidity, then **`show`**.
-8. Add two **`iot push value`** blocks (one for temp, one for humidity).
-9. End the loop with **`sleep 5`** seconds.
+2. Add two **`iot push value`** blocks (one for temp, one for humidity).
+3.  End the loop with **`sleep 5`** seconds.
 
 ## Full generated MicroPython
 
