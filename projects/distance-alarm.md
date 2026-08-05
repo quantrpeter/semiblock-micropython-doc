@@ -13,6 +13,8 @@ when close, red when something is too near.
 
 ## Parts needed / wiring
 
+> ![](img/HCSR04.png){width=inherit}
+
 | Part | Connect to ESP32 |
 | --- | --- |
 | HC-SR04 Trig | GPIO **5** |
@@ -28,22 +30,49 @@ when close, red when something is too near.
 
 - **Sensors → HC-SR04**: `hcsr04Init`, `hcsr04DistanceCm` — see
   [../sensors/hc-sr04.md](../sensors/hc-sr04.md).
+
+  > ![](img/hcsr04Init.png){width=inherit} ![](img/hcsr04DistanceCm.png){width=inherit}
+
 - **Hardware → NeoPixel**: `neoPixel`, `neoPixelWrite` — see
   [../hardware/pin/neopixel.md](../hardware/pin/neopixel.md).
+
+  > ![](img/neoPixel.png){width=inherit} ![](img/neoPixelWrite.png){width=inherit}
+
 - **Logic / Loops**: a `while` loop, `if / elif / else`, and `sleep_ms`.
+
+  > ![](img/whileLoop.png){width=inherit} ![](img/if_elif_else.png){width=inherit} ![](img/sleep_ms.png){width=inherit}
+
 
 ## Step-by-step block assembly
 
 1. From **HC-SR04**, drag **`init sonar sonar trigger 5 echo 18`**. This block
    also drops in the HCSR04 driver class for you.
+
+> ![](img/p1e1.png){width=inherit}
+
 2. From **NeoPixel**, drag **`init NeoPixel np on pin 13`**.
+
+> ![](img/p1e2.png){width=inherit}
+
 3. Add a forever **`while True`** loop.
+
+> ![](img/p1e3.png){width=inherit}
+
 4. Inside, place **`read sonar sonar distance cm into dist`**.
+
+> ![](img/p1e4.png){width=inherit}
+
 5. Add an **`if / elif / else`**:
    - `dist > 30` → set NeoPixel to **green** `(0, 64, 0)`.
    - `dist > 10` → set NeoPixel to **yellow** `(64, 48, 0)`.
    - else → set NeoPixel to **red** `(64, 0, 0)`.
+
+> ![](img/p1e5.png){width=inherit}
+
 6. End the loop with **`sleep 100 ms`**.
+
+> ![](img/p1e6.png){width=inherit}
+
 
 ## Full generated MicroPython
 
@@ -104,6 +133,7 @@ while True:
     sleep_ms(100)
 ```
 
+> ![](img/p1e7.png){width=inherit}
 > The `init sonar` block emits the whole `HCSR04` class plus the constructor
 > line. `import neopixel` is added automatically because a NeoPixel block is used.
 
