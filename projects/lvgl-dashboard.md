@@ -19,8 +19,11 @@ value comes from a local sensor or is fetched over **Wi-Fi**.
 | SPI/I²C LCD running LVGL | per your panel's driver (see LVGL drivers) |
 | DHT22 data (sample source) | GPIO **15** |
 
+
+## DHT22
+
 > ![](img/DHT-22.jpg)
-> DHT22
+
 
 > LVGL needs a display driver initialised for your panel. See
 > [../display/lvgl/drivers.md](../display/lvgl/drivers.md) and
