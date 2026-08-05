@@ -28,15 +28,15 @@ when close, red when something is too near.
 
 ## Blocks used (which categories)
 
-- **Sensors → HC-SR04**: `hcsr04Init`, `hcsr04DistanceCm` — see [../sensors/hc-sr04.md](../sensors/hc-sr04.md).
+### **Sensors → HC-SR04**: `hcsr04Init`, `hcsr04DistanceCm` — see [../sensors/hc-sr04.md](../sensors/hc-sr04.md).
 
   > ![](img/hcsr04Init.png){width=inherit} ![](img/hcsr04DistanceCm.png){width=inherit}
 
-- **Hardware → NeoPixel**: `neoPixel`, `neoPixelWrite` — see [../hardware/pin/neopixel.md](../hardware/pin/neopixel.md).
+### **Hardware → NeoPixel**: `neoPixel`, `neoPixelWrite` — see [../hardware/pin/neopixel.md](../hardware/pin/neopixel.md).
 
   > ![](img/neoPixel.png){width=inherit} ![](img/neoPixelWrite.png){width=inherit}
 
-- **Logic / Loops**: a `while` loop, `if / elif / else`, and `sleep_ms`.
+### **Logic / Loops**: a `while` loop, `if / elif / else`, and `sleep_ms`.
 
   > ![](img/whileLoop.png){width=inherit} ![](img/if_elif_else.png){width=inherit} ![](img/sleep_ms.png){width=inherit}
 
