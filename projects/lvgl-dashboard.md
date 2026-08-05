@@ -66,17 +66,34 @@ see [../display/lvgl/widgets-data.md](../display/lvgl/widgets-data.md).
 ## Step-by-step block assembly
 
 1. Add **`connect WiFi`** with your credentials.
+
+> ![](img/connectWiFi.png){width=inherit}
+
 2. Add **`LVGL init`**, then **`create screen scr`** and **`load screen scr`**.
+
+> ![](img/p2e1.png){width=inherit}
+
 3. From data widgets, add **`create chart chart on scr`**, set its size, then
    **`add series series to chart colour 0x00FF00`**.
-4. From basic widgets, add **`create label label on scr`** and position it.
+
+> ![](img/p2e2.png){width=inherit}
+
+4. From basic widgets, add **`create label on scr`** and position it.
+
+> ![](img/p2e4.png){width=inherit}
+
 5. Add the **`init DHT22 sensor on pin 15`** block.
+
+> ![](img/p2e3.png){width=inherit}
+
 6. Start a **`while True`** loop:
    - **`read DHT22 sensor temperature into temp`**.
    - **`set next chart value series = temp`**.
    - **`set label text`** to the latest reading.
    - **`LVGL task handler`** to redraw.
    - **`sleep_ms 500`**.
+
+> ![](img/p2e5.png){width=inherit}
 
 ## Full generated MicroPython
 
@@ -110,6 +127,8 @@ while True:
     lv.task_handler()
     sleep_ms(500)
 ```
+
+> ![](img/p2e6.png){width=inherit}
 
 > The LVGL blocks emit `lv.obj()`, `lv.chart(scr)`,
 > `chart.add_series(lv.color_hex(0x00FF00), lv.chart.AXIS.PRIMARY_Y)` and
