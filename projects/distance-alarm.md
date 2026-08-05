@@ -45,12 +45,11 @@ see [../hardware/pin/neopixel.md](../hardware/pin/neopixel.md).
 
 ## Step-by-step block assembly
 
-1. From **HC-SR04**, drag **`init sonar sonar trigger 5 echo 18`**. This block
-   also drops in the HCSR04 driver class for you.
+1. From **HC-SR04**, drag **`init sonar sonar trigger 5 echo 18`**. This block also drops in the HCSR04 driver class for you.
 
 > ![](img/p1e1.png){width=inherit}
 
-2. From **NeoPixel**, drag **`init NeoPixel np on pin 13`**.
+1. From **NeoPixel**, drag **`init NeoPixel np on pin 13`**.
 
 > ![](img/p1e2.png){width=inherit}
 
