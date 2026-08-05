@@ -32,6 +32,7 @@ when close, red when something is too near.
 
   > ![](img/hcsr04Init.png){width=inherit} ![](img/hcsr04DistanceCm.png){width=inherit}
 
+\
 - **Hardware → NeoPixel**: `neoPixel`, `neoPixelWrite` — see [../hardware/pin/neopixel.md](../hardware/pin/neopixel.md).
 
   > ![](img/neoPixel.png){width=inherit} ![](img/neoPixelWrite.png){width=inherit}
