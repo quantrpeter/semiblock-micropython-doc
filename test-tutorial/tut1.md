@@ -68,7 +68,7 @@ Browse the backdrop gallery and select a clean, suitable background for **Pen** 
 > ![](img/costume.png){width=inherit}
 
 
-### Part 3 - Switch Costumes
+## Part 3 - Switch Costumes
 There are 2 ways to change costumes in microPython:
 1. `switch costume to "costume1"` – Changes to a specific costume by name.
 
@@ -78,6 +78,55 @@ There are 2 ways to change costumes in microPython:
 
 > ![](img/next_costume.png){width=inherit}
 
-Try both blocks by placing them inside a `when green flag clicked` block. After assembling your code, click **Run** in the right panel to test it!
+Try both blocks by placing them inside a `Start` block. After assembling your code, click **Run** in the right panel to test it!
 
-> ![](img/test_costume.png){width=inherit} ![](img/.png){width=inherit}
+> ![](img/test_costume.png){width=inherit} ![](img/Step8.png){width=inherit}
+
+
+## Part 4 - Move An Object
+In SemiBlock (MicroPython), we use an **X and Y coordinate grid** to control where objects are on stage:
+* **X-axis** controls **horizontal** movement (Left and Right).
+* **Y-axis** controls **vertical** movement (Up and Down).
+
+There are 3 main ways to move an object:
+1. `spriteChangeX` / `spriteChangeY` – Moves the object **relative** to its current position (e.g., `change y by 20` pushes Pen 20 steps UP from where he is standing).
+
+> ![](img/spriteChangeX.png){width=inherit} ![](img/spriteChangeY.png){width=inherit}
+
+2. `spriteSetX` / `spriteSetY` – Teleports the object directly to an **exact position** on the stage (e.g., `spriteSetY` snaps Pen straight to the middle line).
+
+> ![](img/spriteSetX.png){width=inherit} ![](img/spriteSetY.png){width=inherit}
+
+
+### Try It Out!
+
+> ![](img/test_move.png){width=inherit}
+
+Let's experiment with these four movement blocks:
+1. Drag out `change y by (50)` and snap it under a `Start` block. Click **Run** on the right panel to see Pen move up.
+2. Now try `change y by (-50)` to bring Pen back down.
+3. Test `set y to (0)` to see Pen snap straight to the center line!
+4. Try changing the numbers in `change x by (...)` and `set x to (...)` to see how Pen moves left and right.
+
+
+## Part 5 - Play Sound
+By default, every project comes with a sound called **"pop"**. If you want to use your own sound effects or background music, you can click on **"Customise Sound"** in the panel to browse or upload new audio files.
+
+There are 2 main ways to play a sound in SemiBlock:
+1. `start sound "pop"` – Plays the sound immediately in the background while your code continues running to the next block.
+
+> ![](img/start_sound.png){width=inherit}
+
+2. `play sound "pop" until done` – Plays the entire sound and pauses your code until the audio finishes.
+
+> ![](img/play_sound.png){width=inherit}
+
+
+### Try It Out!
+
+> ![](img/test_sound.png){width=inherit}
+
+1. Drag `start sound "pop"` and snap it under a `Start` block.
+2. Click **Run** on the right panel to hear Pen make a sound!
+3. Try swapping it with `play sound "pop" until done` to see the difference.
+
