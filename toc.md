@@ -205,4 +205,4 @@
   - [LVGL screen is blank](reference/trouble-lvgl.md)
   - [WiFi / IoT connection fails](reference/trouble-wifi.md)
 - [Glossary](reference/glossary.md)
-- [Changelog](test-tutorial/tut1.md)
+- [Changelog](reference/changelog.md)

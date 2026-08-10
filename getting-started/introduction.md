@@ -43,4 +43,4 @@ Before reading on, look at the code block above and guess: which line do you thi
 
 ## Next
 
-Continue to [What is SemiBlock?](what-is-semiblock.md)
+Continue to [What is SemiBlock?](test-tutorial/tut1.md)
