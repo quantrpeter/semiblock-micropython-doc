@@ -70,7 +70,7 @@ Now that Pen is on stage, let's learn the four basic skills needed to bring our 
 > ![](img/Tut1-1/costume.png){width=inherit}
 
 
-## Part 3 - Switch Costumes
+### Step 2 - Switch Costumes
 There are 2 ways to change costumes in microPython:
 1. `switch costume to "costume1"` – Changes to a specific costume by name.
 
@@ -85,7 +85,7 @@ Try both blocks by placing them inside a `Start` block. After assembling your co
 > ![](img/Tut1-1/test_costume.png){width=inherit} ![](img/Tut1-1/Step8.png){width=inherit}
 
 
-## Part 4 - Move An Object
+### Step 3 - Move An Object
 In SemiBlock (MicroPython), we use an **X and Y coordinate grid** to control where objects are on stage:
 * **X-axis** controls **horizontal** movement (Left and Right).
 * **Y-axis** controls **vertical** movement (Up and Down).
@@ -111,7 +111,7 @@ Let's experiment with these four movement blocks:
 4. Try changing the numbers in `change x by (...)` and `set x to (...)` to see how Pen moves left and right.
 
 
-## Part 5 - Play Sound
+### Step 4 - Play Sound
 By default, every project comes with a sound called **"pop"**. If you want to use your own sound effects or background music, you can click on **"Customise Sound"** in the panel to browse or upload new audio files.
 
 There are 2 main ways to play a sound in SemiBlock:
@@ -133,7 +133,7 @@ There are 2 main ways to play a sound in SemiBlock:
 3. Try swapping it with `play sound "pop" until done` to see the difference.
 
 
-## Part 6 - Combine It All!
+## Part 3 - Combine It All!
 
 Now it's time to put together costumes, Y-axis movement, sounds, and delays to create a full jump animation for Pen!
 
