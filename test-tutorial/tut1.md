@@ -49,8 +49,35 @@ Browse the backdrop gallery and select a clean, suitable background for **Pen** 
 
 > ![](img/Step5.png){width=inherit}
 
----
 
-## What You Did
-* Added a new sprite (**Pen**) to the workspace.
-* Customized the stage background for a cleaner presentation.
+## Part 2 - Core Building Blocks
+
+> Now that Pen is on stage, let's learn the four basic skills needed to bring our penguin to life: drawing a costume, switching looks, moving around, and playing audio.
+
+### Step 1 - Draw New Costumes
+1. Click **Character**"** in the top-left corner of the panel.
+
+> ![](img/Step6.png){width=inherit}
+
+1. Click the **paint brush** button in the bottom-left corner to create a new costume.
+
+> ![](img/Step7.png){width=inherit}
+
+3. Use the tools to draw 2 more costumes. See the examples below:
+
+> ![](img/costume.png){width=inherit}
+
+
+### Part 3 - Switch Costumes
+There are 2 ways to change costumes in microPython:
+1. `switch costume to "costume1"` – Changes to a specific costume by name.
+
+> ![](img/switch_costume.png){width=inherit}
+
+2. `next costume` – Switches to the very next costume in your list.
+
+> ![](img/next_costume.png){width=inherit}
+
+Try both blocks by placing them inside a `when green flag clicked` block. After assembling your code, click **Run** in the right panel to test it!
+
+> ![](img/test_costume.png){width=inherit} ![](img/.png){width=inherit}
