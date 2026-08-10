@@ -1,4 +1,4 @@
-# Tutorial 1: The Dancing Penguin
+# Tutorial 1-1: The Dancing Penguin
 
 ## Overview
 In this project, you will create an animated, dancing penguin! You will draw custom costumes, program code loops, control sprite movements, and play background music.
@@ -24,30 +24,30 @@ You will learn how to:
 ### Step 1 - Open the Designer Panel
 Click **"Designer"** on the right panel to open the sprite and background controls.
 
-> ![](img/Step1.png){width=inherit}
+> ![](img/Tut1-1/Step1.png){width=inherit}
 
 
 ### Step 2 - Add a New Object
 Click **"Add object"** as shown in the interface to open the object library.
 
-> ![](img/Step2.png){width=inherit}
+> ![](img/Tut1-1/Step2.png){width=inherit}
 
 ### Step 3 - Choose and Name Your Character
 1. Search or scroll to find the **Penguin**.
 2. Click to select it.
 3. Change its name to **`Pen`**.
 
-> ![](img/Step3.png){width=inherit}
+> ![](img/Tut1-1/Step3.png){width=inherit}
 
 ### Step 4 - Select Stage Background"
 The default background is a bit messy, so let's change it! Click the stage photo icon as shown in the interface.
 
-> ![](img/Step4.png){width=inherit}
+> ![](img/Tut1-1/Step4.png){width=inherit}
 
 ### Step 5 - Pick a Better Backdrop
 Browse the backdrop gallery and select a clean, suitable background for **Pen** to dance on!
 
-> ![](img/Step5.png){width=inherit}
+> ![](img/Tut1-1/Step5.png){width=inherit}
 
 
 ## Part 2 - Core Building Blocks
@@ -57,30 +57,30 @@ Browse the backdrop gallery and select a clean, suitable background for **Pen** 
 ### Step 1 - Draw New Costumes
 1. Click **Character**"** in the top-left corner of the panel.
 
-> ![](img/Step6.png){width=inherit}
+> ![](img/Tut1-1/Step6.png){width=inherit}
 
 1. Click the **paint brush** button in the bottom-left corner to create a new costume.
 
-> ![](img/Step7.png){width=inherit}
+> ![](img/Tut1-1/Step7.png){width=inherit}
 
 3. Use the tools to draw 2 more costumes. See the examples below:
 
-> ![](img/costume.png){width=inherit}
+> ![](img/Tut1-1/costume.png){width=inherit}
 
 
 ## Part 3 - Switch Costumes
 There are 2 ways to change costumes in microPython:
 1. `switch costume to "costume1"` – Changes to a specific costume by name.
 
-> ![](img/switch_costume.png){width=inherit}
+> ![](img/Tut1-1/switch_costume.png){width=inherit}
 
 2. `next costume` – Switches to the very next costume in your list.
 
-> ![](img/next_costume.png){width=inherit}
+> ![](img/Tut1-1/next_costume.png){width=inherit}
 
 Try both blocks by placing them inside a `Start` block. After assembling your code, click **Run** in the right panel to test it!
 
-> ![](img/test_costume.png){width=inherit} ![](img/Step8.png){width=inherit}
+> ![](img/Tut1-1/test_costume.png){width=inherit} ![](img/Tut1-1/Step8.png){width=inherit}
 
 
 ## Part 4 - Move An Object
@@ -91,16 +91,16 @@ In SemiBlock (MicroPython), we use an **X and Y coordinate grid** to control whe
 There are 3 main ways to move an object:
 1. `spriteChangeX` / `spriteChangeY` – Moves the object **relative** to its current position (e.g., `change y by 20` pushes Pen 20 steps UP from where he is standing).
 
-> ![](img/spriteChangeX.png){width=inherit} ![](img/spriteChangeY.png){width=inherit}
+> ![](img/Tut1-1/spriteChangeX.png){width=inherit} ![](img/Tut1-1/spriteChangeY.png){width=inherit}
 
 2. `spriteSetX` / `spriteSetY` – Teleports the object directly to an **exact position** on the stage (e.g., `spriteSetY` snaps Pen straight to the middle line).
 
-> ![](img/spriteSetX.png){width=inherit} ![](img/spriteSetY.png){width=inherit}
+> ![](img/Tut1-1/spriteSetX.png){width=inherit} ![](img/Tut1-1/spriteSetY.png){width=inherit}
 
 
 ### Try It Out!
 
-> ![](img/test_move.png){width=inherit}
+> ![](img/Tut1-1/test_move.png){width=inherit}
 
 Let's experiment with these four movement blocks:
 1. Drag out `change y by (50)` and snap it under a `Start` block. Click **Run** on the right panel to see Pen move up.
@@ -115,16 +115,16 @@ By default, every project comes with a sound called **"pop"**. If you want to us
 There are 2 main ways to play a sound in SemiBlock:
 1. `start sound "pop"` – Plays the sound immediately in the background while your code continues running to the next block.
 
-> ![](img/start_sound.png){width=inherit}
+> ![](img/Tut1-1/start_sound.png){width=inherit}
 
 2. `play sound "pop" until done` – Plays the entire sound and pauses your code until the audio finishes.
 
-> ![](img/play_sound.png){width=inherit}
+> ![](img/Tut1-1/play_sound.png){width=inherit}
 
 
 ### Try It Out!
 
-> ![](img/test_sound.png){width=inherit}
+> ![](img/Tut1-1/test_sound.png){width=inherit}
 
 1. Drag `start sound "pop"` and snap it under a `Start` block.
 2. Click **Run** on the right panel to hear Pen make a sound!
