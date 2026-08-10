@@ -206,3 +206,4 @@
   - [WiFi / IoT connection fails](reference/trouble-wifi.md)
 - [Glossary](reference/glossary.md)
 - [Changelog](reference/changelog.md)
+- [test](test-tutorial/tut1.md)
