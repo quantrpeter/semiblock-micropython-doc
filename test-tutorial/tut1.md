@@ -1,5 +1,7 @@
 # Tutorial 1-1: The Dancing Penguin
 
+![](img/Tut1-1/tut1_video.gif){width=inherit}
+
 ## Overview
 In this project, you will create an animated, dancing penguin! You will draw custom costumes, program code loops, control sprite movements, and play background music.
 
