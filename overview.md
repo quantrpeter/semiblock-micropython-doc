@@ -1,7 +1,5 @@
 ![overview banner](overview/overview.png){width=100%}
 
-> ![](tut1_video.gif){width=inherit}
-
 ## 1. Product Introduction
 
 Semiblock.ai is a "Hybrid Visual-Textual" collaborative development platform specifically designed for low-level hardware development, embedded systems, and edge AI deployment. The core philosophy of the platform is to break through the steep learning curve of pure text-based coding and the performance bottlenecks of pure visual programming (block-coding). It allows developers to seamlessly switch between high-level logic diagrams and low-level hardware code within the same workspace.
