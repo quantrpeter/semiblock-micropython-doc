@@ -144,6 +144,6 @@ def on_horse_clicked():
 - `sprite.next_costume("horse")`: Switches back to Horse's original standing costume to complete the click reaction.
 
 
-## Next Tutorial - Tutorial 1-2: PopHorse
+## Next Tutorial - Tutorial 1-3: Telling Jokes with MicroPython
 
- [Tutorial 1-2: PopHorse - Clicker Game](tut2.md).
+ [Tutorial 1-3: Telling Jokes with MicroPython](tut2.md).

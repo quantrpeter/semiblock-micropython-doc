@@ -193,7 +193,13 @@
 - [Project: AI Voice Assistant (DeepSeek + LVGL)](projects/ai-assistant.md)
 - [Project: Bus Arrival Board (Open Data + SSD1306)](projects/bus-board.md)
 
-## Part X — Reference & Appendices
+## Part X — Tutorials
+
+- [Tutorial 1-1: The Dancing Penguin](test-tutorial/tut1.md)
+- [Tutorial 1-2: PopHorse - Clicker Game](test-tutorial/tut2.md)
+- [Tutorial 1-3: Telling Jokes with MicroPython](test-tutorial/tut3.md)
+
+## Part XI — Reference & Appendices
 
 - [Block ↔ MicroPython code mapping](reference/block-to-code.md)
 - [Full block reference (alphabetical)](reference/blocks.md)
