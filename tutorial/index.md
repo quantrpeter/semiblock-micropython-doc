@@ -33,12 +33,16 @@ For the best experience, we recommend completing the tutorials in order:
 **Focus:** Movement, costume changes, sound effects, and loops (`for` and `while`).
 **Outcome:** Build an animated penguin performing a synchronized jump sequence.
 
+---
+
 ### [Project 1-2: PopHorse - Clicker Game](projects/tut2.md) 
 
 > ![](projects/img/Tut1-2/tut2_video.gif){width=inherit}
 
 **Focus:** Event-driven programming (`when clicked`), speech bubbles (`say`), and rapid reactions.
 **Outcome:** Build an interactive PopCat-style clicker game.
+
+---
 
 ### [Project 1-3: Telling Jokes with MicroPython](projects/tut3.md)
 
