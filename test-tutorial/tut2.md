@@ -146,4 +146,4 @@ def on_horse_clicked():
 
 ## Next Tutorial - Tutorial 1-3: Telling Jokes with MicroPython
 
- [Tutorial 1-3: Telling Jokes with MicroPython](tut2.md).
+ [Tutorial 1-3: Telling Jokes with MicroPython](tut3.md).
