@@ -1,4 +1,3 @@
-# Tutorial 1-2: PopHorse - Clicker Game
 
 ![](img/Tut1-2/tut2_video.gif){width=inherit}
 

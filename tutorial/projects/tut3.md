@@ -1,4 +1,3 @@
-# Tutorial 1-3: Telling Jokes with MicroPython
 
 ![](img/Tut1-3/tut3_video.gif){width=inherit}
 

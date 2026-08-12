@@ -1,4 +1,3 @@
-# Tutorial 1-1: The Dancing Penguin
 
 ![](img/Tut1-1/tut1_video.gif){width=inherit}
 
