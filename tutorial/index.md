@@ -26,21 +26,21 @@ The tutorial series is split into two distinct types of lessons to help you buil
 
 For the best experience, we recommend completing the tutorials in order:
 
-### [Project 1-1: The Dancing Penguin](projects/tut1.md)**  
+### [Project 1-1: The Dancing Penguin](projects/tut1.md)
 
 > ![](projects/img/Tut1-1/tut1_video.gif){width=inherit}
 
 **Focus:** Movement, costume changes, sound effects, and loops (`for` and `while`).
 **Outcome:** Build an animated penguin performing a synchronized jump sequence.
 
-### [Project 1-2: PopHorse - Clicker Game](projects/tut2.md)**  
+### [Project 1-2: PopHorse - Clicker Game](projects/tut2.md) 
 
 > ![](projects/img/Tut1-2/tut2_video.gif){width=inherit}
 
 **Focus:** Event-driven programming (`when clicked`), speech bubbles (`say`), and rapid reactions.
 **Outcome:** Build an interactive PopCat-style clicker game.
 
-### [Project 1-3: Telling Jokes with MicroPython](projects/tut3.md)**  
+### [Project 1-3: Telling Jokes with MicroPython](projects/tut3.md)
 
 > ![](projects/img/Tut1-3/tut3_video.gif){width=inherit}
 
