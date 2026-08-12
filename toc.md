@@ -194,7 +194,7 @@
 - [Project: Bus Arrival Board (Open Data + SSD1306)](projects/bus-board.md)
 
 ## Part X — Tutorials
-- [Overview](tutorial/index.md)
+- [Tutorials](tutorial/index.md)
 - [Skill Tutorial]
 - [Project Tutorial]
   - [Project 1-1: The Dancing Penguin](tutorial/projects/tut1.md)
