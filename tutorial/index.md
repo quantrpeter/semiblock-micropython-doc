@@ -26,26 +26,26 @@ The tutorial series is split into two distinct types of lessons to help you buil
 
 For the best experience, we recommend completing the tutorials in order:
 
-### **[Project 1-1: The Dancing Penguin](tutorial/projects/tut1.md)**  
+### [Project 1-1: The Dancing Penguin](tutorial/projects/tut1.md)**  
 
 > ![](projects/img/Tut1-1/tut1_video.gif){width=inherit}
 
-   * **Focus:** Movement, costume changes, sound effects, and loops (`for` and `while`).
-   * **Outcome:** Build an animated penguin performing a synchronized jump sequence.
+**Focus:** Movement, costume changes, sound effects, and loops (`for` and `while`).
+**Outcome:** Build an animated penguin performing a synchronized jump sequence.
 
-### **[Project 1-2: PopHorse - Clicker Game](tutorial/projects/tut1.md)**  
+### [Project 1-2: PopHorse - Clicker Game](tutorial/projects/tut1.md)**  
 
 > ![](projects/img/Tut1-2/tut2_video.gif){width=inherit}
 
-   * **Focus:** Event-driven programming (`when clicked`), speech bubbles (`say`), and rapid reactions.
-   * **Outcome:** Build an interactive PopCat-style clicker game.
+**Focus:** Event-driven programming (`when clicked`), speech bubbles (`say`), and rapid reactions.
+**Outcome:** Build an interactive PopCat-style clicker game.
 
-### **[Project 1-3: Telling Jokes with MicroPython](tutorial/projects/tut1.md)**  
+### [Project 1-3: Telling Jokes with MicroPython](tutorial/projects/tut1.md)**  
 
 > ![](projects/img/Tut1-3/tut3_video.gif){width=inherit}
 
-   * **Focus:** Multi-sprite coordination, timed dialogue, physics jumps, and rotation loops (`turn`).
-   * **Outcome:** Create a fun animated conversation between two characters on stage.
+**Focus:** Multi-sprite coordination, timed dialogue, physics jumps, and rotation loops (`turn`).
+**Outcome:** Create a fun animated conversation between two characters on stage.
 
 ---
 
