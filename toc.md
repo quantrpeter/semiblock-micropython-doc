@@ -194,10 +194,12 @@
 - [Project: Bus Arrival Board (Open Data + SSD1306)](projects/bus-board.md)
 
 ## Part X — Tutorials
-
-- [Tutorial 1-1: The Dancing Penguin](test-tutorial/tut1.md)
-- [Tutorial 1-2: PopHorse - Clicker Game](test-tutorial/tut2.md)
-- [Tutorial 1-3: Telling Jokes with MicroPython](test-tutorial/tut3.md)
+- [Overview](tutorial/index.md)
+- [Skill Tutorial]
+- [Project Tutorial]
+  - [Project 1-1: The Dancing Penguin](tutorial/projects/tut1.md)
+  - [Project 1-2: PopHorse - Clicker Game](tutorial/projects/tut1.md)
+  - [Project 1-3: Telling Jokes with MicroPython](tutorial/projects/tut1.md)
 
 ## Part XI — Reference & Appendices
 
