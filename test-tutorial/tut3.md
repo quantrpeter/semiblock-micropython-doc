@@ -108,3 +108,38 @@ for x in range(12):
 ```
 
 > ![](img/Tut1-3/final_code.png){width=inherit}
+
+### How the Code Works:
+- `sprite.say_for_seconds("Bird", "Watch me! I am going to jump!", 2)`: Bird shows a speech bubble for 2 seconds.
+
+- `sprite.say_for_seconds("Bird", "3... 2... 1... Jump!", 2)`: Bird counts down before leaping.
+
+- `sprite.change_y("Bird", 25)` & `sprite.next_costume("Bird")`: Bird moves up 25 pixels and switches to its jumping costume pose.
+
+- `sleep(0.5)`: Holds the jump pose in mid-air for half a second.
+
+- `sprite.change_y("Bird", -25)` & `sprite.next_costume("Bird")`: Bird drops back down 25 pixels to land and resets to its standing costume.
+
+- `sprite.say_for_seconds("Owl", "Watch me! I am going to roll!", 2)`: Owl speaks after Bird finishes landing.
+
+- `for x in range(12):`: Loops 12 times to perform the rolling animation.
+
+- `sprite.turn_right("Owl", 60)`: Rotates Owl 60 degrees clockwise per step ($12 \times 60^\circ = 720^\circ$, making 2 full spins).
+
+- `sprite.change_x("Owl", 10)`: Moves Owl 10 pixels to the right with each rotation step.
+
+- `sleep(0.1)`: Pauses for 0.1 seconds between loop steps to keep the rolling animation smooth.
+
+## Common Mistakes to Avoid
+
+1. **Targeting the Wrong Sprite Name**
+   * **Problem:** Owl jumps instead of Bird, or Bird rotates.
+   * **Fix:** Double-check the target name in each block! Make sure the jump blocks target `"Bird"` and the spin/move blocks target `"Owl"`.
+
+2. **Forgetting `sleep(0.1)` Inside the Roll Loop**
+   * **Problem:** Owl teleports across the screen instantly without showing the spinning roll.
+   * **Fix:** Always include a small delay inside `for` loops that animate movement or rotation.
+
+3. **Incomplete Rotation**
+   * **Problem:** Owl ends up upside down or tilted after rolling.
+   * **Fix:** Ensure the number of iterations multiplied by the degrees equals a multiple of $360^\circ$ ($12 \times 60^\circ = 720^\circ = 2 \text{ full circles}$).
