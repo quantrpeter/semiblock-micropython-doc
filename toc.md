@@ -198,8 +198,8 @@
   - [Skill Tutorial]
   - [Project Tutorial]
     - [Project 1-1: The Dancing Penguin](tutorial/projects/tut1.md)
-    - [Project 1-2: PopHorse - Clicker Game](tutorial/projects/tut1.md)
-    - [Project 1-3: Telling Jokes with MicroPython](tutorial/projects/tut1.md)
+    - [Project 1-2: PopHorse - Clicker Game](tutorial/projects/tut2.md)
+    - [Project 1-3: Telling Jokes with MicroPython](tutorial/projects/tut3.md)
 
 ## Part XI — Reference & Appendices
 
