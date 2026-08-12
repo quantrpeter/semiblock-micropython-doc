@@ -1,3 +1,13 @@
+<style>
+  /* Enable independent scrolling for the TOC sidebar */
+  .sidebar, .toc, nav {
+    position: sticky;
+    top: 0;
+    max-height: 100vh;
+    overflow-y: auto;
+  }
+</style>
+
 # Table of Contents
 
 > A ground-up tutorial for **SemiBlock MicroPython** — the visual block editor that generates MicroPython code for ESP32-class microcontrollers.
