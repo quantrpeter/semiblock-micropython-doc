@@ -1,10 +1,15 @@
 <style>
-  /* Enable independent scrolling for the TOC sidebar */
-  .sidebar, .toc, nav {
+  /* Enable independent scrolling for sidebar/TOC */
+  body, html {
+    height: 100%;
+  }
+
+  /* Targets common sidebar wrappers */
+  .sidebar, nav, #toc, .toc-container {
     position: sticky;
     top: 0;
     max-height: 100vh;
-    overflow-y: auto;
+    overflow-y: auto !important;
   }
 </style>
 
