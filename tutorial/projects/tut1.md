@@ -252,6 +252,6 @@ Here are a few common issues students run into when coding animations in MicroPy
    * **Fix:** Python is case-sensitive! Make sure `"Pen"`, `"costume1"`, `"costume2"`, and `"costume3"` exactly match the names defined in your project setup.
 
 
-## Next
+## Next Tutorial - Project 1-2: PopHorse - Clicker Game
 
-Next tutorial [Testing](tut2.md).
+ [Project 1-2: PopHorse - Clicker Game](tut3.md).
