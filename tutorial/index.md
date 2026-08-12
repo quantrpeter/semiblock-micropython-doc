@@ -15,7 +15,7 @@ The tutorial series is split into two distinct types of lessons to help you buil
 * **When to use them:** Read these first when you want to learn a specific concept (like how the X/Y coordinate grid works, how to use `sleep()`, or how to play sounds).
 * **Key Goal:** Understand the *why* and *how* behind the code.
 
-### 2. Project Tutorials 🚀
+### [2. Project Tutorials 🚀](projects/index.md) 
 * **What they are:** Full, hands-on guided projects where you **combine multiple skills** to create a complete game or animation.
 * **When to use them:** Follow these step-by-step to construct full projects from scratch—from setting up sprites and stage backdrops to writing complete MicroPython scripts.
 * **Key Goal:** Put your knowledge into action and create something fun!
