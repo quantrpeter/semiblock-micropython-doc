@@ -10,7 +10,7 @@ This section is designed to take you from a complete beginner to a confident cre
 
 The tutorial series is split into two distinct types of lessons to help you build both knowledge and practical skills:
 
-### 1. Skill Tutorials 🛠️
+### [1. Skill Tutorials 🛠️](skills/index.md) 
 * **What they are:** Focused, bite-sized lessons that explain **how individual blocks and functions work**.
 * **When to use them:** Read these first when you want to learn a specific concept (like how the X/Y coordinate grid works, how to use `sleep()`, or how to play sounds).
 * **Key Goal:** Understand the *why* and *how* behind the code.
