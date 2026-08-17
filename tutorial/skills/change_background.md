@@ -1,21 +1,27 @@
-# Skill Tutorials Index
+# How to Change the Background
 
-Welcome to the **Skill Tutorials** section! These bite-sized lessons explain how individual features and blocks work in MicroPython. 
+Learn how to customize your stage by choosing a backdrop from the built-in library or uploading your own custom image!
 
-Read these quick guides whenever you need a refresher on a specific tool or feature before building your projects.
+
+## Step 1 - Open the Backdrop Library
+The default stage background can be too plain! Click the **Stage Photo Button** in the panel to open the backdrop gallery.
+
+> ![](img/sk1.1.png){width=inherit}
+
+
+## Step 2 - Choose a Built-in Backdrop
+Browse the gallery and click on any backdrop to apply it to your stage immediately. 
+
+> ![](img/sk1.2.png){width=inherit}
+
 
 ---
 
-## 🛠️ Core Skills List
+# How to Use Your Own Background
+If you want to use a custom picture from your computer:
 
-| Skill | Preview | What You Will Learn |
-| :--- | :---: | :--- |
-| **[Skill 1: How to Add & Name Objects](tutorial/skills/add_object.md)** | <img src="img/Skills/add_object.gif" width="200" /> | • Open the Object Library<br>• Choose characters or items<br>• Rename sprites for clean coding |
-| **[Skill 2: How to Change Stage Background](tutorial/skills/change_backdrop.md)** | <img src="img/Skills/change_backdrop.gif" width="200" /> | • Open the Backdrop Gallery<br>• Switch stage backgrounds<br>• Set up clean coding workspaces |
-| **[Skill 3: How to Upload Custom Stage Background](tutorial/skills/upload_background.md)** | <img src="img/Skills/upload_background.gif" width="200" /> | • Import image files from your computer<br>• Adjust background fitting & sizing<br>• Create custom scene designs |
-| **[Skill 4: How to Draw & Edit Costumes](tutorial/skills/draw_costume.md)** | <img src="img/Skills/draw_costume.gif" width="200" /> | • Open the Costume Paint Editor<br>• Draw custom animation poses<br>• Switch poses using `next_costume()` |
-| **[Skill 5: How to Add & Play Sounds](tutorial/skills/add_sound.md)** | <img src="img/Skills/add_sound.gif" width="200" /> | • Browse the Sound Library<br>• Attach audio effects to sprites<br>• Play sound effects in MicroPython |
+1. Hover over the **Stage Photo Button** without clicking it.
+2. Click the **Upload Backdrop** option from the popup menu.
+3. Select an image file (`.jpg` or `.png`) from your computer to set it as your stage background!
 
----
-
-> 💡 **Tip:** Once you feel comfortable with these basic skills, jump into **[Project 1-1: The Dancing Penguin](tutorial/projects/tut1.md)** to put them all together!
+> ![](img/sk1.3.png){width=inherit}
