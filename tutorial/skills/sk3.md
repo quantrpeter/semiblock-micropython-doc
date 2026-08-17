@@ -28,7 +28,7 @@ There are 2 ways to change costumes using code:
 
 > ![](img/switch_costume.png){width=inherit}
 
-1. **`next_costume()`** – Cycles automatically to the very next costume in your list.
+2. **`next_costume()`** – Cycles automatically to the very next costume in your list.
 
 > ![](img/next_costume.png){width=inherit}
 
