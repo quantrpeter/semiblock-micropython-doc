@@ -35,7 +35,8 @@ Click **"Add object"** as shown in the interface to open the object library.
 ### Step 3 - Choose and Name Your Character
 1. Search or scroll to find the **Penguin**.
 2. Click to select it.
-3. Change its name to **`Pen`**.
+3. Change its name to **`Pen`**. 
+4.   
 
 > ![](img/Tut1-1/Step3.png){width=inherit}
 

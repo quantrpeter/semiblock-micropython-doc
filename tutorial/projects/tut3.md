@@ -41,19 +41,13 @@ Click **"Designer"** on the right panel to open the sprite and background contro
 3. Select it and change its name to **`Owl`**.
 
 
-### Step 4 - Select Stage Background
-Click the stage photo icon in the interface and choose a clear backdrop for **Bird** and **Owl**.
-
-> ![](img/Tut1-3/Step4.png){width=inherit} ![](img/Tut1-3/Step5.png){width=inherit}
-
-
-### Step 5 - Position the Characters Side by Side
+### Step 4 - Position the Characters Side by Side
 Drag **Bird** to the left side of the stage and **Owl** to the right side so they are standing next to each other before the animation starts.
 
 > ![](img/Tut1-3/Step6.png){width=inherit}
 
 
-### Step 6 - Draw a Jumping Costume for Bird
+### Step 5 - Draw a Jumping Costume for Bird
 1. Click **"Character"** in the top-left corner and select **`Bird`**.
 2. Click the **paint brush** icon at the bottom-left to add a new costume.
 3. Draw a jumping pose for **Bird** (e.g., wings spread upward or legs tucked).

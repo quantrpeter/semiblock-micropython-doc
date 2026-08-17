@@ -27,8 +27,11 @@ The tutorial series is split into two distinct types of lessons to help you buil
 Get started by mastering the essential building blocks of the platform:
 
 * **[Skill 1: How to Change the Background](skills/sk1.md)** — Learn how to choose a stage backdrop from the library or upload your own custom image.
+
 * **[Skill 2: How to Add & Name Objects](skills/sk2.md)** — Add characters or items to your stage and give them clean names for coding.
+
 * **[Skill 3: How to Draw & Edit Costumes](skills/sk3.md)** — Create custom costume poses and switch between them using MicroPython functions.
+
 * **[Skill 4: How to Add & Play Sounds](skills/sk4.md)** — Browse audio effects, upload custom files, and control sound timing in your code.
 
 ---
