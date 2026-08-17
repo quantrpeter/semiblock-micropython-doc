@@ -4,7 +4,7 @@ Welcome to the **MicroPython Tutorials**!
 
 This section is designed to take you from a complete beginner to a confident creator. Whether you are building your very first animated character or coding an interactive game, these lessons will guide you step-by-step.
 
-
+---
 
 ## How to Use This Section
 
@@ -12,7 +12,7 @@ The tutorial series is split into two distinct types of lessons to help you buil
 
 ### [1. Skill Tutorials 🛠️](skills/index.md) 
 * **What they are:** Focused, bite-sized lessons that explain **how individual blocks and functions work**.
-* **When to use them:** Read these first when you want to learn a specific concept (like how the X/Y coordinate grid works, how to use `sleep()`, or how to play sounds).
+* **When to use them:** Read these first when you want to learn a specific concept (like how to change backdrops, add sprites, edit costumes, or trigger sound effects).
 * **Key Goal:** Understand the *why* and *how* behind the code.
 
 ### [2. Project Tutorials 🚀](projects/index.md) 
@@ -22,16 +22,27 @@ The tutorial series is split into two distinct types of lessons to help you buil
 
 ---
 
-## Recommended Learning Path
+## 🛠️ Core Skill Tutorials
 
-For the best experience, we recommend completing the tutorials in order:
+Get started by mastering the essential building blocks of the platform:
+
+* **[Skill 1: How to Change the Background](skills/sk1.md)** — Learn how to choose a stage backdrop from the library or upload your own custom image.
+* **[Skill 2: How to Add & Name Objects](skills/sk2.md)** — Add characters or items to your stage and give them clean names for coding.
+* **[Skill 3: How to Draw & Edit Costumes](skills/sk3.md)** — Create custom costume poses and switch between them using MicroPython functions.
+* **[Skill 4: How to Add & Play Sounds](skills/sk4.md)** — Browse audio effects, upload custom files, and control sound timing in your code.
+
+---
+
+## 🚀 Recommended Learning Path
+
+For the best experience, we recommend completing the project tutorials in order:
 
 ### [Project 1-1: The Dancing Penguin](projects/tut1.md)
 
 > ![](projects/img/Tut1-1/tut1_video.gif){width=inherit}
 
-**Focus:** Movement, costume changes, sound effects, and loops (`for` and `while`).
-**Outcome:** Build an animated penguin performing a synchronized jump sequence.
+* **Focus:** Movement, costume changes, sound effects, and loops (`for` and `while`).
+* **Outcome:** Build an animated penguin performing a synchronized jump sequence.
 
 ---
 
@@ -39,8 +50,8 @@ For the best experience, we recommend completing the tutorials in order:
 
 > ![](projects/img/Tut1-2/tut2_video.gif){width=inherit}
 
-**Focus:** Event-driven programming (`when clicked`), speech bubbles (`say`), and rapid reactions.
-**Outcome:** Build an interactive PopCat-style clicker game.
+* **Focus:** Event-driven programming (`when clicked`), speech bubbles (`say`), and rapid reactions.
+* **Outcome:** Build an interactive PopCat-style clicker game.
 
 ---
 
@@ -48,8 +59,8 @@ For the best experience, we recommend completing the tutorials in order:
 
 > ![](projects/img/Tut1-3/tut3_video.gif){width=inherit}
 
-**Focus:** Multi-sprite coordination, timed dialogue, physics jumps, and rotation loops (`turn`).
-**Outcome:** Create a fun animated conversation between two characters on stage.
+* **Focus:** Multi-sprite coordination, timed dialogue, physics jumps, and rotation loops (`turn`).
+* **Outcome:** Create a fun animated conversation between two characters on stage.
 
 ---
 
