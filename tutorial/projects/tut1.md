@@ -18,7 +18,6 @@ You will learn how to:
 
 
 ## Part 1 - Setup
-
 Before we begin coding our dancing penguin, let's set up our workspace by adding our main character and choosing a clean backdrop.
 
 
