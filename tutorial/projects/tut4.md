@@ -1,5 +1,4 @@
-# Project 1-4: Scene Switcher Menu
-
+> ![](img/Tut1-4/video.gif){width=inherit}
 
 ## 📌 Project Overview
 In this project, you will build an interactive **Scene Switcher Menu**. By using event-driven programming, you will connect on-stage button clicks (`Btn1`, `Btn2`, `Btn3`) to immediate backdrop changes (`Blue Sky`, `Flower`, `White`). This technique is fundamental for creating start menus, level selection screens, and multi-scene storytelling projects!
