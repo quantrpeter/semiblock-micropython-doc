@@ -76,7 +76,7 @@ For the best experience, we recommend completing the project tutorials in order:
 
 ---
 
-### [Project 1-5: Magical Fish](projects/tut4.md)
+### [Project 1-5: Magical Fish 1](projects/tut4.md)
 
 > ![](projects/img/Tut1-5/video.gif){width="400"}
 
