@@ -205,7 +205,8 @@
     - [Project 1-2: PopHorse - Clicker Game](tutorial/projects/tut2.md)
     - [Project 1-3: Telling Jokes with MicroPython](tutorial/projects/tut3.md)
     - [Project 1-4: Scene Switcher Menu](tutorial/projects/tut4.md)
-    - [Project 1-5: Magical Fish](tutorial/projects/tut5.md)
+    - [Project 1-5: Magical Fish 1](tutorial/projects/tut5.md)
+    - [Project 1-6: Magical Fish 2](tutorial/projects/tut6.md)
 
 ## Part XI — Reference & Appendices
 
