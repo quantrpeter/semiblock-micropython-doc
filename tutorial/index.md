@@ -76,4 +76,13 @@ For the best experience, we recommend completing the project tutorials in order:
 
 ---
 
+### [Project 1-5: Magical Fish](projects/tut4.md)
+
+> ![](projects/img/Tut1-5/video.gif){width="400"}
+
+* **Focus:** Cross-sprite event triggers (`when clicked`), costume creation, color editing, and cycling animations (`next_costume`).
+* **Outcome:** Build an interactive scene where clicking a button magically changes a fish's color through custom costumes.
+
+---
+
 > 💡 **Tip for Creators:** Feel free to revisit any **Skill Tutorial** while working on a project if you ever need a quick refresher on how a specific block works!

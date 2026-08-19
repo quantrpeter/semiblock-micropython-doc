@@ -13,7 +13,8 @@ Each project provides step-by-step instructions—from adding sprites and backdr
 | ![](img/Tut1-1/tut1_video.gif){width="600"} | **[Project 1-1: The Dancing Penguin](tut1.md)** Create an animated penguin that dances to sound effects and music on stage. |
 | ![](img/Tut1-2/tut2_video.gif){width="600"}  | **[Project 1-2: PopHorse - Clicker Game](tut2.md)** Build a PopCat-style interactive game where clicking the horse triggers sounds and reactions. |
 | ![](img/Tut1-3/tut3_video.gif){width="600"}  | **[Project 1-3: Telling Jokes with MicroPython](tut3.md)** Program a humorous dialogue between two characters where one jumps and the other rolls off-screen. |
-| ![](img/Tut1-4/video.gif){width="600"}  | **[Project 1-4: Scene Switcher Menu](tut3.md)** Program a humorous dialogue between two characters where one jumps and the other rolls off-screen. |
+| ![](img/Tut1-4/video.gif){width="600"}  | **[Project 1-4: Scene Switcher Menu](tut4.md)** Program a humorous dialogue between two characters where one jumps and the other rolls off-screen. |
+| ![](img/Tut1-5/video.gif){width="600"}  | **[Project 1-5: Magical Fish Changing Build](tut5.md)** an interactive scene where clicking a button magically cycles a fish character through custom color costumes. |
 ---
 
 ## 🛠️ How to Complete a Project
