@@ -1,5 +1,3 @@
-# How to Add & Play Sounds
-
 Learn how to browse the sound library, upload custom audio, and trigger sound effects using MicroPython!
 
 ---

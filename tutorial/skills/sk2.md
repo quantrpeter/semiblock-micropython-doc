@@ -1,5 +1,3 @@
-# How to Add & Name Objects
-
 Learn how to add new characters or items (sprites) to your stage and give them clean names for easy coding!
 
 ---

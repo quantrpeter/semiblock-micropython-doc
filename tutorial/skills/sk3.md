@@ -1,5 +1,3 @@
-# How to Draw & Edit Costumes
-
 Learn how to create custom costume frames for your character and switch between them using MicroPython code!
 
 ---

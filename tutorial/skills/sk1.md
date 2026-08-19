@@ -1,5 +1,3 @@
-# How to Change the Background
-
 Learn how to customize your stage by choosing a backdrop from the built-in library or uploading your own custom image!
 
 

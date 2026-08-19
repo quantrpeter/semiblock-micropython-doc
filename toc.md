@@ -196,10 +196,15 @@
 ## Part X — Tutorials
 - [Tutorials](tutorial/index.md)
   - [Skill Tutorial](tutorial/skills/index.md)
+    - [How to Change the Background](tutorial/skills/sk1.md)
+    - [How to Add & Name Objects](tutorial/skills/sk2.md)
+    - [How to Draw & Edit Costumes](tutorial/skills/sk3.md)
+    - [How to Add & Play Sounds](tutorial/skills/sk4.md)
   - [Project Tutorial](tutorial/projects/index.md)
     - [Project 1-1: The Dancing Penguin](tutorial/projects/tut1.md)
     - [Project 1-2: PopHorse - Clicker Game](tutorial/projects/tut2.md)
     - [Project 1-3: Telling Jokes with MicroPython](tutorial/projects/tut3.md)
+    - [Project 1-4: Scene Switcher Menu](tutorial/projects/tut4.md)
 
 ## Part XI — Reference & Appendices
 
