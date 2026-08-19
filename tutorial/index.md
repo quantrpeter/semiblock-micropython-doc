@@ -67,4 +67,13 @@ For the best experience, we recommend completing the project tutorials in order:
 
 ---
 
+### [Project 1-4: Scene Switcher Menu](projects/tut4.md)
+
+> ![](projects/img/Tut1-4/video.gif){width="400"}
+
+* **Focus:** Button event triggers (`when clicked`), backdrop switching (`switch_backdrop`), costume text editing, and UI design.
+* **Outcome:** Build an interactive menu with custom buttons to change stage backdrops dynamically.
+
+---
+
 > 💡 **Tip for Creators:** Feel free to revisit any **Skill Tutorial** while working on a project if you ever need a quick refresher on how a specific block works!
