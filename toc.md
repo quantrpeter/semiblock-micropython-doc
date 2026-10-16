@@ -208,6 +208,7 @@
     - [Project 1-4: Scene Switcher Menu](tutorial/projects/tut4.md)
     - [Project 1-5: Magical Fish 1](tutorial/projects/tut5.md)
     - [Project 1-6: Magical Fish 2](tutorial/projects/tut6.md)
+    - [Project 1-7: Magical Fish 3](tutorial/projects/tut7.md)
 
 ## Part XI — Reference & Appendices
 
