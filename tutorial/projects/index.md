@@ -16,6 +16,7 @@ Each project provides step-by-step instructions—from adding sprites and backdr
 | ![](img/Tut1-4/video.gif){width="600"}  | **[Project 1-4: Scene Switcher Menu](tut4.md)** Program a humorous dialogue between two characters where one jumps and the other rolls off-screen. |
 | ![](img/Tut1-5/video.gif){width="600"}  | **[Project 1-5: Magical Fish 1](tut5.md)** an interactive scene where clicking a button magically cycles a fish character through custom color costumes. |
 | ![](img/Tut1-6/video.gif){width="600"}  | **[Project 1-6: Magical Fish 2](tut6.md)** an interactive scene where clicking a button magically cycles a fish character through color costumes. |
+| ![](img/Tut1-7/video.gif){width="600"}  | **[Project 1-7: Magical Fish 3](tut7.md)** Build an interactive scene where detecting physical hand movements with a camera dynamically changes a fish's color effect. |
 ---
 
 ## 🛠️ How to Complete a Project
