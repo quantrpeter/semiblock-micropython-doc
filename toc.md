@@ -210,6 +210,7 @@
     - [Project 1-6: Magical Fish 2](tutorial/projects/tut6.md)
     - [Project 1-7: Magical Fish 3](tutorial/projects/tut7.md)
     - [Project 2-1: Piano App](tutorial/projects/tut2-1.md)
+    - [Project 2-2: Insect Jukebox App](tutorial/projects/tut2-2.md)
 
 ## Part XI — Reference & Appendices
 
