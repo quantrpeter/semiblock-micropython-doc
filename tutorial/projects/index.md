@@ -17,6 +17,8 @@ Each project provides step-by-step instructions—from adding sprites and backdr
 | ![](img/Tut1-5/video.gif){width="600"}  | **[Project 1-5: Magical Fish 1](tut5.md)** an interactive scene where clicking a button magically cycles a fish character through custom color costumes. |
 | ![](img/Tut1-6/video.gif){width="600"}  | **[Project 1-6: Magical Fish 2](tut6.md)** an interactive scene where clicking a button magically cycles a fish character through color costumes. |
 | ![](img/Tut1-7/video.gif){width="600"}  | **[Project 1-7: Magical Fish 3](tut7.md)** Build an interactive scene where detecting physical hand movements with a camera dynamically changes a fish's color effect. |
+| ![](img/Tut2-1/preview.png){width="600"} | **[Project 2-1: Piano App](tut2-1.md)** Customize stage dimensions to mobile landscape and program interactive touch keys to play a musical scale using audio assets and click events. |
+
 ---
 
 ## 🛠️ How to Complete a Project
